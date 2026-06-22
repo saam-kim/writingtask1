@@ -1,0 +1,16 @@
+{
+  "short_name": "TOEFL Touch",
+  "name": "TOEFL iBT Writing: Build a Sentence Practice",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#F1F5F9",
+  "theme_color": "#4F46E5",
+  "display": "standalone",
+  "orientation": "portrait"
+}
