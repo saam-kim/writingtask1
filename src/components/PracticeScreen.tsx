@@ -300,6 +300,26 @@ export const PracticeScreen: React.FC<PracticeScreenProps> = ({
                 : '선택한 배열이 일치하지 않습니다. 다시 시도하거나 해설을 확인해 보세요.'}
             </p>
 
+            {isCorrect && !showAnswerPanel && (
+              <button
+                type="button"
+                className="btn btn-outline"
+                style={{ 
+                  marginTop: '10px', 
+                  minHeight: '36px', 
+                  height: '36px', 
+                  padding: '0 16px', 
+                  fontSize: '14px', 
+                  borderColor: 'var(--correct-border)', 
+                  color: 'var(--correct-text)',
+                  backgroundColor: '#FFFFFF'
+                }}
+                onClick={() => setShowAnswerPanel(true)}
+              >
+                📖 해설 보기 (Show Explanation)
+              </button>
+            )}
+
             {/* Review mode removal prompt */}
             {isCorrect && showReviewRemovePrompt && (
               <div 
