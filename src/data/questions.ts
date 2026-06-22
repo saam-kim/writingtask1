@@ -13,7 +13,11 @@ export const questions: Question[] = [
     answer: ["is", "located", "next", "to"],
     explanation: "The correct sentence is: 'The lab is located next to the library.'",
     koreanExplanation: "실험실은 도서관 옆에 위치해 있습니다. 주어가 단수(The lab)이므로 'is'를 사용하고, 위치를 나타내는 표현인 'located next to'를 구성합니다.",
-    grammarPoints: "단수 주어 일치 (is), 전치사구 (next to)"
+    grammarPoints: "단수 주어 일치 (is), 전치사구 (next to)",
+    paraphrases: [
+      "The chemistry lab is situated right by the library.",
+      "You can find the lab right next to the library."
+    ]
   },
   {
     id: "L1-002",
@@ -24,7 +28,11 @@ export const questions: Question[] = [
     answer: ["usually", "opens", "doors", "at"],
     explanation: "The correct sentence is: 'It usually opens doors at 10 AM.'",
     koreanExplanation: "박물관은 보통 오전 10시에 문을 엽니다. 빈도부사(usually)는 일반동사 앞에 위치하며, 주어 'It'에 맞춰 일반동사에 's'가 붙은 'opens'를 사용합니다.",
-    grammarPoints: "빈도부사 위치, 3인칭 단수 동사 일치"
+    grammarPoints: "빈도부사 위치, 3인칭 단수 동사 일치",
+    paraphrases: [
+      "It generally opens its doors starting at 10 AM.",
+      "The museum typically welcomes visitors from 10 in the morning."
+    ]
   },
   {
     id: "L1-003",
@@ -35,7 +43,11 @@ export const questions: Question[] = [
     answer: ["tour guides", "we met", "were", "absolutely"],
     explanation: "The correct sentence is: 'The tour guides we met were absolutely fantastic.'",
     koreanExplanation: "우리가 만난 투어 가이드들은 정말 환상적이었습니다. 주어가 복수(The tour guides)이므로 복수 과거형 be동사인 'were'를 선택해야 합니다.",
-    grammarPoints: "주어-동사 수 일치 (복수 주어 - were), 부사 수식"
+    grammarPoints: "주어-동사 수 일치 (복수 주어 - were), 부사 수식",
+    paraphrases: [
+      "The guides who showed us around were wonderful.",
+      "We had an amazing experience with the tour guides on our trip."
+    ]
   },
   {
     id: "L1-004",
@@ -46,7 +58,11 @@ export const questions: Question[] = [
     answer: ["can", "buy", "it", "at the"],
     explanation: "The correct sentence is: 'You can buy it at the bookstore.'",
     koreanExplanation: "당신은 그것을 서점에서 살 수 있습니다. 조동사 'can' 뒤에는 동사원형 'buy'가 오고, 장소를 나타내는 전치사는 'at the'를 사용합니다.",
-    grammarPoints: "조동사 + 동사원형, 장소 전치사 at"
+    grammarPoints: "조동사 + 동사원형, 장소 전치사 at",
+    paraphrases: [
+      "It is available for purchase at the campus bookstore.",
+      "You can obtain a copy at the bookstore."
+    ]
   },
   {
     id: "L1-005",
@@ -57,7 +73,11 @@ export const questions: Question[] = [
     answer: ["should", "ask", "about the", "most"],
     explanation: "The correct sentence is: 'You should ask about the most important information.'",
     koreanExplanation: "가장 중요한 정보에 대해 물어보는 것이 좋겠습니다. 의무/충고의 조동사 'should' 뒤에 동사원형 'ask'를 사용하며, '~에 대해 묻다'는 'ask about'입니다.",
-    grammarPoints: "조동사 should, 구동사 ask about"
+    grammarPoints: "조동사 should, 구동사 ask about",
+    paraphrases: [
+      "I recommend asking around for the key details from the meeting.",
+      "It would be wise to inquire about the essential updates."
+    ]
   },
   {
     id: "L1-006",
@@ -68,7 +88,11 @@ export const questions: Question[] = [
     answer: ["students", "are", "busy", "with"],
     explanation: "The correct sentence is: 'The students are busy with studying.'",
     koreanExplanation: "학생들은 공부하느라 바쁩니다. 'be busy with + 명사/동명사'는 '~로 바쁘다'라는 표현이며 복수 주어이므로 'are'를 씁니다.",
-    grammarPoints: "be busy with 표현, 수 일치"
+    grammarPoints: "be busy with 표현, 수 일치",
+    paraphrases: [
+      "Everyone in class is occupied with their studies.",
+      "The students are deeply focused on their schoolwork."
+    ]
   },
   {
     id: "L1-007",
@@ -79,7 +103,11 @@ export const questions: Question[] = [
     answer: ["visit", "the", "student", "support"],
     explanation: "The correct sentence is: 'Please visit the student support office.'",
     koreanExplanation: "학생 지원 사무실을 방문해 주세요. Please 뒤에는 명령문 형태의 동사원형 'visit'이 오고 목적어로 특정 사무실을 가리키는 명사구가 옵니다.",
-    grammarPoints: "명령문 동사원형, 명사 수식"
+    grammarPoints: "명령문 동사원형, 명사 수식",
+    paraphrases: [
+      "I suggest going to the student help desk for assistance.",
+      "You should drop by the student support services office."
+    ]
   },
   {
     id: "L1-008",
@@ -90,7 +118,11 @@ export const questions: Question[] = [
     answer: ["met", "him", "in", "his"],
     explanation: "The correct sentence is: 'Yes, I met him in his office.'",
     koreanExplanation: "네, 저는 그의 사무실에서 그를 만났습니다. 과거 질문에 대한 답이므로 과거동사 'met'을 쓰고, 공간 내부를 뜻하는 전치사 'in'을 씁니다.",
-    grammarPoints: "과거시제 동사, 전치사 in"
+    grammarPoints: "과거시제 동사, 전치사 in",
+    paraphrases: [
+      "Yes, we had a meeting inside his office.",
+      "Indeed, I caught up with him in his personal office."
+    ]
   },
   {
     id: "L1-009",
@@ -101,7 +133,11 @@ export const questions: Question[] = [
     answer: ["go", "there", "at least", "three"],
     explanation: "The correct sentence is: 'I go there at least three times a week.'",
     koreanExplanation: "저는 일주일에 최소한 세 번 그곳에 갑니다. 'at least'는 '최소한'이라는 뜻의 부사구이며, 주어 'I'에 어울리는 동사원형 'go'를 사용합니다.",
-    grammarPoints: "수량 표현 (at least)"
+    grammarPoints: "수량 표현 (at least)",
+    paraphrases: [
+      "I visit the library no fewer than three times weekly.",
+      "My routine includes studying there three or more times a week."
+    ]
   },
   {
     id: "L1-010",
@@ -112,7 +148,11 @@ export const questions: Question[] = [
     answer: ["are", "already", "more than", "half"],
     explanation: "The correct sentence is: 'We are already more than half ready.'",
     koreanExplanation: "우리는 이미 절반 이상 준비되었습니다. 비교급 수식어구인 'more than half'를 형용사 'ready' 앞에 위치시킵니다.",
-    grammarPoints: "비교 수식구 (more than)"
+    grammarPoints: "비교 수식구 (more than)",
+    paraphrases: [
+      "Our team is mostly prepared for the presentation.",
+      "We have completed over half of our preparations already."
+    ]
   },
   {
     id: "L1-011",
@@ -123,7 +163,11 @@ export const questions: Question[] = [
     answer: ["due date", "is", "set", "for"],
     explanation: "The correct sentence is: 'The due date is set for Friday.'",
     koreanExplanation: "제출일은 금요일로 정해졌습니다. 'be set for + 날짜'는 '~로 정해지다'라는 숙어입니다.",
-    grammarPoints: "수동태 표현 (is set for)"
+    grammarPoints: "수동태 표현 (is set for)",
+    paraphrases: [
+      "We must submit the project by Friday.",
+      "The submission deadline has been scheduled for Friday."
+    ]
   },
   {
     id: "L1-012",
@@ -134,7 +178,11 @@ export const questions: Question[] = [
     answer: ["can", "email", "the", "current"],
     explanation: "The correct sentence is: 'You can email the current team leader.'",
     koreanExplanation: "현재 팀 리더에게 이메일을 보내시면 됩니다. email은 타동사로 쓰여 뒤에 전치사 없이 목적어(the current team leader)가 바로 옵니다.",
-    grammarPoints: "조동사 + 타동사 구조"
+    grammarPoints: "조동사 + 타동사 구조",
+    paraphrases: [
+      "Try sending an email to the active club leader.",
+      "You are welcome to reach out to the team leader via email."
+    ]
   },
   {
     id: "L1-013",
@@ -145,7 +193,11 @@ export const questions: Question[] = [
     answer: ["must", "drop", "it in the", "assignment"],
     explanation: "The correct sentence is: 'You must drop it in the assignment bin.'",
     koreanExplanation: "과제물 수거함에 보고서를 넣어야 합니다. 'drop A in B' 구문을 이용하며, 조동사 'must' 뒤에 동사원형 'drop'을 씁니다.",
-    grammarPoints: "조동사 + 동사원형, drop A in B"
+    grammarPoints: "조동사 + 동사원형, drop A in B",
+    paraphrases: [
+      "Please place your report inside the homework collection box.",
+      "It is required to deposit your report into the designated box."
+    ]
   },
   {
     id: "L1-014",
@@ -154,9 +206,13 @@ export const questions: Question[] = [
     sentenceTemplate: "Yes, they _____ _____ _____ _____.",
     chunks: ["are", "serving", "hot", "meals", "is", "served"],
     answer: ["are", "serving", "hot", "meals"],
-    explanation: "The correct sentence is: 'Yes, they are serving hot meals food.'",
+    explanation: "The correct sentence is: 'Yes, they are serving hot meals.'",
     koreanExplanation: "네, 그들은 뜨거운 식사를 서빙하고 있습니다. 복수 주어 'they'에 맞게 진행형 'are serving'을 구성하고, 형용사 'hot'이 'meals'를 수식합니다.",
-    grammarPoints: "현재진행형, 형용사-명사 수식"
+    grammarPoints: "현재진행형, 형용사-명사 수식",
+    paraphrases: [
+      "Indeed, warm dishes are currently available at the cafeteria.",
+      "Yes, they are offering freshly prepared dinners right now."
+    ]
   },
   {
     id: "L1-015",
@@ -167,7 +223,11 @@ export const questions: Question[] = [
     answer: ["locker", "does", "not belong", "to"],
     explanation: "The correct sentence is: 'This locker does not belong to anyone.'",
     koreanExplanation: "이 사물함은 누구의 것도 아닙니다. '~에 속하다'는 'belong to'이며, 부정문 'does not belong to'를 완성합니다.",
-    grammarPoints: "일반동사 부정문, belong to 전치사"
+    grammarPoints: "일반동사 부정문, belong to 전치사",
+    paraphrases: [
+      "No one is currently claiming ownership of this locker.",
+      "This particular locker is free for anyone to use."
+    ]
   },
   {
     id: "L1-016",
@@ -178,7 +238,11 @@ export const questions: Question[] = [
     answer: ["stands", "directly", "across", "from"],
     explanation: "The correct sentence is: 'It stands directly across from the gym.'",
     koreanExplanation: "그것은 체육관 바로 맞은편에 서 있습니다. 'across from'은 '~의 맞은편에'라는 뜻이며, 부사 'directly'가 이를 강조합니다.",
-    grammarPoints: "방향 전치사구 (across from), 부사 위치"
+    grammarPoints: "방향 전치사구 (across from), 부사 위치",
+    paraphrases: [
+      "It is located right opposite the gym building.",
+      "You will see it situated directly on the other side of the gym."
+    ]
   },
   {
     id: "L1-017",
@@ -189,7 +253,11 @@ export const questions: Question[] = [
     answer: ["need", "to", "fill out", "the"],
     explanation: "The correct sentence is: 'You need to fill out the online application.'",
     koreanExplanation: "온라인 신청서를 작성해야 합니다. 'need to + 동사원형'은 '~해야 한다'는 의미이며, 신청서를 작성하다는 'fill out'을 씁니다.",
-    grammarPoints: "need to 부정사, 이어동사 fill out"
+    grammarPoints: "need to 부정사, 이어동사 fill out",
+    paraphrases: [
+      "It is required that you complete the digital form first.",
+      "Please make sure to submit the online registration sheet."
+    ]
   },
   {
     id: "L1-018",
@@ -200,7 +268,11 @@ export const questions: Question[] = [
     answer: ["have", "to", "deep", "clean"],
     explanation: "The correct sentence is: 'They have to deep clean the building.'",
     koreanExplanation: "그들은 건물 대청소를 해야 합니다. 복수 주어 'They'에 어울리는 의무 표현 'have to'를 사용하고 동사원형 'deep clean'을 결합합니다.",
-    grammarPoints: "have to + 동사원형"
+    grammarPoints: "have to + 동사원형",
+    paraphrases: [
+      "A thorough cleaning of the facility is scheduled for Saturdays.",
+      "They must perform deep sanitation across the library rooms."
+    ]
   },
   {
     id: "L1-019",
@@ -211,7 +283,11 @@ export const questions: Question[] = [
     answer: ["should", "visit", "the", "main"],
     explanation: "The correct sentence is: 'You should visit the main registrar's office.'",
     koreanExplanation: "본 등록처 사무실을 방문하셔야 합니다. 충고 조동사 'should' 다음 동사원형 'visit'과 목적어구 'the main'이 들어갑니다.",
-    grammarPoints: "조동사 should"
+    grammarPoints: "조동사 should",
+    paraphrases: [
+      "Please report to the central registration office.",
+      "I recommend dropping by the primary registrar desk."
+    ]
   },
   {
     id: "L1-020",
@@ -222,7 +298,11 @@ export const questions: Question[] = [
     answer: ["checks", "it", "at the start", "of"],
     explanation: "The correct sentence is: 'Yes, he checks it at the start of the class.'",
     koreanExplanation: "네, 교수님은 수업 시작 시점에 그것(출석)을 확인합니다. 3인칭 단수 주어 'he'에 맞게 일반동사 'checks'를 쓰고, 시점을 나타내는 구인 'at the start of'를 배치합니다.",
-    grammarPoints: "3인칭 단수 일치, 시점 전치사구"
+    grammarPoints: "3인칭 단수 일치, 시점 전치사구",
+    paraphrases: [
+      "Yes, roll call is conducted when class begins.",
+      "Indeed, he records attendance during the first few minutes of lecture."
+    ]
   },
 
   // ==========================================
@@ -237,7 +317,11 @@ export const questions: Question[] = [
     answer: ["could", "not finish", "it", "because"],
     explanation: "The correct sentence is: 'I could not finish it because my laptop broke down.'",
     koreanExplanation: "노트북이 고장 났기 때문에 끝낼 수 없었습니다. 과거의 능력을 부인하는 조동사 'could not' 뒤에 동사원형 'finish'를 쓰고 원인을 이끄는 접속사 'because'를 연결합니다.",
-    grammarPoints: "과거 조동사 부정, 원인 접속사 because"
+    grammarPoints: "과거 조동사 부정, 원인 접속사 because",
+    paraphrases: [
+      "Due to my computer malfunctioning, I was unable to complete the assignment.",
+      "I failed to turn it in on time as my laptop crashed."
+    ]
   },
   {
     id: "L2-002",
@@ -248,7 +332,11 @@ export const questions: Question[] = [
     answer: ["might", "be", "a bit late", "if"],
     explanation: "The correct sentence is: 'He might be a bit late if the traffic is heavy.'",
     koreanExplanation: "교통이 혼잡하면 그는 약간 늦을 수도 있습니다. 약한 추측을 나타내는 'might' 뒤에 be동사 원형과 조건절을 나타내는 접속사 'if'를 사용합니다.",
-    grammarPoints: "추측 조동사 might, 조건 접속사 if"
+    grammarPoints: "추측 조동사 might, 조건 접속사 if",
+    paraphrases: [
+      "Should there be heavy traffic, his arrival could be slightly delayed.",
+      "He may experience a delay in case road conditions are congested."
+    ]
   },
   {
     id: "L2-003",
@@ -259,7 +347,11 @@ export const questions: Question[] = [
     answer: ["will", "need", "to show it", "before"],
     explanation: "The correct sentence is: 'You will need to show it before you enter the building.'",
     koreanExplanation: "건물에 들어가기 전에 신분증을 보여주어야 할 것입니다. 미래 예측을 뜻하는 'will need to' 표현에 시간 접속사 'before'를 결합합니다.",
-    grammarPoints: "미래 시제 will, 시간 접속사 before"
+    grammarPoints: "미래 시제 will, 시간 접속사 before",
+    paraphrases: [
+      "Presenting your ID card is required prior to stepping inside.",
+      "You must have your card ready to present upon entry."
+    ]
   },
   {
     id: "L2-004",
@@ -270,7 +362,11 @@ export const questions: Question[] = [
     answer: ["crashed", "suddenly", "after", "so"],
     explanation: "The correct sentence is: 'It crashed suddenly after so many students logged in.'",
     koreanExplanation: "그것은 너무 많은 학생들이 로그인한 후에 갑자기 다운되었습니다. 과거 사건에 대해 동사 'crashed'와 부사 'suddenly'를 배치하고 시간 접속사 'after'를 연결합니다.",
-    grammarPoints: "과거동사 수식, 시간 접속사 after"
+    grammarPoints: "과거동사 수식, 시간 접속사 after",
+    paraphrases: [
+      "A sudden server crash occurred when student traffic spiked.",
+      "It went down unexpectedly because a massive number of users logged on."
+    ]
   },
   {
     id: "L2-005",
@@ -281,7 +377,11 @@ export const questions: Question[] = [
     answer: ["should", "meet", "right", "after"],
     explanation: "The correct sentence is: 'We should meet right after we get the topic.'",
     koreanExplanation: "주제를 받은 직후에 만나야 합니다. 'should meet' 뒤에 시간의 부사구 'right after'(~직후에)를 활용해 문장을 구성합니다.",
-    grammarPoints: "조동사 should, 부사구 right after"
+    grammarPoints: "조동사 should, 부사구 right after",
+    paraphrases: [
+      "Let's gather immediately once our presentation topic is assigned.",
+      "We ought to assemble as soon as we receive the theme."
+    ]
   },
   {
     id: "L2-006",
@@ -292,7 +392,11 @@ export const questions: Question[] = [
     answer: ["must", "prepare", "for", "tomorrow's"],
     explanation: "The correct sentence is: 'No, I must prepare for tomorrow's biology quiz.'",
     koreanExplanation: "아니요, 저는 내일 생물 퀴즈를 준비해야 합니다. 의무의 'must' 뒤에 '~를 준비하다'라는 'prepare for' 구문을 씁니다.",
-    grammarPoints: "must + prepare for 구문"
+    grammarPoints: "must + prepare for 구문",
+    paraphrases: [
+      "I have to study for my upcoming biology test instead.",
+      "No, preparing for my biology quiz tomorrow is my priority tonight."
+    ]
   },
   {
     id: "L2-007",
@@ -303,7 +407,11 @@ export const questions: Question[] = [
     answer: ["wanted to", "buy", "them", "but"],
     explanation: "The correct sentence is: 'I wanted to buy them but they were sold out.'",
     koreanExplanation: "그것들을 사고 싶었지만 매진되었습니다. 과거 사실의 의도('wanted to buy')와 대조를 의미하는 등위접속사 'but'을 사용합니다.",
-    grammarPoints: "과거 의도 wanted to, 등위접속사 but"
+    grammarPoints: "과거 의도 wanted to, 등위접속사 but",
+    paraphrases: [
+      "Although I intended to purchase the materials, stock had already run out.",
+      "I attempted to get them, but they were no longer available."
+    ]
   },
   {
     id: "L2-008",
@@ -314,7 +422,11 @@ export const questions: Question[] = [
     answer: ["plan", "to volunteer", "at", "a"],
     explanation: "The correct sentence is: 'I plan to volunteer at a local hospital.'",
     koreanExplanation: "저는 지역 병원에서 봉사활동을 할 계획입니다. 'plan to + 동사원형'은 '~할 계획이다'라는 뜻이며 장소를 나타내는 전치사 'at'을 결합합니다.",
-    grammarPoints: "plan to 부정사, 장소 전치사 at"
+    grammarPoints: "plan to 부정사, 장소 전치사 at",
+    paraphrases: [
+      "My intention is to do community service at a nearby hospital during the break.",
+      "I am organizing to work as a volunteer in a local clinic."
+    ]
   },
   {
     id: "L2-009",
@@ -325,7 +437,11 @@ export const questions: Question[] = [
     answer: ["can", "use it", "provided", "you"],
     explanation: "The correct sentence is: 'You can use it provided you make a reservation.'",
     koreanExplanation: "예약을 하신다면 사용하실 수 있습니다. 'provided (that)'은 만약 ~라면(조건)을 뜻하는 접속사입니다.",
-    grammarPoints: "조건 접속사 provided (that)"
+    grammarPoints: "조건 접속사 provided (that)",
+    paraphrases: [
+      "Access is granted only if you book the room beforehand.",
+      "The study room remains open to you on the condition that you reserve it."
+    ]
   },
   {
     id: "L2-010",
@@ -336,7 +452,11 @@ export const questions: Question[] = [
     answer: ["did not know", "about", "it", "until"],
     explanation: "The correct sentence is: 'I did not know about it until the sales ended.'",
     koreanExplanation: "판매가 끝날 때까지 저는 그것에 대해 몰랐습니다. 'not ... until' 구문을 활용해 특정 시점까지 몰랐음을 나타냅니다.",
-    grammarPoints: "not ... until 구문"
+    grammarPoints: "not ... until 구문",
+    paraphrases: [
+      "Only after ticket sales closed did I become aware of the event.",
+      "I was completely oblivious to the ticket release until they were sold out."
+    ]
   },
   {
     id: "L2-011",
@@ -347,7 +467,11 @@ export const questions: Question[] = [
     answer: ["will", "finish", "the work", "after"],
     explanation: "The correct sentence is: 'I will finish the work after checking the guidelines.'",
     koreanExplanation: "가이드라인을 확인한 후에 작업을 끝마칠 것입니다. 미래의 일을 나타내는 'will finish'와 전치사로 쓰인 'after' 뒤의 동명사('checking') 패턴입니다.",
-    grammarPoints: "미래 시제, 전치사 after + 동명사"
+    grammarPoints: "미래 시제, 전치사 after + 동명사",
+    paraphrases: [
+      "I intend to complete the draft once I review the instructions.",
+      "After consulting the rubric, I will finalize my work."
+    ]
   },
   {
     id: "L2-012",
@@ -358,7 +482,11 @@ export const questions: Question[] = [
     answer: ["decided", "to study", "here", "since"],
     explanation: "The correct sentence is: 'I decided to study here since it has great facilities.'",
     koreanExplanation: "훌륭한 시설을 가지고 있기 때문에 이곳에서 공부하기로 결정했습니다. 'since'는 원인/이유(~이므로)를 나타내는 접속사로 사용되었습니다.",
-    grammarPoints: "decide to 부정사, 이유 접속사 since"
+    grammarPoints: "decide to 부정사, 이유 접속사 since",
+    paraphrases: [
+      "The outstanding campus infrastructure convinced me to enroll here.",
+      "I picked this college mainly because its equipment is top-notch."
+    ]
   },
   {
     id: "L2-013",
@@ -369,7 +497,11 @@ export const questions: Question[] = [
     answer: ["may", "record", "the audio", "as long as"],
     explanation: "The correct sentence is: 'You may record the audio as long as the professor agrees.'",
     koreanExplanation: "교수님께서 동의하시는 한 녹음을 해도 좋습니다. 허가를 나타내는 조동사 'may'와 조건 접속사인 'as long as'(~하는 한)를 사용합니다.",
-    grammarPoints: "허가 조동사 may, 조건 접속사 as long as"
+    grammarPoints: "허가 조동사 may, 조건 접속사 as long as",
+    paraphrases: [
+      "Audio recording is permitted, provided the instructor gives consent.",
+      "You are allowed to tape the class if the professor has no objections."
+    ]
   },
   {
     id: "L2-014",
@@ -380,7 +512,11 @@ export const questions: Question[] = [
     answer: ["will be", "sent", "to you", "by"],
     explanation: "The correct sentence is: 'They will be sent to you by the next week.'",
     koreanExplanation: "그것들은 다음 주까지 당신에게 발송될 것입니다. 미래의 수동 사건을 표현하는 'will be sent'와 완료 기한을 뜻하는 전치사 'by'의 조합입니다.",
-    grammarPoints: "미래 수동태, 완료 기한 전치사 by"
+    grammarPoints: "미래 수동태, 완료 기한 전치사 by",
+    paraphrases: [
+      "You should receive your grades no later than next week.",
+      "Your report cards are scheduled to arrive by next week."
+    ]
   },
   {
     id: "L2-015",
@@ -391,7 +527,11 @@ export const questions: Question[] = [
     answer: ["should", "check", "for errors", "whenever"],
     explanation: "The correct sentence is: 'You should check for errors whenever you write essays.'",
     koreanExplanation: "에세이를 쓸 때마다 오류가 있는지 점검해야 합니다. 충고의 'should'와 '~할 때마다'라는 뜻의 복합관계부사 접속사 'whenever'를 활용합니다.",
-    grammarPoints: "조동사 should, 시간 접속사 whenever"
+    grammarPoints: "조동사 should, 시간 접속사 whenever",
+    paraphrases: [
+      "Proofreading for grammar mistakes every time you write is highly recommended.",
+      "Ensure you review your writing for errors each time you compose an essay."
+    ]
   },
   {
     id: "L2-016",
@@ -402,7 +542,11 @@ export const questions: Question[] = [
     answer: ["spoke", "with him", "briefly", "before"],
     explanation: "The correct sentence is: 'I spoke with him briefly before I went to bed.'",
     koreanExplanation: "잠자리에 들기 전에 그와 짧게 이야기를 나눴습니다. 과거동사 'spoke'와 부사 'briefly', 그리고 시간 접속사 'before'를 적절히 배치합니다.",
-    grammarPoints: "과거시제 동사, 부사 수식, 접속사 before"
+    grammarPoints: "과거시제 동사, 부사 수식, 접속사 before",
+    paraphrases: [
+      "Prior to sleeping, I had a short conversation with the dorm supervisor.",
+      "I managed to have a quick chat with him before calling it a night."
+    ]
   },
   {
     id: "L2-017",
@@ -413,7 +557,11 @@ export const questions: Question[] = [
     answer: ["have to", "explore", "the museum", "on"],
     explanation: "The correct sentence is: 'No, we have to explore the museum on our own.'",
     koreanExplanation: "아니요, 우리는 스스로 박물관을 탐방해야 합니다. 'on one's own'은 '스스로, 자력으로'라는 뜻의 중요한 전치사구 표현입니다.",
-    grammarPoints: "have to + 동사원형, 숙어 표현 (on one's own)"
+    grammarPoints: "have to + 동사원형, 숙어 표현 (on our own)",
+    paraphrases: [
+      "No, we will be touring the exhibits independently without a guide.",
+      "Unfortunately, we are required to navigate the science center by ourselves."
+    ]
   },
   {
     id: "L2-018",
@@ -424,7 +572,11 @@ export const questions: Question[] = [
     answer: ["announced", "last week", "that", "it"],
     explanation: "The correct sentence is: 'They announced last week that it was under renovation.'",
     koreanExplanation: "그들은 지난주에 그것이 보수 공사 중이라고 발표했습니다. 과거 동사 'announced'에 명사절을 이끄는 접속사 'that'을 사용해 목적어절을 완성합니다.",
-    grammarPoints: "과거 시제, 명사절 접속사 that"
+    grammarPoints: "과거 시제, 명사절 접속사 that",
+    paraphrases: [
+      "A notice was released last week stating the lab would undergo remodeling.",
+      "Last week, they shared news regarding the lab's temporary closure for maintenance."
+    ]
   },
   {
     id: "L2-019",
@@ -435,7 +587,11 @@ export const questions: Question[] = [
     answer: ["can", "take", "the tools", "once"],
     explanation: "The correct sentence is: 'You can take the tools once you wear safety gear.'",
     koreanExplanation: "안전 장비를 착용하면 장비를 가져갈 수 있습니다. 'once'는 일단 ~하면(조건/시간)의 의미를 가진 접속사입니다.",
-    grammarPoints: "조동사 can, 부사절 접속사 once"
+    grammarPoints: "조동사 can, 부사절 접속사 once",
+    paraphrases: [
+      "The equipment will be released to you as soon as you put on safety protection.",
+      "Assuming you are wearing proper gear, you are permitted to borrow the tools."
+    ]
   },
   {
     id: "L2-020",
@@ -446,7 +602,11 @@ export const questions: Question[] = [
     answer: ["need", "to stay", "here", "because"],
     explanation: "The correct sentence is: 'I need to stay here because I have a part-time job.'",
     koreanExplanation: "저는 아르바이트가 있기 때문에 여기에 머물러야 합니다. 'need to + 동사원형'과 원인의 접속사 'because'를 연결합니다.",
-    grammarPoints: "need to 부정사, 원인 접속사 because"
+    grammarPoints: "need to 부정사, 원인 접속사 because",
+    paraphrases: [
+      "I am remaining on campus over the break due to employment commitments.",
+      "Since I have a part-time shift, staying in the dorms is necessary for me."
+    ]
   },
 
   // ==========================================
@@ -461,7 +621,11 @@ export const questions: Question[] = [
     answer: ["explained", "to", "the students", "that"],
     explanation: "The correct sentence is: 'The advisor explained to the students that he had an urgent meeting.'",
     koreanExplanation: "지도교수님은 학생들에게 긴급 회의가 있어서 그렇다고 설명해 주셨습니다. 'explain to 대상 that절' 구조를 사용하여 문장을 만듭니다.",
-    grammarPoints: "explain to sb that절 구조"
+    grammarPoints: "explain to sb that절 구조",
+    paraphrases: [
+      "The students were told by the advisor that an urgent meeting came up.",
+      "The academic advisor clarified to the class that the professor was attending an emergency meeting."
+    ]
   },
   {
     id: "L3-002",
@@ -472,7 +636,11 @@ export const questions: Question[] = [
     answer: ["you", "know", "if", "the server"],
     explanation: "The correct sentence is: 'Do you know if the server is down for maintenance?'",
     koreanExplanation: "서버가 점검 중으로 다운되었는지 알고 계신가요? 'Do you know' 뒤에 '~인지 아닌지'라는 불확실한 사실을 묻는 명사절 접속사 'if'를 배치합니다.",
-    grammarPoints: "간접 의문문, 명사절 접속사 if"
+    grammarPoints: "간접 의문문, 명사절 접속사 if",
+    paraphrases: [
+      "Are you aware whether the portal has shut down for temporary repairs?",
+      "Could you tell me whether server maintenance is currently underway?"
+    ]
   },
   {
     id: "L3-003",
@@ -483,7 +651,11 @@ export const questions: Question[] = [
     answer: ["who", "received", "the highest", "score"],
     explanation: "The correct sentence is: 'The student who received the highest score was very happy.'",
     koreanExplanation: "가장 높은 점수를 받은 학생이 매우 기뻐했습니다. 관계대명사 주격 'who'가 선행사인 'The student'를 수식하는 형용사절을 구성합니다.",
-    grammarPoints: "주격 관계대명사 who, 최상급 표현"
+    grammarPoints: "주격 관계대명사 who, 최상급 표현",
+    paraphrases: [
+      "The top-scoring individual in the chemistry class was delighted to win.",
+      "Great joy was felt by the student who achieved the top marks on the exam."
+    ]
   },
   {
     id: "L3-004",
@@ -494,7 +666,11 @@ export const questions: Question[] = [
     answer: ["where", "other", "students", "surely"],
     explanation: "The correct sentence is: 'I placed the book where other students surely cannot lose it.'",
     koreanExplanation: "저는 다른 학생들이 절대 잃어버릴 수 없는 장소에 그 책을 두었습니다. 관계부사 'where'가 쓰인 부사절/형용사절(생략된 place 수식) 구조입니다.",
-    grammarPoints: "관계부사 where"
+    grammarPoints: "관계부사 where",
+    paraphrases: [
+      "I put the volume in a safe spot so that fellow peers won't misplace it.",
+      "The book was set down in a location where it remains easily accessible yet safe."
+    ]
   },
   {
     id: "L3-005",
@@ -505,7 +681,11 @@ export const questions: Question[] = [
     answer: ["that", "the university", "would", "improve"],
     explanation: "The correct sentence is: 'He promised that the university would improve the student lounge.'",
     koreanExplanation: "그는 대학이 학생 휴게실을 개선할 것이라고 약속했습니다. 'promise that 주어 + would + 동사원형' 시제 일치 구조입니다.",
-    grammarPoints: "명사절 접속사 that, 시제 일치 (would)"
+    grammarPoints: "명사절 접속사 that, 시제 일치 (would)",
+    paraphrases: [
+      "A commitment was made by the Dean to upgrade the student recreation room.",
+      "He assured us that plans were underway to enhance the student lounge facilities."
+    ]
   },
   {
     id: "L3-006",
@@ -516,7 +696,11 @@ export const questions: Question[] = [
     answer: ["which", "you", "need to", "visit"],
     explanation: "The correct sentence is: 'The website which you need to visit shows all credits clearly.'",
     koreanExplanation: "당신이 방문해야 하는 웹사이트는 모든 학점을 명확하게 보여줍니다. 선행사가 사물('The website')이므로 목적격 관계대명사 'which' 또는 'that'을 사용합니다.",
-    grammarPoints: "목적격 관계대명사 which, 주어-동사 수 일치"
+    grammarPoints: "목적격 관계대명사 which, 주어-동사 수 일치",
+    paraphrases: [
+      "The portal you have to log onto details your academic progress fully.",
+      "All graduation requirements are listed transparently on the designated webpage."
+    ]
   },
   {
     id: "L3-007",
@@ -527,7 +711,11 @@ export const questions: Question[] = [
     answer: ["whether", "the team", "members", "can"],
     explanation: "The correct sentence is: 'He doubts whether the team members can finish it on time.'",
     koreanExplanation: "그는 팀원들이 제시간에 그것을 끝낼 수 있을지 의심스러워합니다. 의심을 뜻하는 동사 'doubt' 뒤에 '~인지 아닌지'의 의미를 가진 'whether'절을 이끕니다.",
-    grammarPoints: "명사절 접속사 whether"
+    grammarPoints: "명사절 접속사 whether",
+    paraphrases: [
+      "He has reservations about the group's ability to meet the deadline.",
+      "The professor is uncertain if the researchers will complete the work on schedule."
+    ]
   },
   {
     id: "L3-008",
@@ -538,7 +726,11 @@ export const questions: Question[] = [
     answer: ["that", "we", "visited", "yesterday"],
     explanation: "The correct sentence is: 'The dorms that we visited yesterday were surprisingly spacious.'",
     koreanExplanation: "우리가 어제 방문했던 기숙사는 놀라울 정도로 넓었습니다. 선행사 사물을 가리키는 목적격 관계대명사 'that'을 사용해 수식하는 문장을 만듭니다.",
-    grammarPoints: "목적격 관계대명사 that, 부사 수식"
+    grammarPoints: "목적격 관계대명사 that, 부사 수식",
+    paraphrases: [
+      "We toured the new dorm facilities yesterday and found them exceptionally large.",
+      "The residential halls we inspected recently offered much more space than expected."
+    ]
   },
   {
     id: "L3-009",
@@ -549,7 +741,11 @@ export const questions: Question[] = [
     answer: ["who", "is", "in charge", "of"],
     explanation: "The correct sentence is: 'Do you know who is in charge of the selection committee?'",
     koreanExplanation: "누가 선발위원회를 담당하고 있는지 아십니까? 'be in charge of'(~를 담당하다) 숙어와 간접의문문 주어 역할을 하는 'who'를 사용합니다.",
-    grammarPoints: "간접 의문문 어순, 숙어 be in charge of"
+    grammarPoints: "간접 의문문 어순, 숙어 be in charge of",
+    paraphrases: [
+      "Do you happen to know the head of the recruitment board?",
+      "Who leads the selection process for student government applicants?"
+    ]
   },
   {
     id: "L3-010",
@@ -558,9 +754,13 @@ export const questions: Question[] = [
     sentenceTemplate: "The notice explains _____ _____ _____ _____ extension is necessary.",
     chunks: ["why", "the", "system", "needed", "because", "need", "that"],
     answer: ["why", "the", "system", "needed"],
-    explanation: "The correct sentence is: 'The notice explains why the system needed extension is necessary.'",
+    explanation: "The correct sentence is: 'The notice explains why the system needed extension is necessary.' (Template syntax matches: why the system needed...)",
     koreanExplanation: "공지사항은 왜 시스템 연장이 필요한지 설명해 줍니다. 'explain'의 목적어로 의문사 'why'가 이끄는 간접의문문절을 배치합니다.",
-    grammarPoints: "명사절 간접의문문 (why + 주어 + 동사)"
+    grammarPoints: "명사절 간접의문문 (why + 주어 + 동사)",
+    paraphrases: [
+      "The bulletin board details the reasons for extending the enrollment period.",
+      "According to the memo, technical system demands forced the deadline push."
+    ]
   },
   {
     id: "L3-011",
@@ -571,7 +771,11 @@ export const questions: Question[] = [
     answer: ["that", "was", "most", "challenging"],
     explanation: "The correct sentence is: 'The requirement that was most challenging was the programming lab.'",
     koreanExplanation: "가장 까다로웠던 요구사항은 프로그래밍 실습이었습니다. 주격 관계대명사 'that'과 주어(The requirement)에 일치하는 단수 동사 'was'를 씁니다.",
-    grammarPoints: "주격 관계대명사, 단수 동사 일치"
+    grammarPoints: "주격 관계대명사, 단수 동사 일치",
+    paraphrases: [
+      "The most difficult course milestone turned out to be the computer programming workshop.",
+      "I found the practical coding lab to be the toughest prerequisite in my major."
+    ]
   },
   {
     id: "L3-012",
@@ -582,7 +786,11 @@ export const questions: Question[] = [
     answer: ["if", "you", "should", "give it to"],
     explanation: "The correct sentence is: 'Please ask if you should give it to the office receptionist.'",
     koreanExplanation: "그것을 사무실 접수원에게 제출해야 하는지 물어보세요. 타동사 'ask' 뒤에 여부를 묻는 'if'절과 조동사 'should'를 배치합니다.",
-    grammarPoints: "ask + if 명사절, 조동사 + 구동사"
+    grammarPoints: "ask + if 명사절, 조동사 + 구동사",
+    paraphrases: [
+      "Inquire at the front desk whether you should hand the papers directly to the receptionist.",
+      "Check with the reception staff regarding where to drop off your application."
+    ]
   },
   {
     id: "L3-013",
@@ -593,7 +801,11 @@ export const questions: Question[] = [
     answer: ["which", "helps", "to protect", "our"],
     explanation: "The correct sentence is: 'I want a career which helps to protect our planet's ecosystem.'",
     koreanExplanation: "저는 우리 행성의 생태계를 보호하는 데 도움이 되는 직업을 원합니다. 선행사 사물('a career')을 받는 주격 관계대명사 'which' 뒤에 3인칭 단수 동사 'helps'가 옵니다.",
-    grammarPoints: "주격 관계대명사, 동사원형/to부정사 목적어 (help to protect)"
+    grammarPoints: "주격 관계대명사, 동사원형/to부정사 목적어 (help to protect)",
+    paraphrases: [
+      "My goal is to find a job focused on conserving global biodiversity.",
+      "I aspire to work in a field that actively safeguards the environment."
+    ]
   },
   {
     id: "L3-014",
@@ -604,7 +816,11 @@ export const questions: Question[] = [
     answer: ["that", "nobody", "has to", "actually"],
     explanation: "The correct sentence is: 'The flyer says that nobody has to actually pay a fee.'",
     koreanExplanation: "전단지에는 실제로는 아무도 비용을 낼 필요가 없다고 적혀 있습니다. 명사절 'that'절 내부의 주어 'nobody'는 단수 취급이므로 'has to'를 씁니다.",
-    grammarPoints: "명사절 접속사 that, 단수 대명사 일치 (nobody - has to)"
+    grammarPoints: "명사절 접속사 that, 단수 대명사 일치 (nobody - has to)",
+    paraphrases: [
+      "According to the poster, student membership is completely free of charge.",
+      "The brochure clarifies that no payment is required to use the facilities."
+    ]
   },
   {
     id: "L3-015",
@@ -615,7 +831,11 @@ export const questions: Question[] = [
     answer: ["which", "instructor", "is", "going to"],
     explanation: "The correct sentence is: 'I wonder which instructor is going to take over the class.'",
     koreanExplanation: "어떤 강사님이 그 수업을 맡게 될지 궁금합니다. 'wonder' 뒤에 의문형용사 'which'가 명사 'instructor'를 수식하여 간접의문문절을 형성합니다.",
-    grammarPoints: "의문형용사 which, be going to 표현"
+    grammarPoints: "의문형용사 which, be going to 표현",
+    paraphrases: [
+      "I am curious about who has been assigned to teach the stats lecture this semester.",
+      "I would like to know which professor will inherit the statistics curriculum."
+    ]
   },
   {
     id: "L3-016",
@@ -626,7 +846,11 @@ export const questions: Question[] = [
     answer: ["that", "the student", "failed to", "pass"],
     explanation: "The correct sentence is: 'The professor stated that the student failed to pass the safety test.'",
     koreanExplanation: "교수님은 그 학생이 안전 시험을 통과하지 못했다고 언급하셨습니다. 'fail to + 동사원형'은 '~하는 데 실패하다'라는 필수 표현입니다.",
-    grammarPoints: "명사절 접속사 that, fail to 부정사"
+    grammarPoints: "명사절 접속사 that, fail to 부정사",
+    paraphrases: [
+      "The student did not satisfy the requirements of the safety exam, according to the advisor.",
+      "We were informed by the lecturer that the safety test score was insufficient."
+    ]
   },
   {
     id: "L3-017",
@@ -637,7 +861,11 @@ export const questions: Question[] = [
     answer: ["the manager", "who", "is responsible", "for"],
     explanation: "The correct sentence is: 'You need to find the manager who is responsible for the keys.'",
     koreanExplanation: "열쇠들을 책임지고 있는 매니저를 찾아야 합니다. 'be responsible for'(~에 책임을 지다) 표현과 주격 관계대명사 'who'를 결합합니다.",
-    grammarPoints: "주격 관계대명사, 형용사 전치사구 (responsible for)"
+    grammarPoints: "주격 관계대명사, 형용사 전치사구 (responsible for)",
+    paraphrases: [
+      "You should contact the housing supervisor in charge of key distribution.",
+      "Identify the staff member overseeing key replacements in the dorm."
+    ]
   },
   {
     id: "L3-018",
@@ -648,7 +876,11 @@ export const questions: Question[] = [
     answer: ["that", "the chemistry", "department", "highly"],
     explanation: "The correct sentence is: 'It was the only book that the chemistry department highly recommended.'",
     koreanExplanation: "그것은 화학과에서 적극 추천했던 유일한 책이었습니다. 선행사에 'the only'가 붙으면 주로 관계대명사 'that'을 관습적으로 사용합니다.",
-    grammarPoints: "관계대명사 선택 (the only + that), 부사 위치"
+    grammarPoints: "관계대명사 선택 (the only + that), 부사 위치",
+    paraphrases: [
+      "This particular volume was specifically endorsed by chemistry faculty members.",
+      "No other book was strongly suggested by the department advisors."
+    ]
   },
   {
     id: "L3-019",
@@ -659,7 +891,11 @@ export const questions: Question[] = [
     answer: ["where", "we", "can get", "a"],
     explanation: "The correct sentence is: 'Let's ask the staff where we can get a map.'",
     koreanExplanation: "직원에게 우리가 어디서 지도를 얻을 수 있는지 물어봅시다. ask 뒤에 간접 목적어(the staff)와 직접 목적어 명사절(where + 주어 + 동사)이 온 형태입니다.",
-    grammarPoints: "수여동사 ask 구조, 간접의문문 명사절"
+    grammarPoints: "수여동사 ask 구조, 간접의문문 명사절",
+    paraphrases: [
+      "We should query the information desk to secure a campus guide map.",
+      "Let's inquire with the clerks about obtaining a campus brochure."
+    ]
   },
   {
     id: "L3-020",
@@ -670,7 +906,11 @@ export const questions: Question[] = [
     answer: ["that", "it", "most", "likely"],
     explanation: "The correct sentence is: 'The weather forecast warned that it most likely would rain.'",
     koreanExplanation: "일기예보에서 비가 올 확률이 높다고 경고했습니다. 'warn that절' 구조에 부사구 'most likely'를 삽입한 자연스러운 구조입니다.",
-    grammarPoints: "warn that절, 부사구 삽입"
+    grammarPoints: "warn that절, 부사구 삽입",
+    paraphrases: [
+      "The meteorologist predicted a high probability of precipitation tonight.",
+      "We were cautioned by forecasts that rain was highly anticipated."
+    ]
   },
 
   // ==========================================
@@ -685,7 +925,11 @@ export const questions: Question[] = [
     answer: ["an apartment", "outside", "campus", "despite"],
     explanation: "The correct sentence is: 'I decided to rent an apartment outside campus despite the high dorm fees.'",
     koreanExplanation: "기숙사의 높은 요금에도 불구하고 학교 밖에 아파트를 빌리기로 결정했습니다. 양보를 나타내는 전치사 'despite' 뒤에는 명사구(the high dorm fees)가 위치해야 합니다.",
-    grammarPoints: "전치사 despite vs. 접속사 although, 명사구 결합"
+    grammarPoints: "전치사 despite vs. 접속사 although, 명사구 결합",
+    paraphrases: [
+      "Notwithstanding the high dormitory pricing, I secured housing off-campus.",
+      "I signed a lease for an apartment off-campus because dormitory housing was too expensive."
+    ]
   },
   {
     id: "L4-002",
@@ -694,9 +938,13 @@ export const questions: Question[] = [
     sentenceTemplate: "You cannot enroll _____ _____ _____ _____ permission.",
     chunks: ["in the course", "unless", "the instructor", "gives", "to course", "if", "give"],
     answer: ["in the course", "unless", "the instructor", "gives"],
-    explanation: "The correct sentence is: 'You cannot enroll in the course unless the instructor gives permission.' (Template context requires matching chunks)",
+    explanation: "The correct sentence is: 'You cannot enroll in the course unless the instructor gives permission.'",
     koreanExplanation: "강사가 허가를 주지 않는 한 강좌에 등록할 수 없습니다. '~하지 않는 한'을 뜻하는 부사절 접속사 'unless'가 주어와 3인칭 단수 동사 'gives'를 이끕니다.",
-    grammarPoints: "enroll in 표현, 접속사 unless"
+    grammarPoints: "enroll in 표현, 접속사 unless",
+    paraphrases: [
+      "Without the professor's written approval, registration for this class is locked.",
+      "Enrolling in the biology module requires explicit consent from the teacher."
+    ]
   },
   {
     id: "L4-003",
@@ -707,7 +955,11 @@ export const questions: Question[] = [
     answer: ["owing to", "significant", "university", "budget"],
     explanation: "The correct sentence is: 'They are closing early owing to significant university budget cuts.'",
     koreanExplanation: "그들은 상당한 대학 예산 감축으로 인해 일찍 문을 닫습니다. 원인을 뜻하는 전치사구 'owing to'(~ 때문에) 뒤에 명사 수식 단어들을 나열합니다.",
-    grammarPoints: "이유 전치사구 owing to, 명사 수식 구조"
+    grammarPoints: "이유 전치사구 owing to, 명사 수식 구조",
+    paraphrases: [
+      "Budgetary constraints at the university level have forced the library to reduce operation hours.",
+      "Due to major financial cutbacks, the library will be shortening its daily schedule."
+    ]
   },
   {
     id: "L4-004",
@@ -718,7 +970,11 @@ export const questions: Question[] = [
     answer: ["against the policy", "while", "some tried", "to talk with"],
     explanation: "The correct sentence is: 'Many students protested against the policy while some tried to talk with the administration.'",
     koreanExplanation: "많은 학생들이 정책에 대항해 시위한 반면, 일부는 대학 행정처와 대화하려고 시도했습니다. 'while'은 대조/반면의 의미를 나타내며, 'try to + 동사원형'을 결합합니다.",
-    grammarPoints: "반면 접속사 while, try to 부정사"
+    grammarPoints: "반면 접속사 while, try to 부정사",
+    paraphrases: [
+      "A portion of the student body demonstrated against the hike, whereas others sought dialog with officials.",
+      "While some students actively opposed the tuition raise, others pursued negotiations with the Dean."
+    ]
   },
   {
     id: "L4-005",
@@ -729,7 +985,11 @@ export const questions: Question[] = [
     answer: ["any experiments", "unless", "you have completed", "the training"],
     explanation: "The correct sentence is: 'Yes, you cannot perform any experiments unless you have completed the training.'",
     koreanExplanation: "네, 교육을 완료하지 않으면 어떤 실험도 수행할 수 없습니다. 'unless'와 현재완료형 'have completed'를 사용해 조건 상황을 강하게 명시합니다.",
-    grammarPoints: "조건 접속사 unless, 현재완료 완료상"
+    grammarPoints: "조건 접속사 unless, 현재완료 완료상",
+    paraphrases: [
+      "Prior completion of safety training is required before performing lab procedures.",
+      "You are prohibited from conducting research unless you obtain lab certification first."
+    ]
   },
   {
     id: "L4-006",
@@ -740,7 +1000,11 @@ export const questions: Question[] = [
     answer: ["partly", "on account of", "the", "system's"],
     explanation: "The correct sentence is: 'The publication was delayed partly on account of the system's unexpected technical issues.'",
     koreanExplanation: "출판은 부분적으로 시스템의 예기치 않은 기술적 문제 때문에 지연되었습니다. 'on account of'는 '~ 때문에'를 의미하는 전치사구로, 부사 'partly'가 이를 수식합니다.",
-    grammarPoints: "이유 전치사구 on account of, 부사 수식"
+    grammarPoints: "이유 전치사구 on account of, 부사 수식",
+    paraphrases: [
+      "Unexpected software glitches were partially responsible for delaying the curriculum catalog.",
+      "The delay was caused in part by unforeseen database server crashes."
+    ]
   },
   {
     id: "L4-007",
@@ -749,9 +1013,13 @@ export const questions: Question[] = [
     sentenceTemplate: "The professor assigned three novels _____ _____ _____ _____.",
     chunks: ["written by", "famous", "nineteenth-century", "authors", "writing by", "who", "author"],
     answer: ["written by", "famous", "nineteenth-century", "authors"],
-    explanation: "The correct sentence is: 'The professor assigned three novels written by famous nineteenth-century authors...'",
+    explanation: "The correct sentence is: 'The professor assigned three novels written by famous nineteenth-century authors.'",
     koreanExplanation: "교수님은 19세기 유명 작가들이 쓴 소설 세 권을 과제로 내주셨습니다. 'written by' 과거분사구가 선행 명사인 'novels'를 후치수식합니다.",
-    grammarPoints: "과거분사의 명사 후치수식 (written by)"
+    grammarPoints: "과거분사의 명사 후치수식 (written by)",
+    paraphrases: [
+      "We are required to read three books authored by prominent nineteenth-century figures.",
+      "The syllabus features three novels originating from nineteenth-century literature stars."
+    ]
   },
   {
     id: "L4-008",
@@ -760,9 +1028,13 @@ export const questions: Question[] = [
     sentenceTemplate: "The office is processing applications _____ _____ _____ _____ order they _____ _____ _____.",
     chunks: ["strictly", "in the", "exact", "chronological", "strict", "at the", "chronology"],
     answer: ["strictly", "in the", "exact", "chronological"],
-    explanation: "The correct sentence is: 'The office is processing applications strictly in the exact chronological order...'",
+    explanation: "The correct sentence is: 'The office is processing applications strictly in the exact chronological order they were submitted.'",
     koreanExplanation: "사무실에서는 철저하게 신청서가 접수된 순서대로(시간 순으로) 처리하고 있습니다. 부사 'strictly'가 동사를 수식하고, 형용사 'chronological'이 'order'를 꾸밉니다.",
-    grammarPoints: "부사 수식, 형용사-명사 조합"
+    grammarPoints: "부사 수식, 형용사-명사 조합",
+    paraphrases: [
+      "Applications are handled in the precise order they were received.",
+      "The review board adheres strictly to a first-come, first-served sequence based on date."
+    ]
   },
   {
     id: "L4-009",
@@ -771,9 +1043,13 @@ export const questions: Question[] = [
     sentenceTemplate: "The candidate won the election _____ _____ _____ _____ the negative publicity.",
     chunks: ["in spite of", "all the", "criticism", "about", "despite of", "although", "criticize"],
     answer: ["in spite of", "all the", "criticism", "about"],
-    explanation: "The correct sentence is: 'The candidate won the election in spite of all the criticism about the negative publicity...'",
+    explanation: "The correct sentence is: 'The candidate won the election in spite of all the criticism about the negative publicity.'",
     koreanExplanation: "후보는 부정적인 소문에 대한 모든 비판에도 불구하고 선거에서 이겼습니다. 'in spite of'는 'despite'와 같은 전치사구로 뒤에 명사구('all the criticism')가 옵니다.",
-    grammarPoints: "양보 전치사구 in spite of, 전치사 about 목적어 수식"
+    grammarPoints: "양보 전치사구 in spite of, 전치사 about 목적어 수식",
+    paraphrases: [
+      "Despite severe backlash regarding recent rumors, the campaign was successful.",
+      "The student secured the victory regardless of critiques focusing on negative media reports."
+    ]
   },
   {
     id: "L4-010",
@@ -782,9 +1058,13 @@ export const questions: Question[] = [
     sentenceTemplate: "The power went out _____ _____ _____ _____.",
     chunks: ["just", "as the", "professor", "started", "right", "when to", "starting"],
     answer: ["just", "as the", "professor", "started"],
-    explanation: "The correct sentence is: 'The power went out just as the professor started a heavy storm...' (Template syntax matches 'just as')",
+    explanation: "The correct sentence is: 'The power went out just as the professor started the lecture.'",
     koreanExplanation: "교수가 막 시작하려는 순간에 전기가 나갔습니다. 'just as'는 '~하는 바로 그 순간에'를 뜻하는 시간 부사절 접속사입니다.",
-    grammarPoints: "시간 접속사 just as, 과거시제 일치"
+    grammarPoints: "시간 접속사 just as, 과거시제 일치",
+    paraphrases: [
+      "At the very moment the class began, the building experienced a blackout.",
+      "The electricity shut off precisely when the professor began speaking."
+    ]
   },
   {
     id: "L4-011",
@@ -793,9 +1073,13 @@ export const questions: Question[] = [
     sentenceTemplate: "Students must have basic knowledge _____ _____ _____ _____ biology.",
     chunks: ["not only", "of chemistry", "but also", "of molecular", "only of", "also", "with molecular"],
     answer: ["not only", "of chemistry", "but also", "of molecular"],
-    explanation: "The correct sentence is: 'Students must have basic knowledge not only of chemistry but also of molecular biology...'",
+    explanation: "The correct sentence is: 'Students must have basic knowledge not only of chemistry but also of molecular biology.'",
     koreanExplanation: "학생들은 화학뿐만 아니라 분자 생물학에 대한 기본 지식도 가지고 있어야 합니다. 상관접속사 'not only A but also B' 구조가 대등한 전치사구(of chemistry / of molecular)를 연결합니다.",
-    grammarPoints: "상관접속사 (not only A but also B), 병렬 구조"
+    grammarPoints: "상관접속사 (not only A but also B), 병렬 구조",
+    paraphrases: [
+      "A foundational understanding of both chemistry and molecular biology is required.",
+      "Applicants should be well-versed in chemistry, alongside molecular biology principles."
+    ]
   },
   {
     id: "L4-012",
@@ -806,7 +1090,11 @@ export const questions: Question[] = [
     answer: ["it", "places", "strong", "emphasis on"],
     explanation: "The correct sentence is: 'I chose it because it places strong emphasis on understanding different cultures.'",
     koreanExplanation: "그것이 다른 문화를 이해하는 데 강한 강조를 두기 때문에 선택했습니다. 'place emphasis on'(~를 강조하다) 숙어를 사용하며, 'strong'이 명사 'emphasis'를 수식합니다.",
-    grammarPoints: "주어-동사 일치, 숙어 place emphasis on"
+    grammarPoints: "주어-동사 일치, 숙어 place emphasis on",
+    paraphrases: [
+      "The program's focus on intercultural dynamics strongly appealed to me.",
+      "I selected this major because it prioritizes global cultural understanding."
+    ]
   },
   {
     id: "L4-013",
@@ -815,9 +1103,13 @@ export const questions: Question[] = [
     sentenceTemplate: "Yes, the test covers everything _____ _____ _____ _____ the beginning of the semester.",
     chunks: ["taught", "in class", "since", "the very", "teached", "from", "verily"],
     answer: ["taught", "in class", "since", "the very"],
-    explanation: "The correct sentence is: 'Yes, the test covers everything taught in class since the very beginning of...'",
+    explanation: "The correct sentence is: 'Yes, the test covers everything taught in class since the very beginning of the semester.'",
     koreanExplanation: "네, 그 시험은 학기 아주 극초반부터 수업 시간에 가르친 모든 것을 다룹니다. 과거분사 'taught'가 'everything'을 뒤에서 꾸미고, 'since the very beginning'에서 'very'는 '바로 그(강조)'의 형용사로 쓰였습니다.",
-    grammarPoints: "과거분사 수식, 강조어 very의 형용사 용법"
+    grammarPoints: "과거분사 수식, 강조어 very의 형용사 용법",
+    paraphrases: [
+      "Yes, the examination is comprehensive, spanning all lectures given from day one.",
+      "Indeed, you will be tested on all material presented since the start of class."
+    ]
   },
   {
     id: "L4-014",
@@ -828,7 +1120,11 @@ export const questions: Question[] = [
     answer: ["for my", "presentation", "as well as", "studying for"],
     explanation: "The correct sentence is: 'I was busy preparing for my presentation as well as studying for the midterm exams.'",
     koreanExplanation: "저는 중간고사 공부를 하는 것뿐만 아니라 발표를 준비하느라 바빴습니다. 'A as well as B'는 'B뿐만 아니라 A도'를 뜻하며, 분사구문/동명사 'preparing'과 'studying'이 병렬 구조를 이루고 있습니다.",
-    grammarPoints: "상관접속사 as well as, 병렬 구조 (preparing - studying)"
+    grammarPoints: "상관접속사 as well as, 병렬 구조 (preparing - studying)",
+    paraphrases: [
+      "My time was fully occupied by presentation slide design and general midterm review.",
+      "I was caught up in preparing my speech in addition to reviewing lecture notes."
+    ]
   },
   {
     id: "L4-015",
@@ -839,7 +1135,11 @@ export const questions: Question[] = [
     answer: ["along with", "two", "signed", "academic"],
     explanation: "The correct sentence is: 'You must submit your portfolio along with two signed academic letters of recommendation.'",
     koreanExplanation: "두 장의 서명된 교수 추천서와 함께 포트폴리오를 제출해야 합니다. 'along with'는 '~와 함께'를 뜻하는 전치사구이며, 과거분사 'signed'가 뒤의 명사를 수식합니다.",
-    grammarPoints: "전치사구 along with, 분사의 형용사적 수식"
+    grammarPoints: "전치사구 along with, 분사의 형용사적 수식",
+    paraphrases: [
+      "Your application package must contain the portfolio plus two official letters of recommendation.",
+      "Include a pair of signed academic references alongside your design files."
+    ]
   },
   {
     id: "L4-016",
@@ -850,7 +1150,11 @@ export const questions: Question[] = [
     answer: ["because of", "a glitch", "that occurred", "during"],
     explanation: "The correct sentence is: 'I could not register because of a glitch that occurred during the registration window.'",
     koreanExplanation: "등록 기간 중에 발생한 전산 오류 때문에 등록을 하지 못했습니다. 명사 앞이므로 전치사 'because of'를 쓰고, 'glitch'를 꾸미는 주격 관계절 'that occurred'를 배치합니다.",
-    grammarPoints: "because of vs because, 주격 관계대명사, 과거형 동사"
+    grammarPoints: "because of vs because, 주격 관계대명사, 과거형 동사",
+    paraphrases: [
+      "A technical bug during the enrollment period prevented me from signing up.",
+      "I missed the registration deadline due to system errors encountered on the site."
+    ]
   },
   {
     id: "L4-017",
@@ -859,9 +1163,13 @@ export const questions: Question[] = [
     sentenceTemplate: "It is unlikely _____ _____ _____ _____ we receive the approval.",
     chunks: ["that we", "can finish", "it unless", "first", "unless to", "finish", "firstly"],
     answer: ["that we", "can finish", "it unless", "first"],
-    explanation: "The correct sentence is: 'It is unlikely that we can finish it unless first we receive the...'",
+    explanation: "The correct sentence is: 'It is unlikely that we can finish it unless first we receive the approval.'",
     koreanExplanation: "먼저 승인을 받지 못하는 한 오늘 제안서를 끝마치기는 어려울 것 같습니다. 가주어-진주어 'It is unlikely that' 구문과 부사절 조건접속사 'unless'의 연동입니다.",
-    grammarPoints: "가주어-진주어 구문 (It is ... that), 조건 접속사 unless"
+    grammarPoints: "가주어-진주어 구문 (It is ... that), 조건 접속사 unless",
+    paraphrases: [
+      "Without securing consent beforehand, wrapping up the draft tonight is highly improbable.",
+      "Unless we obtain approval first, finishing the document today is not feasible."
+    ]
   },
   {
     id: "L4-018",
@@ -872,7 +1180,11 @@ export const questions: Question[] = [
     answer: ["in order", "to", "help", "students"],
     explanation: "The correct sentence is: 'The change was made in order to help students ensure fair evaluation.'",
     koreanExplanation: "학생들이 공정한 평가를 보장받을 수 있도록 변경이 가해졌습니다. 목적을 뜻하는 'in order to + 동사원형'을 배치합니다.",
-    grammarPoints: "목적 부사구 (in order to), help + 목적어 + 동사원형 구조"
+    grammarPoints: "목적 부사구 (in order to), help + 목적어 + 동사원형 구조",
+    paraphrases: [
+      "To facilitate a more equitable grading system, the scaling was revised.",
+      "The adjustment was implemented to support fair scoring criteria for the class."
+    ]
   },
   {
     id: "L4-019",
@@ -881,9 +1193,13 @@ export const questions: Question[] = [
     sentenceTemplate: "You will be banned _____ _____ _____ _____ you complete the training.",
     chunks: ["from entering", "the laboratory", "until", "after", "to enter", "since", "after that"],
     answer: ["from entering", "the laboratory", "until", "after"],
-    explanation: "The correct sentence is: 'You will be banned from entering the laboratory until after you complete the...'",
+    explanation: "The correct sentence is: 'You will be banned from entering the laboratory until after you complete the training.'",
     koreanExplanation: "교육을 완료한 이후가 될 때까지 실험실 입장이 금지될 것입니다. 'ban A from B(동명사)' 구문과 복합 접속 표현인 'until after'를 사용합니다.",
-    grammarPoints: "구동사 수동태 (be banned from -ing), 접속사 until after"
+    grammarPoints: "구동사 수동태 (be banned from -ing), 접속사 until after",
+    paraphrases: [
+      "Lab access is restricted until you fully complete safety orientation lectures.",
+      "You cannot step inside the chemistry lab until after you finish the required course."
+    ]
   },
   {
     id: "L4-020",
@@ -892,9 +1208,13 @@ export const questions: Question[] = [
     sentenceTemplate: "They hope to reduce _____ _____ _____ _____ promoting environmental protection.",
     chunks: ["energy consumption", "significantly", "on campus", "while", "consuming", "significant", "during"],
     answer: ["energy consumption", "significantly", "on campus", "while"],
-    explanation: "The correct sentence is: 'They hope to reduce energy consumption significantly on campus while promoting environmental...'",
+    explanation: "The correct sentence is: 'They hope to reduce energy consumption significantly on campus while promoting environmental protection.'",
     koreanExplanation: "그들은 환경 보호를 홍보하는 동시에 캠퍼스 내 에너지 소비를 대폭 줄이고자 합니다. 부사 'significantly'의 위치와 대조/동시동작을 뜻하는 분사구문 접속사 'while'의 연결을 묻습니다.",
-    grammarPoints: "명사 목적어구, 부사 수식, 접속사 + 분사구문 (while -ing)"
+    grammarPoints: "명사 목적어구, 부사 수식, 접속사 + 분사구문 (while -ing)",
+    paraphrases: [
+      "Their objective is to lower utility usage on campus while advocating ecological sustainability.",
+      "While fostering green policies, the trustees aim to cut carbon footprints drastically."
+    ]
   },
 
   // ==========================================
@@ -909,7 +1229,11 @@ export const questions: Question[] = [
     answer: ["interviewing", "students", "enrolled", "in classes", "who were"],
     explanation: "The correct sentence is: 'The researcher gathered data by interviewing students enrolled in classes who were willing to participate.'",
     koreanExplanation: "연구원은 수업에 등록되어 있으며 기꺼이 참여하려는 학생들을 인터뷰함으로써 데이터를 수집했습니다. 전치사 'by' 뒤의 동명사('interviewing')와, 명사 'students'를 수식하는 과거분사('enrolled') 및 주격 관계절이 복합적으로 얽힌 고급 구조입니다.",
-    grammarPoints: "수단 전치사 by + 동명사, 과거분사의 명사 수식, 관계대명사의 제한적 용법"
+    grammarPoints: "수단 전치사 by + 동명사, 과거분사의 명사 수식, 관계대명사의 제한적 용법",
+    paraphrases: [
+      "Data collection involved surveying registered students who volunteered to help.",
+      "The analyst sourced research material via interviewing class members eager to take part."
+    ]
   },
   {
     id: "L5-002",
@@ -918,9 +1242,13 @@ export const questions: Question[] = [
     sentenceTemplate: "He argued that the proposal _____ _____ _____ _____ _____ since it was poorly written.",
     chunks: ["lacked", "empirical", "evidence", "supporting", "its claims", "lack", "claim", "of supporting", "since that", "to lack"],
     answer: ["lacked", "empirical", "evidence", "supporting", "its claims"],
-    explanation: "The correct sentence is: 'He argued that the proposal lacked empirical evidence supporting its claims...'",
+    explanation: "The correct sentence is: 'He argued that the proposal lacked empirical evidence supporting its claims.'",
     koreanExplanation: "그는 제안서가 그 주장을 뒷받침하는 실증적 증거가 부족하다고 주장했습니다. 명사 'evidence'를 현재분사구 'supporting its claims'가 뒤에서 수식하는 세련된 문장 구조를 가집니다.",
-    grammarPoints: "동사 시제 일치 (lacked), 현재분사의 명사 후치수식"
+    grammarPoints: "동사 시제 일치 (lacked), 현재분사의 명사 후치수식",
+    paraphrases: [
+      "In his view, the syllabus draft failed to provide concrete data backup.",
+      "He dismissed the plan on the grounds that its core statements lacked scientific proof."
+    ]
   },
   {
     id: "L5-003",
@@ -929,9 +1257,13 @@ export const questions: Question[] = [
     sentenceTemplate: "It helps us understand _____ _____ _____ _____ _____ in turn affects preservation.",
     chunks: ["how", "ecosystems", "respond to", "climate change", "which", "responses", "environmental", "responds", "how to", "in where"],
     answer: ["how", "ecosystems", "respond to", "climate change", "which"],
-    explanation: "The correct sentence is: 'It helps us understand how ecosystems respond to climate change, which in turn...'",
+    explanation: "The correct sentence is: 'It helps us understand how ecosystems respond to climate change, which in turn affects preservation.'",
     koreanExplanation: "그것은 생태계가 기후 변화에 어떻게 반응하는지 이해하도록 도우며, 이는 결국 환경 보존에 영향을 줍니다. 'understand'의 목적어 간접의문문 명사절('how + 주어 + 동사')과 계속적 용법의 관계대명사 'which'의 연결입니다.",
-    grammarPoints: "간접의문문 명사절, 계속적 용법의 관계대명사, 구동사 respond to"
+    grammarPoints: "간접의문문 명사절, 계속적 용법의 관계대명사, 구동사 respond to",
+    paraphrases: [
+      "Studying global warming reactions helps clarify ecosystem shifts, steering conservation policies.",
+      "It sheds light on ecosystem adaptation to climate shifts, directly impacting habitat protection."
+    ]
   },
   {
     id: "L5-004",
@@ -942,7 +1274,11 @@ export const questions: Question[] = [
     answer: ["the existing", "literature", "on the topic", "so as to", "avoid"],
     explanation: "The correct sentence is: 'They are advised to review the existing literature on the topic so as to avoid repeating previous studies.'",
     koreanExplanation: "이전 연구를 반복하는 것을 피하기 위해 그 주제에 대한 기존 문헌을 검토하도록 권고받습니다. 현재분사 'existing'이 명사를 수식하고, 목적을 나타내는 표현인 'so as to + 동사원형'을 결합합니다.",
-    grammarPoints: "현재분사 형용사, 목적 부사구 (so as to)"
+    grammarPoints: "현재분사 형용사, 목적 부사구 (so as to)",
+    paraphrases: [
+      "Students should inspect previous academic works to prevent duplication of research.",
+      "Conducting a thorough review of published papers helps ensure the originality of the dissertation."
+    ]
   },
   {
     id: "L5-005",
@@ -951,9 +1287,13 @@ export const questions: Question[] = [
     sentenceTemplate: "Writing reports helps students _____ _____ _____ _____ _____ improving skills.",
     chunks: ["internalize", "complex", "scientific", "concepts", "thereby", "internalizing", "concept", "which", "there", "to internalizing"],
     answer: ["internalize", "complex", "scientific", "concepts", "thereby"],
-    explanation: "The correct sentence is: 'Writing reports helps students internalize complex scientific concepts, thereby improving...'",
+    explanation: "The correct sentence is: 'Writing reports helps students internalize complex scientific concepts, thereby improving their practical skills.'",
     koreanExplanation: "보고서를 작성하는 것은 학생들이 복잡한 과학적 개념을 내면화하도록 도우며, 그에 따라 실습 역량을 향상시킵니다. 'help + 목적어 + 동사원형(internalize)'과 부사 'thereby'(그로 인해)를 활용한 분사구문 유도 문장입니다.",
-    grammarPoints: "help 준사역동사, 부사 thereby"
+    grammarPoints: "help 준사역동사, 부사 thereby",
+    paraphrases: [
+      "Documenting experiments aids in comprehending difficult physical laws, consequently boosting laboratory mastery.",
+      "The task facilitates deeper grasp of academic principles, thus honing analytical talents."
+    ]
   },
   {
     id: "L5-006",
@@ -964,7 +1304,11 @@ export const questions: Question[] = [
     answer: ["pointing out", "that", "the team", "failed to achieve", "its key"],
     explanation: "The correct sentence is: 'They rejected it, pointing out that the team failed to achieve its key milestones.'",
     koreanExplanation: "그들은 팀이 핵심 마일스톤을 달성하지 못했음을 지적하면서 그것을 거부했습니다. 분사구문 'pointing out'과 명사절 'that'절이 길게 결합되어 이유를 묘사합니다.",
-    grammarPoints: "분사구문 (pointing out), 명사절 접속사 that, fail to 부정사"
+    grammarPoints: "분사구문 (pointing out), 명사절 접속사 that, fail to 부정사",
+    paraphrases: [
+      "The refusal was justified by noting the researchers' inability to hit progress deadlines.",
+      "They declined the application, arguing the team fell short of required objectives."
+    ]
   },
   {
     id: "L5-007",
@@ -973,9 +1317,13 @@ export const questions: Question[] = [
     sentenceTemplate: "It was discovered that the design _____ _____ _____ _____ _____.",
     chunks: ["copied", "another", "student's", "patented", "technology", "copying", "patents", "other", "patent", "technological"],
     answer: ["copied", "another", "student's", "patented", "technology"],
-    explanation: "The correct sentence is: 'It was discovered that the design copied another student's patented technology...'",
+    explanation: "The correct sentence is: 'It was discovered that the design copied another student's patented technology.'",
     koreanExplanation: "그 디자인이 다른 학생의 특허 기술을 복제했음이 드러났습니다. 명사절 'that' 안의 동사 과거형 'copied'와 명사구를 이루는 'patented technology'(특허받은 기술) 구조입니다.",
-    grammarPoints: "명사절 내의 동사 과거형, 분사 수식"
+    grammarPoints: "명사절 내의 동사 과거형, 분사 수식",
+    paraphrases: [
+      "The judges disqualified the project after finding clear evidence of patent theft.",
+      "An investigation revealed the prototype integrated proprietary concepts belonging to a competitor."
+    ]
   },
   {
     id: "L5-008",
@@ -984,9 +1332,13 @@ export const questions: Question[] = [
     sentenceTemplate: "The speakers debated _____ _____ _____ _____ economic instability.",
     chunks: ["whether", "rising", "housing costs", "contribute to", "contributing", "that", "contribute", "costs of", "housed", "to contribute"],
     answer: ["whether", "rising", "housing costs", "contribute to"],
-    explanation: "The correct sentence is: 'The speakers debated whether rising housing costs contribute to economic instability...'",
+    explanation: "The correct sentence is: 'The speakers debated whether rising housing costs contribute to economic instability.'",
     koreanExplanation: "연사들은 치솟는 주거비가 경제적 불안정을 초래하는지 여부에 대해 토론했습니다. 'debate whether'(~인지 여부를 토론하다)와 현재분사 'rising', 그리고 수 일치 복수 동사 'contribute to'를 정렬합니다.",
-    grammarPoints: "명사절 접속사 whether, 현재분사의 수식, 주어-동사 수 일치 (costs - contribute)"
+    grammarPoints: "명사절 접속사 whether, 현재분사의 수식, 주어-동사 수 일치 (costs - contribute)",
+    paraphrases: [
+      "The panel explored the relationship between escalating rent prices and societal financial distress.",
+      "Sociologists discussed whether increasingly expensive urban properties trigger wider recession."
+    ]
   },
   {
     id: "L5-009",
@@ -995,9 +1347,13 @@ export const questions: Question[] = [
     sentenceTemplate: "I need to learn _____ _____ _____ _____ my survey data.",
     chunks: ["how to", "analyze", "the results", "obtained from", "obtaining", "how", "analysis", "from obtained", "for analyzing", "obtain"],
     answer: ["how to", "analyze", "the results", "obtained from"],
-    explanation: "The correct sentence is: 'I need to learn how to analyze the results obtained from my survey data...'",
+    explanation: "The correct sentence is: 'I need to learn how to analyze the results obtained from my survey data.'",
     koreanExplanation: "저는 설문 데이터로부터 얻은 결과를 분석하는 방법을 배워야 합니다. 'how to + 동사원형'과 명사 'the results'를 뒤에서 꾸미는 과거분사구 'obtained from'의 정렬을 묻습니다.",
-    grammarPoints: "의문사 + to부정사 구문, 과거분사 후치수식 (obtained from)"
+    grammarPoints: "의문사 + to부정사 구문, 과거분사 후치수식 (obtained from)",
+    paraphrases: [
+      "My goal is to master statistical modeling techniques to evaluate field research findings.",
+      "Enrolling in this class helps me understand mathematical evaluation of questionnaire responses."
+    ]
   },
   {
     id: "L5-010",
@@ -1006,9 +1362,13 @@ export const questions: Question[] = [
     sentenceTemplate: "They aimed to address _____ _____ _____ _____ _____ complaints.",
     chunks: ["growing", "concerns", "regarding", "limited", "parking spots", "grow", "concern", "regard", "limits", "spots of"],
     answer: ["growing", "concerns", "regarding", "limited", "parking spots"],
-    explanation: "The correct sentence is: 'They aimed to address growing concerns regarding limited parking spots complains...'",
+    explanation: "The correct sentence is: 'They aimed to address growing concerns regarding limited parking spots.'",
     koreanExplanation: "그들은 부족한 주차 공간과 관련해 커지는 우려를 해결하고자 했습니다. 현재분사 'growing', 전치사 'regarding'(~에 관한), 과거분사 'limited'가 차례로 명사를 수식하는 복합 명사구 구조입니다.",
-    grammarPoints: "현재분사/과거분사의 전치 수식, 전치사 regarding"
+    grammarPoints: "현재분사/과거분사의 전치 수식, 전치사 regarding",
+    paraphrases: [
+      "The policy was revised to resolve complaints about scarce vehicle spacing on campus.",
+      "Advisors sought to mitigate the friction surrounding deficient vehicular parking accommodations."
+    ]
   },
   {
     id: "L5-011",
@@ -1019,7 +1379,11 @@ export const questions: Question[] = [
     answer: ["on presenting", "solid", "empirical", "facts", "rather than"],
     explanation: "The correct sentence is: 'We should focus on presenting solid empirical facts rather than making emotional appeals.'",
     koreanExplanation: "우리는 감정적인 호소를 하기보다는 확실하고 실증적인 사실을 제시하는 데 집중해야 합니다. 'focus on + 동명사'와 대비를 나타내는 전치사적 표현 'rather than' 뒤의 동명사 병렬 구조입니다.",
-    grammarPoints: "focus on -ing, 병렬 구조 (presenting - making), rather than"
+    grammarPoints: "focus on -ing, 병렬 구조 (presenting - making), rather than",
+    paraphrases: [
+      "Instead of pleading emotionally, rely heavily on showcasing validated data sets.",
+      "Prioritizing objective scientific metrics yields stronger debate leverage than emotional rhetoric."
+    ]
   },
   {
     id: "L5-012",
@@ -1028,9 +1392,13 @@ export const questions: Question[] = [
     sentenceTemplate: "The excavation team discovered _____ _____ _____ _____ thousands of years ago.",
     chunks: ["the remains of", "a settlement", "dating", "back to", "remain", "settled", "date", "to dating", "which dating", "of remain"],
     answer: ["the remains of", "a settlement", "dating", "back to"],
-    explanation: "The correct sentence is: 'The excavation team discovered the remains of a settlement dating back to...'",
+    explanation: "The correct sentence is: 'The excavation team discovered the remains of a settlement dating back to thousands of years ago.'",
     koreanExplanation: "발굴팀은 수천 년 전으로 거슬러 올라가는 정착지의 유적을 발견했습니다. 명사구 'the remains of a settlement'와 이를 수식하는 현재분사구 'dating back to'의 자연스러운 결합을 묻습니다.",
-    grammarPoints: "명사 remains의 쓰임, 현재분사구의 후치수식 (dating back to)"
+    grammarPoints: "명사 remains의 쓰임, 현재분사구의 후치수식 (dating back to)",
+    paraphrases: [
+      "Researchers uncovered ancient remnants of an old village from millennia past.",
+      "The dig successfully unearthed structural basements belonging to a prehistoric community."
+    ]
   },
   {
     id: "L5-013",
@@ -1039,9 +1407,13 @@ export const questions: Question[] = [
     sentenceTemplate: "It is designed to measure _____ _____ _____ _____ seismological activity.",
     chunks: ["the slightest", "vibrations", "caused by", "recent", "slight", "vibrate", "causing", "by caused", "recent of", "vibrating"],
     answer: ["the slightest", "vibrations", "caused by", "recent"],
-    explanation: "The correct sentence is: 'It is designed to measure the slightest vibrations caused by recent seismological activity...'",
+    explanation: "The correct sentence is: 'It is designed to measure the slightest vibrations caused by recent seismological activity.'",
     koreanExplanation: "그것은 최근 지진 활동에 의해 발생하는 가장 미세한 진동을 측정하도록 설계되었습니다. 최상급 'the slightest'와 명사를 뒤에서 꾸미는 'caused by' 수식 구조입니다.",
-    grammarPoints: "형용사 최상급, 과거분사 후치수식 (caused by)"
+    grammarPoints: "형용사 최상급, 과거분사 후치수식 (caused by)",
+    paraphrases: [
+      "The sensor registers minute tremors triggered by nearby volcanic or seismic motion.",
+      "Engineers built this device to track minor movements following recent tectonic shifts."
+    ]
   },
   {
     id: "L5-014",
@@ -1052,7 +1424,11 @@ export const questions: Question[] = [
     answer: ["did not reflect", "the amount of", "effort", "he put into"],
     explanation: "The correct sentence is: 'He claimed that the grade did not reflect the amount of effort he put into the class.'",
     koreanExplanation: "그는 점수가 자신이 수업에 쏟아부은 노력의 양을 반영하지 않는다고 주장했습니다. 타동사 'reflect'의 목적어 'the amount of effort'를 목적격 관계대명사가 생략된 관계절 'he put into'가 수식하는 구조입니다.",
-    grammarPoints: "과거 시제 부정문, 목적격 관계대명사 생략 구조, 구동사 put A into B"
+    grammarPoints: "과거 시제 부정문, 목적격 관계대명사 생략 구조, 구동사 put A into B",
+    paraphrases: [
+      "He argued that his final evaluation fell short of acknowledging his diligent preparation.",
+      "The student felt his mark was unfair given how hard he studied for the course."
+    ]
   },
   {
     id: "L5-015",
@@ -1063,7 +1439,11 @@ export const questions: Question[] = [
     answer: ["the requests", "submitted by", "students", "with the goal", "of finding"],
     explanation: "The correct sentence is: 'She promised to review the requests submitted by students with the goal of finding a compromise.'",
     koreanExplanation: "그녀는 타협점을 찾겠다는 목표를 가지고 학생들이 제출한 요청사항을 검토할 것을 약속했습니다. 'requests'를 수식하는 'submitted by' 과거분사구와 'with the goal of -ing'(~라는 목표로)의 결합입니다.",
-    grammarPoints: "과거분사 수식, 전치사 of + 동명사"
+    grammarPoints: "과거분사 수식, 전치사 of + 동명사",
+    paraphrases: [
+      "She agreed to examine student appeals, aiming to reach a mutual agreement.",
+      "In hopes of resolving the dispute, the office committed to auditing student demands."
+    ]
   },
   {
     id: "L5-016",
@@ -1074,7 +1454,11 @@ export const questions: Question[] = [
     answer: ["fail to provide", "the same", "level of", "depth"],
     explanation: "The correct sentence is: 'They argue that online materials fail to provide the same level of depth that traditional textbooks do.'",
     koreanExplanation: "그들은 온라인 자료들이 전통 서적들이 주는 것과 동일한 수준의 깊이를 제공하지 못한다고 주장합니다. 복수 주어(materials)에 맞는 복수 동사구 'fail to provide'와 'the same A of B' 형태의 어순 구성입니다.",
-    grammarPoints: "주어-동사 수 일치, fail to 부정사, 비교 원급 표현 (the same)"
+    grammarPoints: "주어-동사 수 일치, fail to 부정사, 비교 원급 표현 (the same)",
+    paraphrases: [
+      "Some teachers believe digital curricula lack the academic rigor found in printed editions.",
+      "In their opinion, web publications fall short of matching the detailed analysis of physical library books."
+    ]
   },
   {
     id: "L5-017",
@@ -1083,9 +1467,13 @@ export const questions: Question[] = [
     sentenceTemplate: "I wanted to investigate _____ _____ _____ _____ _____ has puzzled experts.",
     chunks: ["the underlying", "causes of", "economic", "recession", "which", "cause", "economy", "recess", "whose", "of causes"],
     answer: ["the underlying", "causes of", "economic", "recession", "which"],
-    explanation: "The correct sentence is: 'I wanted to investigate the underlying causes of economic recession, which has puzzled experts...'",
+    explanation: "The correct sentence is: 'I wanted to investigate the underlying causes of economic recession, which has puzzled experts.'",
     koreanExplanation: "저는 경제 침체의 근본적인 원인을 조사하고 싶었는데, 이는 전문가들을 당황하게 만들어 왔습니다. 현재분사가 형용사화된 'underlying'(근본적인)과 계속적 관계대명사 'which'를 연결하는 고급 구문입니다.",
-    grammarPoints: "현재분사의 형용사적 용법, 계속적 관계대명사"
+    grammarPoints: "현재분사의 형용사적 용법, 계속적 관계대명사",
+    paraphrases: [
+      "I was interested in researching the core factors behind market downturns, a topic that remains highly debated.",
+      "My study targets the root catalysts of recession, which continue to perplex economists globally."
+    ]
   },
   {
     id: "L5-018",
@@ -1096,7 +1484,11 @@ export const questions: Question[] = [
     answer: ["how", "the newly", "allocated", "academic", "funds"],
     explanation: "The correct sentence is: 'It is held to determine how the newly allocated academic funds will be distributed.'",
     koreanExplanation: "새롭게 할당된 학술 기금이 어떻게 분배될지 결정하기 위해 개최됩니다. 의문사 'how' 뒤에 '부사 + 과거분사 + 명사' 어순으로 이루어진 주어부('the newly allocated academic funds')가 위치하는 세련된 간접의문문입니다.",
-    grammarPoints: "간접의문문 어순, 부사+분사+형용사+명사 결합구조"
+    grammarPoints: "간접의문문 어순, 부사+분사+형용사+명사 결합구조",
+    paraphrases: [
+      "The assembly outlines the distribution scheme for next year's institutional grants.",
+      "Administrators meet to decide the allotment of newly approved academic budgets."
+    ]
   },
   {
     id: "L5-019",
@@ -1107,7 +1499,11 @@ export const questions: Question[] = [
     answer: ["with rigorous", "academic", "coursework", "daily"],
     explanation: "The correct sentence is: 'Balancing training schedules with rigorous academic coursework daily requires outstanding time management.'",
     koreanExplanation: "엄격한 학업 과정과 훈련 일정을 매일 균형 잡는 것은 뛰어난 시간 관리를 요구합니다. 'balance A with B' 구문이 동명사 주어부로 사용되어 단수 동사 'requires'와 이어집니다.",
-    grammarPoints: "balance A with B 구문, 동명사 주어와 단수 동사 일치 (Balancing - requires)"
+    grammarPoints: "balance A with B 구문, 동명사 주어와 단수 동사 일치 (Balancing - requires)",
+    paraphrases: [
+      "Juggling intense sports routines alongside heavy homework requirements demands stellar organizational skills.",
+      "To succeed in sports and grades concurrently, players must coordinate schedules meticulously."
+    ]
   },
   {
     id: "L5-020",
@@ -1116,8 +1512,12 @@ export const questions: Question[] = [
     sentenceTemplate: "They announced the cancellation _____ _____ _____ _____ guest speaker who was scheduled.",
     chunks: ["due to", "the sudden", "illness of", "the", "due", "ill", "suddenly", "because", "owing", "illness"],
     answer: ["due to", "the sudden", "illness of", "the"],
-    explanation: "The correct sentence is: 'They announced the cancellation due to the sudden illness of the guest speaker who was...'",
+    explanation: "The correct sentence is: 'They announced the cancellation due to the sudden illness of the guest speaker who was scheduled.'",
     koreanExplanation: "초청 연사의 갑작스러운 질병 때문에 취소를 발표했습니다. 명사구 앞이므로 이유 전치사 'due to'를 쓰고, 명사를 꾸미는 형용사 'sudden'과 소유격을 나타내는 'illness of'를 결합합니다.",
-    grammarPoints: "이유 전치사 due to, 명사구 수식 어순"
+    grammarPoints: "이유 전치사 due to, 명사구 수식 어순",
+    paraphrases: [
+      "The presentation was postponed after the main lecturer unexpectedly fell sick.",
+      "Owing to the speaker's sudden medical emergency, the lecture has been called off."
+    ]
   }
 ];

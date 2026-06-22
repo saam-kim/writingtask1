@@ -382,6 +382,16 @@ export const PracticeScreen: React.FC<PracticeScreenProps> = ({
                     <span className="grammar-tag">{currentQuestion.grammarPoints}</span>
                   </div>
                 )}
+                {currentQuestion.paraphrases && currentQuestion.paraphrases.length > 0 && (
+                  <div style={{ marginTop: '12px', borderTop: '1px solid var(--border)', paddingTop: '10px' }}>
+                    <h4>💡 원어민 패러프레이징 제안 (Alternatives)</h4>
+                    <ul style={{ listStyleType: 'disc', paddingLeft: '20px', marginTop: '6px', fontSize: '15px', color: 'var(--text-main)' }}>
+                      {currentQuestion.paraphrases.map((para, i) => (
+                        <li key={i} style={{ marginBottom: '6px', fontStyle: 'italic', lineHeight: '1.4' }}>{para}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
             )}
           </div>

@@ -8,6 +8,7 @@ export interface Question {
   explanation?: string;
   koreanExplanation?: string;
   grammarPoints?: string;
+  paraphrases?: string[];
 }
 
 export interface LevelStats {
