@@ -140,11 +140,11 @@ export const level3Questions: Question[] = [
     id: "L3-010",
     level: 3,
     context: "Why is the registration deadline being extended?",
-    sentenceTemplate: "The notice explains _____ _____ _____ _____ extension is necessary.",
-    chunks: ["why", "the", "system", "needed", "because", "need", "that"],
-    answer: ["why", "the", "system", "needed"],
-    explanation: "The correct sentence is: 'The notice explains why the system needed extension is necessary.'",
-    koreanExplanation: "공지사항은 왜 시스템 연장이 필요한지 설명해 줍니다. 'explain'의 목적어로 의문사 'why'가 이끄는 간접의문문절을 배치합니다.",
+    sentenceTemplate: "The notice explains _____ _____ _____ _____ is necessary.",
+    chunks: ["why", "the", "system's", "extension", "what", "extend", "system"],
+    answer: ["why", "the", "system's", "extension"],
+    explanation: "The correct sentence is: 'The notice explains why the system's extension is necessary.'",
+    koreanExplanation: "공지사항은 왜 시스템의 연장이 필요한지 설명해 줍니다. 'explain'의 목적어로 의문사 'why'가 이끄는 간접의문문절을 배치합니다.",
     grammarPoints: "명사절 간접의문문 (why + 주어 + 동사)",
     paraphrases: [
       "The bulletin board details the reasons for extending the enrollment period.",
@@ -308,9 +308,10 @@ export const level3Questions: Question[] = [
     id: "L3-021",
     level: 3,
     context: "Student A: Who won the chemistry lab contest?",
-    sentenceTemplate: "Student B: I know the student _____ _____ _____ _____ the first prize.",
+    sentenceTemplate: "Student B: I know the student _____ _____ _____ _____ first prize.",
     chunks: ["who", "was", "awarded", "the", "whom", "which", "award"],
     answer: ["who", "was", "awarded", "the"],
+    explanation: "The correct sentence is: 'I know the student who was awarded the first prize.'",
     koreanExplanation: "저는 1등 상을 수상한 그 학생을 알고 있습니다. 관계대명사 주격 'who' 뒤에 수동형 동사 'was awarded'를 배치하여 형용사절을 구성합니다.",
     grammarPoints: "주격 관계대명사, 수동태 (be awarded)",
     paraphrases: [
@@ -588,13 +589,14 @@ export const level3Questions: Question[] = [
     id: "L3-041",
     level: 3,
     context: "Student A: Which dormitory room did they allocate to you?",
-    sentenceTemplate: "Student B: I received the room _____ _____ _____ _____ the campus lake.",
+    sentenceTemplate: "Student B: I received the room _____ _____ _____ _____ campus lake.",
     chunks: ["which", "directly", "overlooks", "the", "whom", "where", "overlooking"],
     answer: ["which", "directly", "overlooks", "the"],
+    explanation: "The correct sentence is: 'I received the room which directly overlooks the campus lake.'",
     koreanExplanation: "저는 캠퍼스 호수가 바로 내려다보이는 방을 배정받았습니다. 선행사 'room' 단수에 맞추어 주격 관계대명사 'which'와 단수형 동사 'overlooks'를 배치합니다.",
     grammarPoints: "주격 관계대명사, 주어-동사 수 일치 (room - overlooks)",
     paraphrases: [
-      "I was assigned a room that offers a clear view of the campus lake.",
+      "I was assigned a room that offers a view of the campus lake.",
       "My dorm window faces directly toward the lake on campus."
     ]
   },
@@ -686,9 +688,10 @@ export const level3Questions: Question[] = [
     id: "L3-048",
     level: 3,
     context: "Student A: Which exhibition did the art class visit?",
-    sentenceTemplate: "Student B: We visited the gallery _____ _____ _____ _____ displaying modern art.",
-    chunks: ["which", "was", "actively", "displaying", "whom", "where", "active"], // Let's check: "which was actively displaying modern art."
+    sentenceTemplate: "Student B: We visited the gallery _____ _____ _____ _____ modern art.",
+    chunks: ["which", "was", "actively", "displaying", "whom", "where", "active"],
     answer: ["which", "was", "actively", "displaying"],
+    explanation: "The correct sentence is: 'We visited the gallery which was actively displaying modern art.'",
     koreanExplanation: "현대 미술을 적극적으로 전시하고 있던 갤러리를 방문했습니다. 주격 관계대명사 'which'와 수식 부사 'actively'가 포함된 관계절입니다.",
     grammarPoints: "주격 관계대명사, 부사 수식 진행형",
     paraphrases: [
@@ -700,9 +703,10 @@ export const level3Questions: Question[] = [
     id: "L3-049",
     level: 3,
     context: "Student A: Do you know who coordinates the exchange program?",
-    sentenceTemplate: "Student B: I need to ask _____ _____ _____ _____ the study abroad office.",
-    chunks: ["who", "is", "managing", "the", "whom", "manages", "to manage"], // Let's check: "who is managing the study abroad office."
+    sentenceTemplate: "Student B: I need to ask _____ _____ _____ _____ study abroad office.",
+    chunks: ["who", "is", "managing", "the", "whom", "manages", "to manage"],
     answer: ["who", "is", "managing", "the"],
+    explanation: "The correct sentence is: 'I need to ask who is managing the study abroad office.'",
     koreanExplanation: "누가 해외 유학 사무실을 관리하고 있는지 물어보아야 합니다. 직접목적어 명사절에 진행형 'is managing'을 사용해 구성합니다.",
     grammarPoints: "간접의문문 명사절 (who), 진행 시제",
     paraphrases: [

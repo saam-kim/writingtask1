@@ -50,12 +50,12 @@ export const level2Questions: Question[] = [
     id: "L2-004",
     level: 2,
     context: "Why is the registration system not working?",
-    sentenceTemplate: "It _____ _____ _____ _____ too many students logged in.",
-    chunks: ["crashed", "suddenly", "after", "so", "crash", "because of"],
-    answer: ["crashed", "suddenly", "after", "so"],
-    explanation: "The correct sentence is: 'It crashed suddenly after so many students logged in.' (Template matches: after so...)",
-    koreanExplanation: "그것은 너무 많은 학생들이 로그인한 후에 갑자기 다운되었습니다. 과거 사건에 대해 동사 'crashed'와 부사 'suddenly'를 배치하고 시간 접속사 'after'를 연결합니다.",
-    grammarPoints: "과거동사 수식, 시간 접속사 after",
+    sentenceTemplate: "It _____ _____ _____ _____ students logged in.",
+    chunks: ["crashed", "because", "so", "many", "crash", "after", "too"],
+    answer: ["crashed", "because", "so", "many"],
+    explanation: "The correct sentence is: 'It crashed because so many students logged in.'",
+    koreanExplanation: "너무 많은 학생들이 로그인했기 때문에 그것은 다운되었습니다. 원인 접속사 'because'와 'so many' 수식을 활용합니다.",
+    grammarPoints: "과거동사 수식, 원인의 접속사 because, 형용사 수식",
     paraphrases: [
       "A sudden server crash occurred when student traffic spiked.",
       "It went down unexpectedly because a massive number of users logged on."
@@ -80,7 +80,7 @@ export const level2Questions: Question[] = [
     id: "L2-006",
     level: 2,
     context: "Will you attend the astronomy seminar tonight?",
-    sentenceTemplate: "No, I _____ _____ _____ _____ my biology quiz.",
+    sentenceTemplate: "No, I _____ _____ _____ _____ biology quiz.",
     chunks: ["must", "prepare", "for", "tomorrow's", "preparing", "at"],
     answer: ["must", "prepare", "for", "tomorrow's"],
     explanation: "The correct sentence is: 'No, I must prepare for tomorrow's biology quiz.'",
@@ -110,7 +110,7 @@ export const level2Questions: Question[] = [
     id: "L2-008",
     level: 2,
     context: "What are your plans for the winter break?",
-    sentenceTemplate: "I _____ _____ _____ _____ a local hospital.",
+    sentenceTemplate: "I _____ _____ _____ _____ local hospital.",
     chunks: ["plan", "to volunteer", "at", "a", "planning", "on"],
     answer: ["plan", "to volunteer", "at", "a"],
     explanation: "The correct sentence is: 'I plan to volunteer at a local hospital.'",
@@ -260,7 +260,7 @@ export const level2Questions: Question[] = [
     id: "L2-018",
     level: 2,
     context: "Why is the research lab closed today?",
-    sentenceTemplate: "They _____ _____ _____ _____ it was under renovation.",
+    sentenceTemplate: "They _____ _____ _____ _____ was under renovation.",
     chunks: ["announced", "last week", "that", "it", "announces", "because of"],
     answer: ["announced", "last week", "that", "it"],
     explanation: "The correct sentence is: 'They announced last week that it was under renovation.'",
@@ -323,8 +323,9 @@ export const level2Questions: Question[] = [
     level: 2,
     context: "Student A: When can we print the color slides?",
     sentenceTemplate: "Student B: You _____ _____ _____ _____ before the lab closes.",
-    chunks: ["should", "do", "it", "well", "before", "should to", "after"],
-    answer: ["should", "do", "it", "well", "before"],
+    chunks: ["should", "do", "it", "well", "should to", "after"],
+    answer: ["should", "do", "it", "well"],
+    explanation: "The correct sentence is: 'You should do it well before the lab closes.'",
     koreanExplanation: "실험실이 닫히기 훨씬 전에 그것을 인쇄해야 합니다. 'well before'는 '~하기 훨씬 전에'라는 강조의 시간 부사구입니다.",
     grammarPoints: "조동사 should, 시간 부사구 well before",
     paraphrases: [
@@ -420,9 +421,10 @@ export const level2Questions: Question[] = [
     id: "L2-029",
     level: 2,
     context: "Student A: Can we register for the class tomorrow?",
-    sentenceTemplate: "Student B: Yes, you _____ _____ _____ _____ the system opens.",
+    sentenceTemplate: "Student B: Yes, you _____ _____ _____ _____ system opens.",
     chunks: ["can", "sign up", "once", "the", "could", "before to"],
     answer: ["can", "sign up", "once", "the"],
+    explanation: "The correct sentence is: 'Yes, you can sign up once the system opens.'",
     koreanExplanation: "네, 시스템이 일단 열리면 등록할 수 있습니다. 'once'는 시간/조건 부사절 접속사로 '일단 ~하면'을 뜻합니다.",
     grammarPoints: "조동사 can, 시간 접속사 once",
     paraphrases: [
@@ -436,12 +438,10 @@ export const level2Questions: Question[] = [
     context: "Student A: Did you find your science notes?",
     sentenceTemplate: "Student B: I _____ _____ _____ _____ they were under my desk.",
     chunks: ["finally", "found", "them", "although", "find", "because"],
-    answer: ["finally", "found", "them", "although"], // wait, "although they were under my desk" makes sense but "because" or "when" might be better. Let's look at chunks: ["finally", "found", "them", "although", "find", "because"]. If: "I finally found them although they were under my desk"? No, "I finally found them because they were under my desk" is not logical unless they were hidden. Let's rewrite L2-030:
-    // template: "I _____ _____ _____ _____ I searched the room."
-    // chunks: ["finally", "found", "them", "after", "find", "before"]
-    // answer: ["finally", "found", "them", "after"]
-    koreanExplanation: "방을 수색한 후에 마침내 그것들을 찾았습니다. 과거동사 'found'와 시간 접속사 'after'를 결합합니다.",
-    grammarPoints: "부사 수식, 과거시제, 접속사 after",
+    answer: ["finally", "found", "them", "although"],
+    explanation: "The correct sentence is: 'I finally found them although they were under my desk.'",
+    koreanExplanation: "책상 밑에 있었음에도 불구하고 마침내 그것들을 찾았습니다. 과거동사 'found'와 양보 접속사 'although'를 결합합니다.",
+    grammarPoints: "부사 수식, 과거시제, 양보 접속사 although",
     paraphrases: [
       "After checking the entire room, I eventually located them.",
       "I managed to recover my notes once I looked through the room."

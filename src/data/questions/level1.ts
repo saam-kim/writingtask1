@@ -290,7 +290,7 @@ export const level1Questions: Question[] = [
     id: "L1-020",
     level: 1,
     context: "Does the professor take attendance?",
-    sentenceTemplate: "Yes, he _____ _____ _____ _____ of the class.",
+    sentenceTemplate: "Yes, he _____ _____ _____ _____ the class.",
     chunks: ["checks", "it", "at the start", "of", "check", "on"],
     answer: ["checks", "it", "at the start", "of"],
     explanation: "The correct sentence is: 'Yes, he checks it at the start of the class.'",
@@ -420,9 +420,10 @@ export const level1Questions: Question[] = [
     id: "L1-029",
     level: 1,
     context: "Student A: Why is the campus bus delayed?",
-    sentenceTemplate: "Student B: The bus _____ _____ _____ _____ the construction.",
+    sentenceTemplate: "Student B: The bus _____ _____ _____ _____ construction.",
     chunks: ["is", "stuck", "in", "heavy", "are", "on"],
     answer: ["is", "stuck", "in", "heavy"],
+    explanation: "The correct sentence is: 'The bus is stuck in heavy construction.'",
     koreanExplanation: "버스가 공사 구역에 갇혔습니다. 'be stuck in' (~에 갇히다) 숙어를 구성합니다.",
     grammarPoints: "be stuck in 수동형 표현",
     paraphrases: [
@@ -434,9 +435,10 @@ export const level1Questions: Question[] = [
     id: "L1-030",
     level: 1,
     context: "Student A: How do I join the science club?",
-    sentenceTemplate: "Student B: You _____ _____ _____ _____ the advisor.",
+    sentenceTemplate: "Student B: You _____ _____ _____ _____ advisor.",
     chunks: ["should", "first", "contact", "the", "should to", "contacting"],
     answer: ["should", "first", "contact", "the"],
+    explanation: "The correct sentence is: 'You should first contact the advisor.'",
     koreanExplanation: "먼저 지도교수에게 연락을 취해야 합니다. 부사 'first'는 조동사와 동사원형 사이에 위치할 수 있습니다.",
     grammarPoints: "조동사 + 부사 + 동사원형 어순",
     paraphrases: [
@@ -547,13 +549,9 @@ export const level1Questions: Question[] = [
     level: 1,
     context: "Student A: Is the campus bookstore cheap?",
     sentenceTemplate: "Student B: The textbooks _____ _____ _____ _____ expensive.",
-    chunks: ["are", "often", "very", "highly", "is", "more"],
-    answer: ["are", "often", "very"], // template has "expensive" at the end. So answer is 3 slots. Wait, let's look at template: "Student B: The textbooks _____ _____ _____ _____ expensive." (4 slots). Chunks has 6 options. If answer is 4: we can choose: ["are", "often", "very", "highly"]? No, "very highly expensive" is wrong. Let's look at chunks: ["are", "often", "very", "highly", "is", "more"]. Wait, "often very highly" is bad. What if the answer is: ["are", "often", "quite", "unbelievably"]? Let's rebuild chunks and answer for L1-038 to be clean.
-    // Let's redefine L1-038:
-    // template: "The textbooks _____ _____ _____ _____ here."
-    // chunks: ["are", "often", "extremely", "expensive", "is", "highly"]
-    // answer: ["are", "often", "extremely", "expensive"]
-    // Let's do that:
+    chunks: ["are", "often", "far", "too", "is", "very"],
+    answer: ["are", "often", "far", "too"],
+    explanation: "The correct sentence is: 'The textbooks are often far too expensive.'",
     koreanExplanation: "교과서들은 종종 이곳에서 아주 비쌉니다. 복수 주어(textbooks)에 맞춰 동사와 부사들을 수식 구조로 연결합니다.",
     grammarPoints: "부사 수식, 복수 일치",
     paraphrases: [
@@ -650,17 +648,11 @@ export const level1Questions: Question[] = [
     level: 1,
     context: "Student A: Can I pick up my textbook now?",
     sentenceTemplate: "Student B: The bookstore _____ _____ _____ _____ closed.",
-    chunks: ["is", "already", "temporarily", "being", "are", "been"],
-    answer: ["is", "already", "temporarily", "being"], // Let's simplify this one too to make sure it matches "closed" at the end.
-    // template: "The bookstore _____ _____ _____ _____ today."
-    // chunks: ["is", "already", "closed", "today", "are", "close"]
-    // answer: ["is", "already", "closed", "today"] -> But wait, template has "closed" at the end? Or we can customize.
-    // Let's redefine L1-045 template and chunks:
-    // template: "The bookstore _____ _____ _____ _____ now."
-    // chunks: ["is", "already", "closed", "right", "are", "close"]
-    // answer: ["is", "already", "closed", "right"]
-    koreanExplanation: "서점은 현재 이미 문을 닫았습니다. be동사와 형용사 보어 사이에 부사 'already'를 넣어 시점을 강조합니다.",
-    grammarPoints: "be + 부사 + 형용사 구조",
+    chunks: ["is", "reported", "to", "be", "are", "been"],
+    answer: ["is", "reported", "to", "be"],
+    explanation: "The correct sentence is: 'The bookstore is reported to be closed.'",
+    koreanExplanation: "서점은 문을 닫은 것으로 알려졌습니다. 'be reported to be' (~인 것으로 알려지다) 표현을 사용해 상태를 묘사합니다.",
+    grammarPoints: "be reported to be 구조",
     paraphrases: [
       "They have already shut their doors for the day.",
       "The shop is no longer operating at this hour."

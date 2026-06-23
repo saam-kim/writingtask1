@@ -365,7 +365,7 @@ export const level4Questions: Question[] = [
     id: "L4-025",
     level: 4,
     context: "Did you attend the optional seminar?",
-    sentenceTemplate: "No, I did not go _____ _____ _____ _____ the schedule clash.",
+    sentenceTemplate: "No, I did not go _____ _____ _____ _____ schedule clash.",
     chunks: ["mainly due", "to what", "seemed like", "a", "mainly of", "seeming", "what seemed"],
     answer: ["mainly due", "to what", "seemed like", "a"],
     explanation: "The correct sentence is: 'No, I did not go mainly due to what seemed like a schedule clash.'",
@@ -410,7 +410,7 @@ export const level4Questions: Question[] = [
     id: "L4-028",
     level: 4,
     context: "Why is the university hiring more career counselors?",
-    sentenceTemplate: "They want to help _____ _____ _____ _____ graduates.",
+    sentenceTemplate: "They want to help _____ _____ _____ _____ graduate.",
     chunks: ["students prepare", "for job", "interviews after", "they", "student preparing", "interview", "after which"],
     answer: ["students prepare", "for job", "interviews after", "they"],
     explanation: "The correct sentence is: 'They want to help students prepare for job interviews after they graduate.'",
@@ -605,15 +605,15 @@ export const level4Questions: Question[] = [
     id: "L4-041",
     level: 4,
     context: "What did the professor say about the final essay?",
-    sentenceTemplate: "He emphasized that _____ _____ _____ _____ allowed.",
-    chunks: ["no late", "submissions will", "be accepted", "unless prior", "submission", "accepting", "without"],
-    answer: ["no late", "submissions will", "be accepted", "unless prior"],
-    explanation: "The correct sentence is: 'He emphasized that no late submissions will be accepted unless prior approval is allowed.'",
-    koreanExplanation: "그는 사전 승인이 없는 한 늦은 제출물은 받아들여지지 않을 것임을 강조했습니다. 부정 형용사 'no'가 주어 'submissions'를 꾸미고, 미래 수동태 'will be accepted'와 접속사 'unless'가 옵니다.",
-    grammarPoints: "부정 형용사 no, 수동태 will be accepted, 조건 접속사 unless",
+    sentenceTemplate: "He emphasized that no late submissions will _____ _____ _____ _____ .",
+    chunks: ["be", "accepted", "under", "any circumstances", "accept", "in", "circumstance"],
+    answer: ["be", "accepted", "under", "any circumstances"],
+    explanation: "The correct sentence is: 'He emphasized that no late submissions will be accepted under any circumstances.'",
+    koreanExplanation: "그는 어떠한 상황에서도 늦은 제출물은 받아들여지지 않을 것임을 강조했습니다. 미래 수동태 'will be accepted'와 전치사구 'under any circumstances'가 결합된 구조입니다.",
+    grammarPoints: "수동태 will be accepted, 전치사구 under any circumstances",
     paraphrases: [
-      "Late essays will not be evaluated unless you get permission beforehand.",
-      "The instructor made it clear that overdue work is rejected unless authorized in advance."
+      "He made it clear that late submissions would not be accepted under any conditions.",
+      "He stressed that overdue papers will not be received under any circumstances."
     ]
   },
   {
@@ -830,15 +830,15 @@ export const level4Questions: Question[] = [
     id: "L4-056",
     level: 4,
     context: "Did the university cancel the outdoor concert?",
-    sentenceTemplate: "Yes, they cancelled it _____ _____ _____ _____ warning.",
-    chunks: ["because of", "the severe", "weather alert", "issued by", "because", "severely", "issuing"],
-    answer: ["because of", "the severe", "weather alert", "issued by"],
-    explanation: "The correct sentence is: 'Yes, they cancelled it because of the severe weather alert issued by the government.'",
-    koreanExplanation: "네, 정부가 발령한 심각한 기상 경보 때문에 취소했습니다. 'because of' 전치사구 뒤에 명사구와 이를 수식하는 과거분사구 'issued by'가 이어집니다.",
-    grammarPoints: "전치사 because of, 과거분사구 후치수식 (issued by)",
+    sentenceTemplate: "Yes, they cancelled it _____ _____ _____ _____ .",
+    chunks: ["due to", "the severe", "weather", "warning", "because", "severely", "warned"],
+    answer: ["due to", "the severe", "weather", "warning"],
+    explanation: "The correct sentence is: 'Yes, they cancelled it due to the severe weather warning.'",
+    koreanExplanation: "네, 심각한 기상 경보 때문에 취소했습니다. 'due to' 전치사구 뒤에 명사구가 이어지는 구조입니다.",
+    grammarPoints: "전치사 due to, 명사구 수식",
     paraphrases: [
-      "The festival was called off due to a major storm warnings announced by officials.",
-      "In light of a harsh weather bulletin sent out by experts, the show was canceled."
+      "Yes, they called it off because of the extreme weather warning.",
+      "Yes, it was canceled due to the severe weather alert."
     ]
   },
   {
