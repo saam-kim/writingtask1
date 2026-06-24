@@ -964,7 +964,7 @@ export const level3Questions: Question[] = [
     id: "L3-067",
     level: 3,
     context: "Why was your registration request denied?",
-    sentenceTemplate: "_____ _____ _____ _____ the deadline, I could not enroll.",
+    sentenceTemplate: "_____ _____ _____ _____ deadline, I could not enroll.",
     chunks: ["Having", "missed", "the", "official", "Miss", "have", "officially"],
     answer: ["Having", "missed", "the", "official"],
     explanation: "The correct sentence is: 'Having missed the official deadline, I could not enroll.'",
