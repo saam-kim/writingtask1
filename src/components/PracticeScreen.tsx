@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import type { Question, PracticeSettings } from '../types/question';
 import { ProgressBar } from './ProgressBar';
 import { shuffleArray } from '../utils/shuffle';
+import { DictionaryModal } from './DictionaryModal';
 
 interface PracticeScreenProps {
   questions: Question[];
@@ -22,6 +23,8 @@ export const PracticeScreen: React.FC<PracticeScreenProps> = ({
 }) => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const currentQuestion = questions[currentIndex];
+
+  const [selectedWord, setSelectedWord] = useState<string | null>(null);
 
   // Selected chunks by index in shuffled chunks
   const [shuffledChunks, setShuffledChunks] = useState<string[]>([]);
@@ -185,6 +188,34 @@ export const PracticeScreen: React.FC<PracticeScreenProps> = ({
     }
   };
 
+  // Helper to split English text into clickable word spans
+  const renderClickableText = (text: string) => {
+    const words = text.split(/(\s+)/);
+    return (
+      <>
+        {words.map((part, idx) => {
+          if (/^\s+$/.test(part)) {
+            return <React.Fragment key={idx}>{part}</React.Fragment>;
+          }
+          // Clean punctuation from word for lookup
+          const cleanWord = part.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"']/g, "").trim();
+          if (!cleanWord) {
+            return <React.Fragment key={idx}>{part}</React.Fragment>;
+          }
+          return (
+            <span
+              key={idx}
+              className="clickable-word"
+              onClick={() => setSelectedWord(cleanWord)}
+            >
+              {part}
+            </span>
+          );
+        })}
+      </>
+    );
+  };
+
   // Build template chunks array
   const templateParts = currentQuestion.sentenceTemplate.split('_____');
 
@@ -211,7 +242,7 @@ export const PracticeScreen: React.FC<PracticeScreenProps> = ({
           <div style={{ fontSize: '13px', fontWeight: '700', color: 'var(--primary)', marginBottom: '4px' }}>
             CONTEXT
           </div>
-          {currentQuestion.context}
+          {renderClickableText(currentQuestion.context)}
         </div>
 
         {/* Template hint */}
@@ -219,7 +250,7 @@ export const PracticeScreen: React.FC<PracticeScreenProps> = ({
           <div style={{ fontSize: '13px', fontWeight: '700', color: '#94A3B8', marginBottom: '6px' }}>
             TARGET TEMPLATE
           </div>
-          {currentQuestion.sentenceTemplate}
+          {renderClickableText(currentQuestion.sentenceTemplate)}
         </div>
 
         {/* Answer Area */}
@@ -230,7 +261,7 @@ export const PracticeScreen: React.FC<PracticeScreenProps> = ({
           <div className="answer-slots">
             {templateParts.map((part, index) => (
               <React.Fragment key={index}>
-                {part && <span style={{ fontSize: '17px', fontWeight: '500', color: 'var(--text-main)' }}>{part}</span>}
+                {part && <span style={{ fontSize: '17px', fontWeight: '500', color: 'var(--text-main)' }}>{renderClickableText(part)}</span>}
                 {index < currentQuestion.answer.length && (
                   userSelectedText[index] ? (
                     <span
@@ -365,9 +396,11 @@ export const PracticeScreen: React.FC<PracticeScreenProps> = ({
                 <div style={{ marginBottom: '8px' }}>
                   <span style={{ fontSize: '13px', fontWeight: '700', color: 'var(--primary)' }}>정답 문장:</span>
                   <div style={{ fontSize: '17px', fontWeight: '700', color: 'var(--text-main)', marginTop: '2px' }}>
-                    {currentQuestion.sentenceTemplate.split('_____').map((part, idx) => {
-                      return part + (currentQuestion.answer[idx] || '');
-                    })}
+                    {renderClickableText(
+                      currentQuestion.sentenceTemplate.split('_____').map((part, idx) => {
+                        return part + (currentQuestion.answer[idx] || '');
+                      }).join('')
+                    )}
                   </div>
                 </div>
                 {currentQuestion.koreanExplanation && (
@@ -387,7 +420,9 @@ export const PracticeScreen: React.FC<PracticeScreenProps> = ({
                     <h4>💡 원어민 패러프레이징 제안 (Alternatives)</h4>
                     <ul style={{ listStyleType: 'disc', paddingLeft: '20px', marginTop: '6px', fontSize: '15px', color: 'var(--text-main)' }}>
                       {currentQuestion.paraphrases.map((para, i) => (
-                        <li key={i} style={{ marginBottom: '6px', fontStyle: 'italic', lineHeight: '1.4' }}>{para}</li>
+                        <li key={i} style={{ marginBottom: '6px', fontStyle: 'italic', lineHeight: '1.4' }}>
+                          {renderClickableText(para)}
+                        </li>
                       ))}
                     </ul>
                   </div>
@@ -470,6 +505,12 @@ export const PracticeScreen: React.FC<PracticeScreenProps> = ({
           </button>
         </div>
       </div>
+      {selectedWord && (
+        <DictionaryModal
+          word={selectedWord}
+          onClose={() => setSelectedWord(null)}
+        />
+      )}
     </div>
   );
 };

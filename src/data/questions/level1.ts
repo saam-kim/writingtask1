@@ -871,5 +871,305 @@ export const level1Questions: Question[] = [
       "Dormitory operations halt this coming Saturday.",
       "Students must vacate the rooms by this Saturday."
     ]
+  },
+  {
+    id: "L1-061",
+    level: 1,
+    context: "Student A: Can I bring my dog to the dorm?",
+    sentenceTemplate: "Student B: No, you _____ _____ _____ _____ .",
+    chunks: ["cannot", "keep", "any", "pets", "can", "keeps"],
+    answer: ["cannot", "keep", "any", "pets"],
+    explanation: "The correct sentence is: 'No, you cannot keep any pets.' This uses the modal 'cannot' followed by the base verb 'keep' and the determiner 'any' for negation.",
+    koreanExplanation: "아니요, 기숙사에는 어떤 애완동물도 기를 수 없습니다. 조동사 부정형 'cannot' 뒤에 동사원형 'keep'을 쓰고, 부정문에서 쓰이는 'any'를 결합합니다.",
+    grammarPoints: "조동사 cannot, 부정문 수식어 any, 동사원형 keep",
+    paraphrases: [
+      "No, pets are not allowed in the dormitory.",
+      "Unfortunately, you are not permitted to have pets here."
+    ]
+  },
+  {
+    id: "L1-062",
+    level: 1,
+    context: "Student A: Where is the main library?",
+    sentenceTemplate: "Student B: It _____ _____ _____ _____ lake.",
+    chunks: ["is", "located", "near", "the", "are", "at"],
+    answer: ["is", "located", "near", "the"],
+    explanation: "The correct sentence is: 'It is located near the lake.' Use 'is located' for the singular subject 'It' and the preposition 'near'.",
+    koreanExplanation: "그것은 호수 근처에 위치해 있습니다. 주어 'It'에 맞는 be동사 'is'와 위치를 나타내는 표현 'located near'를 사용합니다.",
+    grammarPoints: "be located near 표현, 주어-동사 수 일치",
+    paraphrases: [
+      "You can find it right by the lake.",
+      "The library stands close to the lake."
+    ]
+  },
+  {
+    id: "L1-063",
+    level: 1,
+    context: "Student A: What time does breakfast start?",
+    sentenceTemplate: "Student B: The dining hall _____ _____ _____ _____ AM.",
+    chunks: ["opens", "for", "breakfast", "at 7", "open", "on"],
+    answer: ["opens", "for", "breakfast", "at 7"],
+    explanation: "The correct sentence is: 'The dining hall opens for breakfast at 7 AM.' It uses the third-person singular verb 'opens' and the preposition 'at' for time.",
+    koreanExplanation: "학생 식당은 오전 7시에 아침 식사를 위해 문을 엽니다. 3인칭 단수 주어에 맞춰 'opens'를 쓰고, 시간을 나타내는 전치사 'at'을 결합합니다.",
+    grammarPoints: "3인칭 단수 동사 일치, 시간 전치사 at",
+    paraphrases: [
+      "Breakfast service begins at 7 in the morning.",
+      "They start serving breakfast at 7 AM."
+    ]
+  },
+  {
+    id: "L1-064",
+    level: 1,
+    context: "Student A: How do I get to Room 302?",
+    sentenceTemplate: "Student B: You _____ _____ _____ _____ stairs.",
+    chunks: ["should", "go", "up", "the", "shall", "to"],
+    answer: ["should", "go", "up", "the"],
+    explanation: "The correct sentence is: 'You should go up the stairs.' It uses the modal 'should' for recommendation, followed by the phrasal verb 'go up'.",
+    koreanExplanation: "계단으로 올라가셔야 합니다. 제안이나 권유를 뜻하는 조동사 'should'와 '올라가다'라는 뜻의 'go up'을 연결합니다.",
+    grammarPoints: "조동사 should, 구동사 go up",
+    paraphrases: [
+      "Please walk up the stairs to get there.",
+      "You need to take the stairs upward."
+    ]
+  },
+  {
+    id: "L1-065",
+    level: 1,
+    context: "Student A: Is there a curfew for the dorm?",
+    sentenceTemplate: "Student B: Yes, students _____ _____ _____ _____ PM.",
+    chunks: ["must", "return", "before", "11", "returns", "at"],
+    answer: ["must", "return", "before", "11"],
+    explanation: "The correct sentence is: 'Yes, students must return before 11 PM.' It uses the modal 'must' for obligation followed by the preposition 'before'.",
+    koreanExplanation: "네, 학생들은 오후 11시 전에 돌아와야 합니다. 의무를 나타내는 조동사 'must' 뒤에 동사원형 'return'을 쓰고, 시간의 이전(before)을 뜻하는 전치사를 씁니다.",
+    grammarPoints: "의무의 조동사 must, 전치사 before",
+    paraphrases: [
+      "All students need to be back by 11 PM.",
+      "You have to enter the dorm before 11 at night."
+    ]
+  },
+  {
+    id: "L1-066",
+    level: 1,
+    context: "Student A: I cannot see the science library.",
+    sentenceTemplate: "Student B: It _____ _____ _____ _____ gym.",
+    chunks: ["is", "right", "behind", "the", "are", "at"],
+    answer: ["is", "right", "behind", "the"],
+    explanation: "The correct sentence is: 'It is right behind the gym.' The adverb 'right' emphasizes the preposition 'behind'.",
+    koreanExplanation: "그것은 체육관 바로 뒤에 있습니다. 장소 전치사 'behind' 앞에 강조를 위한 부사 'right'를 위치시킵니다.",
+    grammarPoints: "장소 전치사 behind, 부사 right의 수식",
+    paraphrases: [
+      "It is situated immediately behind the gym.",
+      "You will find it just behind the gymnasium."
+    ]
+  },
+  {
+    id: "L1-067",
+    level: 1,
+    context: "Student A: Can we get food late at night?",
+    sentenceTemplate: "Student B: The cafeteria _____ _____ _____ _____ evening.",
+    chunks: ["closes", "early", "in", "the", "close", "at"],
+    answer: ["closes", "early", "in", "the"],
+    explanation: "The correct sentence is: 'The cafeteria closes early in the evening.' Simple present tense is used for a regular schedule with 'in the evening'.",
+    koreanExplanation: "학생 식당은 저녁에 일찍 문을 닫습니다. 단수 주어에 맞춰 'closes'를 사용하고 시간대 표현 'in the evening'을 씁니다.",
+    grammarPoints: "3인칭 단수 동사 일치, 시간 전치사구 in the evening",
+    paraphrases: [
+      "The dining hall shuts early during the evening.",
+      "They close the cafeteria early in the night."
+    ]
+  },
+  {
+    id: "L1-068",
+    level: 1,
+    context: "Student A: Which way is the computer lab?",
+    sentenceTemplate: "Student B: Please _____ _____ _____ _____ hallway.",
+    chunks: ["walk", "down", "this", "long", "walking", "to"],
+    answer: ["walk", "down", "this", "long"],
+    explanation: "The correct sentence is: 'Please walk down this long hallway.' It is an imperative sentence starting with the base verb 'walk'.",
+    koreanExplanation: "이 긴 복도를 따라 걸어가십시오. 명령문의 동사원형 'walk'와 방향을 뜻하는 'down'을 조합합니다.",
+    grammarPoints: "명령문 (동사원형), 방향 전치사 down, 지시형용사 this",
+    paraphrases: [
+      "Go down this long corridor.",
+      "Just follow this long hallway to the end."
+    ]
+  },
+  {
+    id: "L1-069",
+    level: 1,
+    context: "Student A: Can my friend sleep in my room?",
+    sentenceTemplate: "Student B: Guests _____ _____ _____ _____ night.",
+    chunks: ["cannot", "stay", "over", "at", "can", "in"],
+    answer: ["cannot", "stay", "over", "at"],
+    explanation: "The correct sentence is: 'Guests cannot stay over at night.' This uses the modal 'cannot' with the phrasal verb 'stay over' and time preposition 'at night'.",
+    koreanExplanation: "손님은 밤에 자고 갈 수 없습니다. 금지의 조동사 'cannot'에 외박을 의미하는 구동사 'stay over', 그리고 'at night'을 결합합니다.",
+    grammarPoints: "조동사 cannot, 구동사 stay over, 시간 표현 at night",
+    paraphrases: [
+      "Visitors are not allowed to sleep here overnight.",
+      "You cannot have guests stay in your room overnight."
+    ]
+  },
+  {
+    id: "L1-070",
+    level: 1,
+    context: "Student A: Where should I return these books?",
+    sentenceTemplate: "Student B: Put _____ _____ _____ _____ desk.",
+    chunks: ["them", "on", "the", "front", "they", "at"],
+    answer: ["them", "on", "the", "front"],
+    explanation: "The correct sentence is: 'Put them on the front desk.' 'Them' is the objective pronoun for the plural noun 'books'.",
+    koreanExplanation: "그것들을 프런트 데스크 위에 놓으세요. 복수 명사 'books'를 받는 대명사 목적격 'them'과 접촉을 뜻하는 전치사 'on'을 사용합니다.",
+    grammarPoints: "대명사 목적격, 접촉 전치사 on, 명사구 수식",
+    paraphrases: [
+      "Leave those books on the reception desk.",
+      "You can place them on the main counter."
+    ]
+  },
+  {
+    id: "L1-071",
+    level: 1,
+    context: "Student A: When is lunch served?",
+    sentenceTemplate: "Student B: They _____ _____ _____ _____ noon.",
+    chunks: ["serve", "lunch", "starting", "at", "serves", "on"],
+    answer: ["serve", "lunch", "starting", "at"],
+    explanation: "The correct sentence is: 'They serve lunch starting at noon.' 'They' is plural, so we use the base form 'serve'.",
+    koreanExplanation: "그들은 정오부터 점심을 제공합니다. 복수 주어 'They'에 맞춰 일반동사 원형 'serve'를 사용하고 시간 전치사 'at'을 씁니다.",
+    grammarPoints: "주어-동사 수 일치 (They serve), 시간 전치사 at",
+    paraphrases: [
+      "Lunch service begins at twelve o'clock.",
+      "They offer lunch starting from noon."
+    ]
+  },
+  {
+    id: "L1-072",
+    level: 1,
+    context: "Student A: I am looking for the history classroom.",
+    sentenceTemplate: "Student B: It _____ _____ _____ _____ office.",
+    chunks: ["is", "opposite", "the", "history", "are", "at"],
+    answer: ["is", "opposite", "the", "history"],
+    explanation: "The correct sentence is: 'It is opposite the history office.' It uses 'is' for the singular subject 'It' and 'opposite' as a preposition meaning across from.",
+    koreanExplanation: "그것은 역사학과 사무실 맞은편에 있습니다. 주어 'It'에 단수 be동사 'is'를 쓰고, 맞은편을 뜻하는 전치사 'opposite'를 연결합니다.",
+    grammarPoints: "단수 주어 be동사, 장소 전치사 opposite",
+    paraphrases: [
+      "It is located across from the history office.",
+      "You will find it directly opposite the history office."
+    ]
+  },
+  {
+    id: "L1-073",
+    level: 1,
+    context: "Student A: Can I play music at midnight?",
+    sentenceTemplate: "Student B: No, you _____ _____ _____ _____ night.",
+    chunks: ["must", "be", "quiet", "at", "should", "in"],
+    answer: ["must", "be", "quiet", "at"],
+    explanation: "The correct sentence is: 'No, you must be quiet at night.' This uses the modal 'must' followed by the base form 'be' and the adjective 'quiet' with the time preposition 'at'.",
+    koreanExplanation: "아니요, 밤에는 조용히 해야 합니다. 의무의 조동사 'must' 뒤에 형용사 보어를 유도하는 be동사 원형과 'quiet', 그리고 밤을 뜻하는 'at night'을 결합합니다.",
+    grammarPoints: "조동사 must + be 형용사, 시간 전치사 at",
+    paraphrases: [
+      "No, you need to keep quiet during the night.",
+      "You are required to remain silent after dark."
+    ]
+  },
+  {
+    id: "L1-074",
+    level: 1,
+    context: "Student A: Is the study room on the second floor?",
+    sentenceTemplate: "Student B: No, it _____ _____ _____ _____ floor.",
+    chunks: ["is", "on", "the", "first", "are", "at"],
+    answer: ["is", "on", "the", "first"],
+    explanation: "The correct sentence is: 'No, it is on the first floor.' We use 'on' for floors of a building.",
+    koreanExplanation: "아니요, 그것은 1층에 있습니다. 층을 나타낼 때 사용하는 전치사 'on'과 서수 'first'를 결합합니다.",
+    grammarPoints: "층을 나타내는 전치사 on, 서수 앞의 정관사 the",
+    paraphrases: [
+      "Actually, you can find it on the ground floor.",
+      "No, the study room is located on the first floor."
+    ]
+  },
+  {
+    id: "L1-075",
+    level: 1,
+    context: "Student A: Does the dining hall close on Sundays?",
+    sentenceTemplate: "Student B: Yes, it _____ _____ _____ _____ Sunday.",
+    chunks: ["does", "not", "open", "on", "do", "at"],
+    answer: ["does", "not", "open", "on"],
+    explanation: "The correct sentence is: 'Yes, it does not open on Sunday.' We use 'does not' for singular negative present tense and 'on' for days of the week.",
+    koreanExplanation: "네, 일요일에는 문을 열지 않습니다. 3인칭 단수 주어 'it'에 대한 현재 부정형 'does not'과 요일 전치사 'on'을 사용합니다.",
+    grammarPoints: "3인칭 단수 부정문 (does not + 동사원형), 요일 전치사 on",
+    paraphrases: [
+      "Yes, they are closed every Sunday.",
+      "Indeed, the dining hall is shut on Sundays."
+    ]
+  },
+  {
+    id: "L1-076",
+    level: 1,
+    context: "Student A: Where is the chemistry lecture room?",
+    sentenceTemplate: "Student B: Go _____ _____ _____ _____ office.",
+    chunks: ["straight", "past", "the", "main", "straights", "to"],
+    answer: ["straight", "past", "the", "main"],
+    explanation: "The correct sentence is: 'Go straight past the main office.' 'Go straight' is a common expression for direction, followed by the preposition 'past'.",
+    koreanExplanation: "본부 사무실을 지나 곧장 가십시오. 직진을 뜻하는 'go straight'와 특정 지점을 지나침을 뜻하는 전치사 'past'를 조합합니다.",
+    grammarPoints: "방향 지시 go straight, 전치사 past",
+    paraphrases: [
+      "Walk straight ahead beyond the main office.",
+      "Keep walking straight until you pass the main office."
+    ]
+  },
+  {
+    id: "L1-077",
+    level: 1,
+    context: "Student A: Who should I talk to about a broken light?",
+    sentenceTemplate: "Student B: You _____ _____ _____ _____ manager.",
+    chunks: ["should", "tell", "the", "dormitory", "shoulds", "to"],
+    answer: ["should", "tell", "the", "dormitory"],
+    explanation: "The correct sentence is: 'You should tell the dormitory manager.' The modal 'should' is followed by the transitive verb 'tell' and the noun phrase.",
+    koreanExplanation: "기숙사 관리자에게 알리는 것이 좋겠습니다. 의무/조언의 'should' 뒤에 동사원형 'tell'과 목적어 명사구를 결합합니다.",
+    grammarPoints: "조동사 should + 동사원형, 명사 수식",
+    paraphrases: [
+      "I advise you to report it to the dorm manager.",
+      "You need to inform the dormitory supervisor."
+    ]
+  },
+  {
+    id: "L1-078",
+    level: 1,
+    context: "Student A: Can I use the printer in the library?",
+    sentenceTemplate: "Student B: Yes, they _____ _____ _____ _____ corner.",
+    chunks: ["are", "located", "in", "the", "is", "at"],
+    answer: ["are", "located", "in", "the"],
+    explanation: "The correct sentence is: 'Yes, they are located in the corner.' The plural subject 'they' (printers) matches 'are located'.",
+    koreanExplanation: "네, 그것들은 구석에 위치해 있습니다. 복수 주어 'they'에 맞게 be동사 복수형 'are'를 쓰고 구석 공간을 뜻하는 'in the corner'를 연결합니다.",
+    grammarPoints: "복수 주어-동사 수 일치 (are), 장소 표현 in the corner",
+    paraphrases: [
+      "Yes, you can find the printers in the corner.",
+      "Yes, there are printers situated in the corner."
+    ]
+  },
+  {
+    id: "L1-079",
+    level: 1,
+    context: "Student A: Is the dining hall open during holidays?",
+    sentenceTemplate: "Student B: No, it _____ _____ _____ _____ break.",
+    chunks: ["is", "closed", "during", "the", "are", "at"],
+    answer: ["is", "closed", "during", "the"],
+    explanation: "The correct sentence is: 'No, it is closed during the break.' Passive voice 'is closed' shows state, and 'during' specifies the period.",
+    koreanExplanation: "아니요, 방학 기간에는 닫습니다. 상태를 설명하는 수동태 'is closed'와 특정 기간을 뜻하는 전치사 'during'을 사용합니다.",
+    grammarPoints: "수동태/상태 표현 is closed, 전치사 during",
+    paraphrases: [
+      "No, the cafeteria does not open during the holidays.",
+      "No, they shut down operations for the school break."
+    ]
+  },
+  {
+    id: "L1-080",
+    level: 1,
+    context: "Student A: Is the laboratory far from here?",
+    sentenceTemplate: "Student B: No, it _____ _____ _____ _____ room.",
+    chunks: ["is", "next", "to", "this", "are", "at"],
+    answer: ["is", "next", "to", "this"],
+    explanation: "The correct sentence is: 'No, it is next to this room.' It uses 'next to' as a preposition of proximity and the demonstrative 'this'.",
+    koreanExplanation: "아니요, 그것은 이 방 바로 옆에 있습니다. 인접함을 뜻하는 'next to'와 지시형용사 'this'를 조합합니다.",
+    grammarPoints: "장소 전치사 next to, 지시형용사 this",
+    paraphrases: [
+      "No, it is right next door to this room.",
+      "No, the laboratory is situated beside this classroom."
+    ]
   }
 ];

@@ -900,5 +900,305 @@ export const level4Questions: Question[] = [
       "I was denied entry because I failed to meet the rigid requirements beforehand.",
       "They turned me down as I was unable to fulfill the mandatory qualifications."
     ]
+  },
+  {
+    id: "L4-061",
+    level: 4,
+    context: "Can we submit our research proposal after the deadline?",
+    sentenceTemplate: "Under no circumstances _____ _____ _____ _____ late.",
+    chunks: ["are students", "permitted", "to submit", "the proposal", "students are", "permitting", "to submitting"],
+    answer: ["are students", "permitted", "to submit", "the proposal"],
+    explanation: "The correct sentence is: 'Under no circumstances are students permitted to submit the proposal late.'",
+    koreanExplanation: "어떤 경우에도 학생들이 제안서를 늦게 제출하는 것은 허용되지 않습니다. 부정어구 'Under no circumstances'가 문두에 오면 주어와 동사(조동사/be동사)가 도치되어 'are students' 순서가 됩니다.",
+    grammarPoints: "부정어구 도치(Under no circumstances), be permitted to 부정사",
+    paraphrases: [
+      "Students are not allowed to submit their research proposals past the deadline under any conditions.",
+      "Late submissions of the research proposal will not be accepted under any circumstances."
+    ]
+  },
+  {
+    id: "L4-062",
+    level: 4,
+    context: "Why is he currently living in off-campus housing?",
+    sentenceTemplate: "If he _____ _____ _____ _____ campus now.",
+    chunks: ["had applied", "earlier, he", "would be", "living on", "has applied", "would have", "live on"],
+    answer: ["had applied", "earlier, he", "would be", "living on"],
+    explanation: "The correct sentence is: 'If he had applied earlier, he would be living on campus now.'",
+    koreanExplanation: "그가 더 일찍 신청했었더라면, 지금쯤 캠퍼스에 살고 있을 것입니다. 과거의 일(신청)에 대한 반대 상황 가정(If + past perfect)과 현재의 결과(would be + 동사원형/현재분사)를 나타내는 혼합 가정법 문장입니다.",
+    grammarPoints: "혼합 가정법, 과거 조건(If + had p.p.) + 현재 귀결(would be -ing)",
+    paraphrases: [
+      "Had he submitted his housing application sooner, he would reside in the dorms today.",
+      "His current off-campus living situation is due to his failure to apply for housing early."
+    ]
+  },
+  {
+    id: "L4-063",
+    level: 4,
+    context: "Has the department decided on your prerequisite waiver request?",
+    sentenceTemplate: "They are discussing _____ _____ _____ _____ exempt you.",
+    chunks: ["whether or", "not the", "board will", "agree to", "if or", "board would", "agreeing"],
+    answer: ["whether or", "not the", "board will", "agree to"],
+    explanation: "The correct sentence is: 'They are discussing whether or not the board will agree to exempt you.'",
+    koreanExplanation: "그들은 위원회가 당신을 면제해 주는 것에 동의할지 여부를 논의하고 있습니다. 타동사 'discussing'의 목적어로 명사절 'whether or not ~'을 이끌며, 조동사 'will' 뒤에 'agree to + 동사원형'이 결합된 구조입니다.",
+    grammarPoints: "명사절 접속사 whether or not, 타동사의 목적어 역할, agree to + 동사원형",
+    paraphrases: [
+      "The committee is currently debating if they will approve your prerequisite waiver.",
+      "It remains under discussion whether the board will grant you an exemption from the class."
+    ]
+  },
+  {
+    id: "L4-064",
+    level: 4,
+    context: "Did the committee accept the biology research proposal immediately?",
+    sentenceTemplate: "Seldom _____ _____ _____ _____ such a comprehensive proposal.",
+    chunks: ["had the", "review committee", "seen and", "evaluated", "the review", "committee has", "evaluating"],
+    answer: ["had the", "review committee", "seen and", "evaluated"],
+    explanation: "The correct sentence is: 'Seldom had the review committee seen and evaluated such a comprehensive proposal.'",
+    koreanExplanation: "심사위원회가 그렇게 종합적인 제안서를 보고 평가한 적은 거의 없었습니다. 준부정어 'Seldom'이 문두에 위치하므로 주어와 조동사가 도치되어 'had the review committee'가 되며, 과거분사 'seen and evaluated'가 병렬 구조로 뒤따릅니다.",
+    grammarPoints: "부정어구 도치(Seldom), 과거완료 도치(had + S + p.p.), 과거분사 병렬",
+    paraphrases: [
+      "The evaluation board had rarely encountered a research proposal of such high quality.",
+      "It was highly unusual for the committee to receive such a detailed study plan."
+    ]
+  },
+  {
+    id: "L4-065",
+    level: 4,
+    context: "What caused the confusion during the dormitory room selection?",
+    sentenceTemplate: "The students disputed _____ _____ _____ _____ administrative oversight.",
+    chunks: ["what seemed", "like an", "unfair and", "arbitrary", "that seemed", "as an", "arbitrarily"],
+    answer: ["what seemed", "like an", "unfair and", "arbitrary"],
+    explanation: "The correct sentence is: 'The students disputed what seemed like an unfair and arbitrary administrative oversight.'",
+    koreanExplanation: "학생들은 불공정하고 임의적인 행정적 과실처럼 보이는 것에 대해 이의를 제기했습니다. 타동사 'disputed'의 목적어로 명사절 'what seemed like ~'를 사용하고, 형용사 'unfair'와 'arbitrary'가 병렬 관계를 이루어 'administrative oversight'를 수식합니다.",
+    grammarPoints: "관계대명사 what이 이끄는 명사절, seem like + 명사, 형용사 병렬 수식",
+    paraphrases: [
+      "Undergraduates challenged what appeared to be a biased and random error by housing staff.",
+      "A protest was raised by the students against a policy that looked like an arbitrary administrative mistake."
+    ]
+  },
+  {
+    id: "L4-066",
+    level: 4,
+    context: "Why did the university charge you a late registration fee?",
+    sentenceTemplate: "If we _____ _____ _____ _____ avoided the extra charge.",
+    chunks: ["had obtained", "the tuition", "waiver, we", "would have", "have obtained", "waiver, we had", "will have"],
+    answer: ["had obtained", "the tuition", "waiver, we", "would have"],
+    explanation: "The correct sentence is: 'If we had obtained the tuition waiver, we would have avoided the extra charge.'",
+    koreanExplanation: "만약 우리가 등록금 면제를 받았더라면, 추가 요금을 피할 수 있었을 것입니다. 과거 사실의 반대를 가정하는 가정법 과거완료 문장으로, 조건절에는 'had + p.p.', 귀결절에는 'would have + p.p.' 구조를 씁니다.",
+    grammarPoints: "가정법 과거완료(If + S + had p.p., S + would have p.p.), 과거 사실의 반대",
+    paraphrases: [
+      "Had we secured the fee exemption on time, the extra billing would have been prevented.",
+      "We could have avoided the penalty payment if we had successfully requested a waiver."
+    ]
+  },
+  {
+    id: "L4-067",
+    level: 4,
+    context: "Why was the scientific research proposal rejected?",
+    sentenceTemplate: "The panel rejected _____ _____ _____ _____ methodology.",
+    chunks: ["what they", "called a", "highly flawed", "and outdated", "that they", "called", "highly flawing"],
+    answer: ["what they", "called a", "highly flawed", "and outdated"],
+    explanation: "The correct sentence is: 'The panel rejected what they called a highly flawed and outdated methodology.'",
+    koreanExplanation: "심사위원회는 그들이 고도로 결함이 있고 구식이라고 부른 방법론을 거부했습니다. 'what'이 이끄는 명사절이 'rejected'의 목적어로 쓰였으며, 절 내에서는 'called'의 목적어 역할을 수행하고 뒤의 구절은 목적격 보어 역할을 합니다.",
+    grammarPoints: "관계대명사 what의 명사절 역할, call + O + OC 구조, 분사 형용사의 명사 수식",
+    paraphrases: [
+      "The review board declined the proposal due to what they described as an obsolete research plan.",
+      "Because the committee considered the research methods to be heavily flawed, they dismissed the application."
+    ]
+  },
+  {
+    id: "L4-068",
+    level: 4,
+    context: "What are the benefits of the new priority housing policy?",
+    sentenceTemplate: "Not only _____ _____ _____ _____ also prioritizes low-income students.",
+    chunks: ["does the", "new policy", "accommodate seniors,", "but it", "the new", "policy accommodates", "and it"],
+    answer: ["does the", "new policy", "accommodate seniors,", "but it"],
+    explanation: "The correct sentence is: 'Not only does the new policy accommodate seniors, but it also prioritizes low-income students.'",
+    koreanExplanation: "새로운 정책은 고학년생들을 수용할 뿐만 아니라, 저소득층 학생들도 우선순위에 둡니다. 상관접속사 'Not only'가 문두에 올 때 첫 번째 절에서 주어와 조동사의 도치가 발생해 'does the new policy' 순서가 되며, 'but' 뒤에는 정상 어순으로 이어집니다.",
+    grammarPoints: "상관접속사 도치(Not only... but also), 일반동사 도치(does + S + R), 병렬 구조",
+    paraphrases: [
+      "Besides accommodating upperclassmen, the revised housing rules give priority to students from low-income families.",
+      "The housing department's new guideline serves both to house senior students and to support needy applicants."
+    ]
+  },
+  {
+    id: "L4-069",
+    level: 4,
+    context: "What did the student union demand regarding the tuition waiver policy?",
+    sentenceTemplate: "They demanded _____ _____ _____ _____ abolished immediately.",
+    chunks: ["that the", "strict waiver", "criteria", "be", "whether the", "criterion", "is"],
+    answer: ["that the", "strict waiver", "criteria", "be"],
+    explanation: "The correct sentence is: 'They demanded that the strict waiver criteria be abolished immediately.'",
+    koreanExplanation: "그들은 엄격한 면제 기준을 즉각 폐지할 것을 요구했습니다. 요구를 나타내는 동사 'demand' 뒤에 오는 'that' 명사절에서는 당위성을 나타내므로 동사원형 'be'가 쓰입니다.",
+    grammarPoints: "제안/요구 동사 demand + 명사절, subjunctive mood(동사원형 be), 복수 명사 criteria",
+    paraphrases: [
+      "The student council insisted on the immediate abolition of the rigid fee-waiver rules.",
+      "A demand was made that the strict requirements for obtaining a waiver should be canceled without delay."
+    ]
+  },
+  {
+    id: "L4-070",
+    level: 4,
+    context: "Why is the research proposal currently facing so many objections from the review board?",
+    sentenceTemplate: "If the researcher _____ _____ _____ _____ face fewer objections today.",
+    chunks: ["had documented", "the sources", "properly, the", "proposal would", "documented", "sources, the", "proposal will"],
+    answer: ["had documented", "the sources", "properly, the", "proposal would"],
+    explanation: "The correct sentence is: 'If the researcher had documented the sources properly, the proposal would face fewer objections today.'",
+    koreanExplanation: "연구자가 출처를 제대로 기록했었더라면, 그 제안서는 오늘날 더 적은 반대에 직면할 것입니다. 과거의 일(기록하지 않음)과 현재의 상태(반대에 직면함)를 잇는 혼합 가정법 구문입니다.",
+    grammarPoints: "혼합 가정법, 과거 가정(had p.p.) + 현재 결과(would + 동사원형), 부사 수식",
+    paraphrases: [
+      "Had the author cited the references accurately, the proposal would not encounter so much skepticism now.",
+      "The project proposal is subject to criticism today because the researcher did not record the original data sources correctly in the past."
+    ]
+  },
+  {
+    id: "L4-071",
+    level: 4,
+    context: "Can students sublet their dormitory rooms during the summer vacation?",
+    sentenceTemplate: "Under no circumstances _____ _____ _____ _____ to external guests.",
+    chunks: ["are residents", "allowed to", "sublet their", "dormitory rooms", "residents are", "allowing to", "subletting their"],
+    answer: ["are residents", "allowed to", "sublet their", "dormitory rooms"],
+    explanation: "The correct sentence is: 'Under no circumstances are residents allowed to sublet their dormitory rooms to external guests.'",
+    koreanExplanation: "어떤 경우에도 거주자들은 외부 투숙객에게 기숙사 방을 전대하는 것이 허용되지 않습니다. 부정적인 의미의 전치사구인 'Under no circumstances'가 문두에 올 때, 주어와 be동사의 도치('are residents')가 일어나야 합니다.",
+    grammarPoints: "부정어구 도치(Under no circumstances), 수동태 be allowed to, 명사구 수식",
+    paraphrases: [
+      "Dorm occupants are strictly forbidden from renting out their rooms to outsiders at any time.",
+      "The housing agreement prohibits students from subletting their rooms under any conditions."
+    ]
+  },
+  {
+    id: "L4-072",
+    level: 4,
+    context: "Do you know if the university will waive the late payment fee?",
+    sentenceTemplate: "The registrar will decide _____ _____ _____ _____ qualify for the exemption.",
+    chunks: ["whether or", "not your", "personal circumstances", "fully", "if or", "personal circumstance", "full"],
+    answer: ["whether or", "not your", "personal circumstances", "fully"],
+    explanation: "The correct sentence is: 'The registrar will decide whether or not your personal circumstances fully qualify for the exemption.'",
+    koreanExplanation: "등록관은 귀하의 개인적인 사정이 그 면제를 받을 자격에 완전히 부합하는지 여부를 결정할 것입니다. 'whether or not'이 이끄는 명사절이 타동사 'decide'의 목적어로 쓰였으며, 복수 주어 'circumstances'에 맞춰 동사원형 'qualify'가 사용되었습니다.",
+    grammarPoints: "명사절 접속사 whether or not, 복수 주어-동사 수식, 부사-동사 수식",
+    paraphrases: [
+      "It is up to the registrar to determine if your individual situation makes you eligible for a fee waiver.",
+      "The administration will evaluate whether your case satisfies the criteria to bypass the charge."
+    ]
+  },
+  {
+    id: "L4-073",
+    level: 4,
+    context: "Why didn't you start the laboratory experiments last semester?",
+    sentenceTemplate: "If the committee _____ _____ _____ _____ begun the tests earlier.",
+    chunks: ["had approved", "the proposal,", "we", "would have", "has approved", "proposal, we", "should"],
+    answer: ["had approved", "the proposal,", "we", "would have"],
+    explanation: "The correct sentence is: 'If the committee had approved the proposal, we would have begun the tests earlier.'",
+    koreanExplanation: "만약 위원회가 제안서를 승인했었더라면, 우리는 실험을 더 일찍 시작했을 것입니다. 과거의 실현되지 않은 상황에 대한 가정을 나타내는 가정법 과거완료(If + S + had p.p., S + would have + p.p.) 구문입니다.",
+    grammarPoints: "가정법 과거완료, 과거 사실에 대한 가정, 조동사 완료형(would have p.p.)",
+    paraphrases: [
+      "Had the board authorized our research plan, we could have initiated the trials sooner.",
+      "We delayed starting the experiments because the committee did not sign off on our proposal in time."
+    ]
+  },
+  {
+    id: "L4-074",
+    level: 4,
+    context: "Was the demand for single-occupancy dormitory rooms high this year?",
+    sentenceTemplate: "Seldom _____ _____ _____ _____ such a high volume of applications.",
+    chunks: ["had the", "dormitory office", "witnessed", "and processed", "the dormitory", "office has", "processing"],
+    answer: ["had the", "dormitory office", "witnessed", "and processed"],
+    explanation: "The correct sentence is: 'Seldom had the dormitory office witnessed and processed such a high volume of applications.'",
+    koreanExplanation: "기숙사 사무실이 그렇게 많은 신청을 목격하고 처리한 적은 거의 없었습니다. 부정 부사 'Seldom'으로 문장이 시작하여 주어와 조동사가 도치('had the dormitory office')되었으며, 과거분사 'witnessed'와 'processed'가 병합된 구조입니다.",
+    grammarPoints: "부정어구 도치(Seldom), 과거완료 도치, 과거분사 병렬 구조",
+    paraphrases: [
+      "The housing administration had rarely dealt with so many housing requests at once.",
+      "It was extremely rare for the residence office to receive and handle such a large number of applications."
+    ]
+  },
+  {
+    id: "L4-075",
+    level: 4,
+    context: "Why did you request a meeting with the financial aid director?",
+    sentenceTemplate: "We needed to clarify _____ _____ _____ _____ conflicting waiver instructions.",
+    chunks: ["what seemed", "like a", "series of", "highly", "that seemed", "as a", "high"],
+    answer: ["what seemed", "like a", "series of", "highly"],
+    explanation: "The correct sentence is: 'We needed to clarify what seemed like a series of highly conflicting waiver instructions.'",
+    koreanExplanation: "우리는 매우 모순되는 면제 안내사항들의 연속처럼 보이는 것을 명확히 해야 했습니다. 'what seemed like'가 이끄는 명사절이 'clarify'의 목적어 역할을 하며, 'a series of'와 부사 'highly'가 뒤따르는 분사 형용사 'conflicting'을 수식합니다.",
+    grammarPoints: "관계대명사 what의 명사절, seem like 구문, 명사구 수식 구조",
+    paraphrases: [
+      "We sought clarification on what appeared to be contradicting guidelines regarding the fee waiver.",
+      "Our meeting was necessary to resolve the apparent contradictions in the waiver procedures."
+    ]
+  },
+  {
+    id: "L4-076",
+    level: 4,
+    context: "Are you planning to apply for the external research grant?",
+    sentenceTemplate: "If the department _____ _____ _____ _____ submit our proposal immediately.",
+    chunks: ["offered more", "financial aid,", "we", "would", "offers more", "aid, we", "will"],
+    answer: ["offered more", "financial aid,", "we", "would"],
+    explanation: "The correct sentence is: 'If the department offered more financial aid, we would submit our proposal immediately.'",
+    koreanExplanation: "만약 학과에서 더 많은 재정 지원을 제공한다면, 우리는 즉시 제안서를 제출할 것입니다. 현재의 사실과 반대되는 가정을 나타내는 가정법 과거(If + 과거동사, S + would + 동사원형) 문장입니다.",
+    grammarPoints: "가정법 과거, 현재 사실의 반대 가정, 조동사 과거형(would) + 동사원형",
+    paraphrases: [
+      "We would hand in our research proposal right away if additional funding were made available by the department.",
+      "Should the department provide extra financial backing, our proposal would be sent in without delay."
+    ]
+  },
+  {
+    id: "L4-077",
+    level: 4,
+    context: "Can we request a specific roommate under the new housing rules?",
+    sentenceTemplate: "It is unclear _____ _____ _____ _____ assign rooms randomly.",
+    chunks: ["whether or", "not the", "housing coordinators", "will", "if or", "coordinators", "would"],
+    answer: ["whether or", "not the", "housing coordinators", "will"],
+    explanation: "The correct sentence is: 'It is unclear whether or not the housing coordinators will assign rooms randomly.'",
+    koreanExplanation: "기숙사 관리인들이 방을 무작위로 배정할지 여부는 불확실합니다. 가주어 'It'과 진주어 명사절 'whether or not ~'을 활용한 구조로, 명사절 내부의 주어 'housing coordinators'와 조동사 'will'이 순서대로 배치됩니다.",
+    grammarPoints: "가주어-진주어 구조, 명사절 접속사 whether or not, 조동사의 쓰임",
+    paraphrases: [
+      "We do not know yet if rooms will be allocated at random by the residence officers.",
+      "Whether the housing office plans to assign rooms randomly or respect choices remains uncertain."
+    ]
+  },
+  {
+    id: "L4-078",
+    level: 4,
+    context: "Did the university approve your tuition waiver and grant you a scholarship?",
+    sentenceTemplate: "Not only _____ _____ _____ _____ grant me a scholarship.",
+    chunks: ["does the", "university waive", "my fees,", "but they", "the university", "waives my", "and they"],
+    answer: ["does the", "university waive", "my fees,", "but they"],
+    explanation: "The correct sentence is: 'Not only does the university waive my fees, but they also grant me a scholarship.'",
+    koreanExplanation: "대학은 내 등록금을 면제해 줄 뿐만 아니라 장학금도 지급합니다. 'Not only'로 시작하는 문장에서 조동사 'does'와 주어 'the university'가 도치되어 나타나며, 'but they also' 뒤에 동사원형인 'grant'가 이어집니다.",
+    grammarPoints: "부정어구 도치(Not only), 일반동사 도치(does + S + R), 상관접속사 Not only... but also",
+    paraphrases: [
+      "In addition to waiving my tuition fees, the university has awarded me a scholarship.",
+      "The school not only exempts my payments but also provides me with financial aid."
+    ]
+  },
+  {
+    id: "L4-079",
+    level: 4,
+    context: "Why did the biology department request a revision of the proposal?",
+    sentenceTemplate: "The board pointed out _____ _____ _____ _____ research obstacle.",
+    chunks: ["what seemed", "like an", "insurmountable and", "complex", "that seemed", "like a", "insurmountably"],
+    answer: ["what seemed", "like an", "insurmountable and", "complex"],
+    explanation: "The correct sentence is: 'The board pointed out what seemed like an insurmountable and complex research obstacle.'",
+    koreanExplanation: "위원회는 극복할 수 없고 복잡한 연구 장애물처럼 보이는 것을 지적했습니다. 구동사 'pointed out'의 목적어로 'what seemed like ~' 명사절이 사용되었으며, 형용사 'insurmountable'과 'complex'가 병렬 수식 구조를 이룹니다.",
+    grammarPoints: "관계대명사 what의 명사절 역할, seem like + 명사구, 형용사 병렬 수식",
+    paraphrases: [
+      "The committee identified what appeared to be an extremely difficult and complicated barrier in the research.",
+      "They highlighted a research issue that looked like a major and complex problem."
+    ]
+  },
+  {
+    id: "L4-080",
+    level: 4,
+    context: "Could we have avoided the housing crisis last semester?",
+    sentenceTemplate: "Yes, if they _____ _____ _____ _____ accommodated all the applicants.",
+    chunks: ["had built", "another dormitory,", "they", "would have", "built", "dormitory, they", "will have"],
+    answer: ["had built", "another dormitory,", "they", "would have"],
+    explanation: "The correct sentence is: 'Yes, if they had built another dormitory, they would have accommodated all the applicants.'",
+    koreanExplanation: "네, 만약 그들이 기숙사를 하나 더 지었더라면, 모든 신청자를 수용할 수 있었을 것입니다. 과거의 가상 상황과 과거의 결과를 나타내는 가정법 과거완료 문장입니다.",
+    grammarPoints: "가정법 과거완료, 과거 사실의 반대 가정, 조동사 완료형(would have p.p.)",
+    paraphrases: [
+      "Had the university constructed a new residence hall, every applicant would have received housing.",
+      "Building another dormitory would have allowed the administration to house all of the students."
+    ]
   }
 ];

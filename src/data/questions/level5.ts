@@ -900,5 +900,305 @@ export const level5Questions: Question[] = [
       "Evaluation depended on the students' project records in addition to their test grades.",
       "The board graded candidates using both their design archives and classroom performance."
     ]
+  },
+  {
+    id: "L5-061",
+    level: 5,
+    context: "What would the committee have done if they had known about the data manipulation?",
+    sentenceTemplate: "_____ _____ _____ _____ _____ the thesis would have been rejected immediately.",
+    chunks: ["Had the committee", "known about", "the fabricated", "data which", "was submitted,", "If the", "known of", "fabricate", "data what", "submitted"],
+    answer: ["Had the committee", "known about", "the fabricated", "data which", "was submitted,"],
+    explanation: "The correct sentence is: 'Had the committee known about the fabricated data which was submitted, the thesis would have been rejected immediately.'",
+    koreanExplanation: "만약 위원회가 제출된 조작된 데이터에 대해 알았더라면, 그 학위 논문은 즉시 거절되었을 것입니다. 가정법 과거완료에서 'if'가 생략되면서 'Had + 주어 + 과거분사'로 도치된 구조와, 명사 'data'를 수식하는 주격 관계대명사절 'which was submitted'가 결합된 형태입니다.",
+    grammarPoints: "가정법 과거완료 도치 (Had the committee known), 주격 관계대명사",
+    paraphrases: [
+      "Had the panel been aware of the falsified data that was presented, they would have declined the paper right away.",
+      "The dissertation would have faced instant rejection had the board discovered the forged research details."
+    ]
+  },
+  {
+    id: "L5-062",
+    level: 5,
+    context: "What does the new policy say about the professor's application?",
+    sentenceTemplate: "Regulations governing faculty tenure require that _____ _____ _____ _____ _____ by the dean.",
+    chunks: ["every candidate's", "portfolio be", "thoroughly evaluated", "before being", "forwarded", "portfolio is", "evaluate", "before to", "forwarding", "every candidates"],
+    answer: ["every candidate's", "portfolio be", "thoroughly evaluated", "before being", "forwarded"],
+    explanation: "The correct sentence is: 'Regulations governing faculty tenure require that every candidate's portfolio be thoroughly evaluated before being forwarded by the dean.'",
+    koreanExplanation: "교수 정년 보장 규정은 학장에 의해 전달되기 전에 모든 후보자의 포트폴리오가 철저히 평가될 것을 요구합니다. 'require that' 뒤의 당위성을 나타내는 가정법 현재 구문(동사원형 'be')과 전치사 'before' 뒤에 동명사 수동태('being forwarded')가 함께 쓰인 고급 문장입니다.",
+    grammarPoints: "가정법 현재 당위성의 동사원형 (be thoroughly evaluated), 전치사 + 동명사 수동형 (before being forwarded)",
+    paraphrases: [
+      "Rules for faculty promotion mandate that each applicant's file be fully assessed prior to being sent to the dean.",
+      "Tenure policies dictate that every professor's record undergo complete review before it is passed along by the dean."
+    ]
+  },
+  {
+    id: "L5-063",
+    level: 5,
+    context: "What would happen if the grant board decided to withhold the funds?",
+    sentenceTemplate: "_____ _____ _____ _____ _____ the research team would have to suspend operations.",
+    chunks: ["Were the board", "to withhold", "funding for", "reasons that", "remain unspecified,", "Was the", "withholding", "fund to", "what", "remaining unspecified"],
+    answer: ["Were the board", "to withhold", "funding for", "reasons that", "remain unspecified,"],
+    explanation: "The correct sentence is: 'Were the board to withhold funding for reasons that remain unspecified, the research team would have to suspend operations.'",
+    koreanExplanation: "이사회에서 명시되지 않은 이유로 자금 지원을 보류한다면, 연구 팀은 운영을 중단해야 할 것입니다. 가정법 미래(또는 현재/조건)의 'If the board were to...'에서 'if'가 생략되어 'Were the board to...'로 도치된 구조와, 명사 'reasons'를 수식하는 주격 관계대명사절('that remain unspecified')이 결합되었습니다.",
+    grammarPoints: "가정법 미래 도치 (Were the board to), 주격 관계대명사",
+    paraphrases: [
+      "Should the committee deny grants for undisclosed motives, laboratory activities would come to a halt.",
+      "If the trustees were to stop financial support for reasons not yet stated, the project group would stop working."
+    ]
+  },
+  {
+    id: "L5-064",
+    level: 5,
+    context: "Why did Professor Higgins fail to receive tenure?",
+    sentenceTemplate: "_____ _____ _____ _____ _____ Professor Higgins was denied tenure by the committee.",
+    chunks: ["Having failed", "to publish", "articles in", "journals that", "are prestigious,", "Failed", "publishing", "article of", "what", "prestige"],
+    answer: ["Having failed", "to publish", "articles in", "journals that", "are prestigious,"],
+    explanation: "The correct sentence is: 'Having failed to publish articles in journals that are prestigious, Professor Higgins was denied tenure by the committee.'",
+    koreanExplanation: "권위 있는 학술지에 논문을 게재하지 못했기 때문에, 히긴스 교수는 위원회로부터 정년 보장을 거부당했습니다. 완료분사구문('Having failed to publish')을 통해 주절의 시점(정년 거부당함)보다 이전의 원인을 드러내고, 주격 관계대명사절('that are prestigious')로 선행사를 수식합니다.",
+    grammarPoints: "완료분사구문 (Having failed), fail to 부정사, 주격 관계대명사",
+    paraphrases: [
+      "Because he did not release papers in reputable publications, the board did not grant tenure to Dr. Higgins.",
+      "Not having succeeded in publishing works in highly ranked journals, Higgins was rejected for promotion."
+    ]
+  },
+  {
+    id: "L5-065",
+    level: 5,
+    context: "Who is the candidate presenting today?",
+    sentenceTemplate: "The candidate, _____ _____ _____ _____ _____ we reviewed yesterday, is preparing for his defense.",
+    chunks: ["whose thesis", "on quantum", "mechanics, which", "the committee", "praised,", "who thesis", "mechanic,", "what", "committee is", "praising"],
+    answer: ["whose thesis", "on quantum", "mechanics, which", "the committee", "praised,"],
+    explanation: "The correct sentence is: 'The candidate, whose thesis on quantum mechanics, which the committee praised, we reviewed yesterday, is preparing for his defense.'",
+    koreanExplanation: "우리가 어제 검토했고 위원회가 극찬한 양자 역학 논문의 후보자는 그의 학위 논문 심사를 준비하고 있습니다. 소유격 관계대명사절('whose thesis...') 내부에 이를 부연 설명하는 계속적 용법의 관계대명사절('which the committee praised')이 삽입된 복합 관계대명사(이중 관계사) 구조입니다.",
+    grammarPoints: "소유격 관계대명사 (whose), 계속적 용법의 관계대명사 (which), 이중 수식 구조",
+    paraphrases: [
+      "The student is getting ready for his presentation, following our review of his quantum physics paper which won high marks.",
+      "Preparing for the oral exam is the researcher whose work on quantum theory, approved by the panel, we read yesterday."
+    ]
+  },
+  {
+    id: "L5-066",
+    level: 5,
+    context: "How would the department have handled the project if they knew the board's decision?",
+    sentenceTemplate: "_____ _____ _____ _____ _____ their proposal, they would not have hired new staff.",
+    chunks: ["Had the department", "realized sooner", "that the", "board would", "reject", "Did the", "realize", "what", "board", "rejecting"],
+    answer: ["Had the department", "realized sooner", "that the", "board would", "reject"],
+    explanation: "The correct sentence is: 'Had the department realized sooner that the board would reject their proposal, they would not have hired new staff.'",
+    koreanExplanation: "부서가 위원회가 그들의 제안을 거절할 것이라는 점을 더 빨리 알았더라면, 새로운 직원을 채용하지 않았을 것입니다. 가정법 과거완료 도치 구문('Had + 주어 + 과거분사')과 명사절 접속사 'that'이 결합된 고급 표현입니다.",
+    grammarPoints: "가정법 과거완료 도치 (Had the department realized), 명사절 접속사 that, 조동사의 과거형 + 동사원형",
+    paraphrases: [
+      "If the faculty had known beforehand that the panel was going to decline their bid, they wouldn't have recruited extra workers.",
+      "The office would have avoided recruiting new members had they anticipated the funding request's refusal."
+    ]
+  },
+  {
+    id: "L5-067",
+    level: 5,
+    context: "What does the tenure committee require of applicants?",
+    sentenceTemplate: "The tenure board recommends that the candidate _____ _____ _____ _____ _____ next month.",
+    chunks: ["submit all", "letters of", "recommendation by", "the first", "Monday of", "submits", "letter", "recommending", "before to", "Monday"],
+    answer: ["submit all", "letters of", "recommendation by", "the first", "Monday of"],
+    explanation: "The correct sentence is: 'The tenure board recommends that the candidate submit all letters of recommendation by the first Monday of next month.'",
+    koreanExplanation: "정년 보장 이사회는 후보자가 다음 달 첫 번째 월요일까지 모든 추천서를 제출할 것을 권장합니다. 주장/제안/요청/명령의 동사 'recommend'가 이끄는 명사절 'that'절에서 주어 뒤에 조동사 'should'가 생략되어 동사원형 'submit'이 쓰인 당위성 가정법 구문입니다.",
+    grammarPoints: "가정법 현재 (subjunctive mood - submit), 명사 수식 전치사구 (letters of recommendation), 시간 기한 전치사 by",
+    paraphrases: [
+      "The promotion committee advises the applicant to turn in every reference letter before the initial Monday next month.",
+      "It is recommended by the tenure panel that the applicant present all support documents by next month's first Monday."
+    ]
+  },
+  {
+    id: "L5-068",
+    level: 5,
+    context: "When did the student receive the feedback from the thesis committee?",
+    sentenceTemplate: "_____ _____ _____ _____ _____ concluded than the committee asked for revisions.",
+    chunks: ["No sooner had", "the grueling", "defense session", "finally", "been", "Scarcely", "grueling of", "defended", "final", "to be"],
+    answer: ["No sooner had", "the grueling", "defense session", "finally", "been"],
+    explanation: "The correct sentence is: 'No sooner had the grueling defense session finally been concluded than the committee asked for revisions.'",
+    koreanExplanation: "힘겨운 논문 심사 세션이 마침내 끝나자마자 위원회는 수정 사항을 요청했습니다. '하자마자 ~했다'를 표현하는 'No sooner had + 주어 + p.p. + than'의 부정어 도치 구문입니다.",
+    grammarPoints: "부정어 도치 (No sooner had), 과거완료 수동태, 상관 접속사 than",
+    paraphrases: [
+      "Immediately after the tough oral presentation ended, the professors demanded edits to the text.",
+      "Barely had the difficult defense meeting finished when the examiners requested several corrections."
+    ]
+  },
+  {
+    id: "L5-069",
+    level: 5,
+    context: "Why did the board approve the funding for the laboratory?",
+    sentenceTemplate: "_____ _____ _____ _____ _____ environmental impact, the board approved the funding.",
+    chunks: ["Having carefully", "examined the", "proposal concerning", "potential", "long-term", "Examined", "examining", "propose", "potentially", "long-terms"],
+    answer: ["Having carefully", "examined the", "proposal concerning", "potential", "long-term"],
+    explanation: "The correct sentence is: 'Having carefully examined the proposal concerning potential long-term environmental impact, the board approved the funding.'",
+    koreanExplanation: "잠재적인 장기적 환경 영향에 관한 제안서를 면밀히 검토한 후, 위원회는 자금 지원을 승인했습니다. 주절보다 앞선 시점의 행동을 나타내는 완료분사구문('Having carefully examined')과 '~에 관한'의 의미를 가진 전치사적 분사 'concerning'의 결합 구조입니다.",
+    grammarPoints: "완료분사구문, 전치사적 분사 concerning, 복합 형용사 (long-term)",
+    paraphrases: [
+      "After thoroughly analyzing the project application regarding future ecological risks, the directors authorized the grant.",
+      "The trustees gave green light to the budget, having assessed the document about possible persistent climate impacts."
+    ]
+  },
+  {
+    id: "L5-070",
+    level: 5,
+    context: "Who is the candidate chosen by the tenure board?",
+    sentenceTemplate: "The candidate, _____ _____ _____ _____ _____ the dean admires, was granted tenure.",
+    chunks: ["whose research", "won accolades", "and who", "is a", "scholar whom", "who research", "win", "and whom", "is scholar", "who"],
+    answer: ["whose research", "won accolades", "and who", "is a", "scholar whom"],
+    explanation: "The correct sentence is: 'The candidate, whose research won accolades and who is a scholar whom the dean admires, was granted tenure.'",
+    koreanExplanation: "연구로 포상을 받았으며 학장이 존경하는 학자인 그 후보자는 정년 보장을 받았습니다. 소유격 관계대명사절('whose research...')과 주격 관계대명사절('who is...')이 병렬로 연결되어 있고, 그 내부에 목적격 관계대명사절('whom the dean admires')이 포함된 정교한 이중 관계사 구조입니다.",
+    grammarPoints: "소유격 관계대명사 (whose), 주격 관계대명사 (who), 목적격 관계대명사 (whom) 병렬 및 내포",
+    paraphrases: [
+      "The professor, whose work earned praise and who is highly thought of by the dean, received permanent status.",
+      "Lifetime employment was offered to the researcher whose studies got prizes and who is a researcher the dean respects."
+    ]
+  },
+  {
+    id: "L5-071",
+    level: 5,
+    context: "Why is the board keeping the budget details confidential?",
+    sentenceTemplate: "The board insists that _____ _____ _____ _____ _____ should rise among faculty members.",
+    chunks: ["the budget details", "remain confidential", "lest unnecessary", "speculation and", "anxiety", "details of", "remaining", "unless", "speculate", "anxiously"],
+    answer: ["the budget details", "remain confidential", "lest unnecessary", "speculation and", "anxiety"],
+    explanation: "The correct sentence is: 'The board insists that the budget details remain confidential lest unnecessary speculation and anxiety should rise among faculty members.'",
+    koreanExplanation: "이사회는 교수들 사이에서 불필요한 추측과 불안이 생기지 않도록 예산 세부 사항이 기밀로 유지되어야 한다고 주장합니다. 주장 동사 'insist'에 따른 당위성 가정법 현재(동사원형 'remain')와 부정 목적(~하지 않도록)을 나타내는 접속사구 'lest ... should'의 고급 결합입니다.",
+    grammarPoints: "가정법 현재 (insist that + 동사원형), 접속사 lest + 주어 + should",
+    paraphrases: [
+      "To prevent baseless rumors and worries from spreading in the department, the committee demands that financial data stay secret.",
+      "The trustees order that numbers be kept private so that faculty members do not get worried or start rumors."
+    ]
+  },
+  {
+    id: "L5-072",
+    level: 5,
+    context: "When was the PhD student finally allowed to graduate?",
+    sentenceTemplate: "Only after _____ _____ _____ _____ _____ announce that the student was officially allowed to graduate.",
+    chunks: ["the committee", "had signed", "the defense", "forms did", "the department", "committee is", "signed", "form", "doing", "departmental"],
+    answer: ["the committee", "had signed", "the defense", "forms did", "the department"],
+    explanation: "The correct sentence is: 'Only after the committee had signed the defense forms did the department announce that the student was officially allowed to graduate.'",
+    koreanExplanation: "위원회들이 심사 양식에 서명한 후에야 비로소 학과는 학생이 공식적으로 졸업할 수 있다고 발표했습니다. 'Only after' 부사절이 문두에 위치하여 주절에 조동사 도치('did + 주어 + 동사원형')가 일어난 고급 문형입니다.",
+    grammarPoints: "Only after 부사절 뒤의 주절 도치 (did the department announce), 과거완료 시제",
+    paraphrases: [
+      "The school did not declare the candidate's graduation until the final approval papers were signed by examiners.",
+      "Not until the professors endorsed the evaluation sheets did the department declare the student's completion."
+    ]
+  },
+  {
+    id: "L5-073",
+    level: 5,
+    context: "Would Professor Lee have received tenure without his mentor's guidance?",
+    sentenceTemplate: "_____ _____ _____ _____ _____ mentor, Professor Lee would not have secured tenure.",
+    chunks: ["Had it not", "been for the", "guidance provided", "by his", "distinguished", "Were it", "be for", "guide", "by the", "distinguishing"],
+    answer: ["Had it not", "been for the", "guidance provided", "by his", "distinguished"],
+    explanation: "The correct sentence is: 'Had it not been for the guidance provided by his distinguished mentor, Professor Lee would not have secured tenure.'",
+    koreanExplanation: "그의 훌륭한 멘토가 제공한 지도가 없었더라면, 이 교수는 정년 보장을 확보하지 못했을 것입니다. 'If it had not been for...'의 가정법 과거완료 대용 구문에서 'if'가 생략되어 'Had it not been for...'로 도치된 구조와, 명사 'guidance'를 수식하는 과거분사구('provided by...')의 결합입니다.",
+    grammarPoints: "가정법 과거완료 대용 도치 (Had it not been for), 과거분사의 후치수식 (provided by)",
+    paraphrases: [
+      "Without the counseling from his respected adviser, Dr. Lee would have failed to get lifetime tenure.",
+      "But for the advice given by his celebrated mentor, Professor Lee's tenure bid would have been unsuccessful."
+    ]
+  },
+  {
+    id: "L5-074",
+    level: 5,
+    context: "What kind of projects does the university grant board support?",
+    sentenceTemplate: "The grant board prioritizes proposals _____ _____ _____ _____ _____ who are highly respected.",
+    chunks: ["that address", "scientific questions", "which are", "posed by", "researchers", "what address", "science", "which is", "posing", "researcher"],
+    answer: ["that address", "scientific questions", "which are", "posed by", "researchers"],
+    explanation: "The correct sentence is: 'The grant board prioritizes proposals that address scientific questions which are posed by researchers who are highly respected.'",
+    koreanExplanation: "연구 재단 위원회는 매우 존경받는 연구원들에 의해 제기된 과학적 질문들을 다루는 제안서들을 우선적으로 지원합니다. 선행사 'proposals'를 수식하는 주격 관계대명사절('that address...'), 그 안의 'questions'를 수식하는 'which are posed by...', 그리고 다시 'researchers'를 수식하는 'who are...'가 3중으로 얽힌 고급 다중 관계사 구조입니다.",
+    grammarPoints: "다중 관계대명사 수식 구조, 과거분사에 의한 수동 표현 (posed by)",
+    paraphrases: [
+      "Funding preference is given to projects dealing with research questions raised by acclaimed scientists.",
+      "The committee prefers applications focusing on scientific issues that have been proposed by distinguished analysts."
+    ]
+  },
+  {
+    id: "L5-075",
+    level: 5,
+    context: "What happens if a student fails to present the data correctly during the defense?",
+    sentenceTemplate: "It is crucial that _____ _____ _____ _____ _____ face immediate rejection.",
+    chunks: ["the student present", "accurate data,", "lest the", "submitted thesis", "should", "student presents", "accurately", "unless", "submitting", "would"],
+    answer: ["the student present", "accurate data,", "lest the", "submitted thesis", "should"],
+    explanation: "The correct sentence is: 'It is crucial that the student present accurate data, lest the submitted thesis should face immediate rejection.'",
+    koreanExplanation: "제출된 논문이 즉각 거절당하지 않도록 학생이 정확한 데이터를 제시하는 것이 매우 중요합니다. 'It is crucial that' 구문 뒤의 당위성을 나타내는 가정법 현재(동사원형 'present')와 부정 목적(~하지 않도록)을 이끄는 접속사 'lest ... should'의 결합입니다.",
+    grammarPoints: "가정법 현재 (present), lest + 주어 + should + 동사원형",
+    paraphrases: [
+      "The candidate must supply valid research figures so that the turned-in dissertation does not get thrown out.",
+      "It is vital that the presenter show correct results to avoid the instant dismissal of the paper."
+    ]
+  },
+  {
+    id: "L5-076",
+    level: 5,
+    context: "What would happen if the dean were to modify the regulations?",
+    sentenceTemplate: "_____ _____ _____ _____ _____ regulations, many professors would protest.",
+    chunks: ["Were the dean", "to unilaterally", "modify the", "established faculty", "tenure", "Was the dean", "unilateral", "modifying", "established of", "tenured"],
+    answer: ["Were the dean", "to unilaterally", "modify the", "established faculty", "tenure"],
+    explanation: "The correct sentence is: 'Were the dean to unilaterally modify the established faculty tenure regulations, many professors would protest.'",
+    koreanExplanation: "학장이 기정된 교수 정년 보장 규정을 일방적으로 수정한다면, 많은 교수들이 반발할 것입니다. 가정법 미래(조건)의 'If the dean were to...'에서 'if'가 생략되어 'Were the dean to...'로 도치된 구문과, 부사 'unilaterally' 및 과거분사 'established'의 수식 구조입니다.",
+    grammarPoints: "가정법 미래 도치 (Were the dean to), 과거분사의 전치 수식 (established), 부사 수식",
+    paraphrases: [
+      "Should the dean change the current academic tenure codes by himself, there would be widespread faculty protests.",
+      "If the director decided to alter existing staff tenure rules single-handedly, it would spark protests."
+    ]
+  },
+  {
+    id: "L5-077",
+    level: 5,
+    context: "Why did the research project lose its funding?",
+    sentenceTemplate: "_____ _____ _____ _____ _____ funding, the team had to close the laboratory.",
+    chunks: ["Having been", "accused of", "mismanaging the", "previously allocated", "grant", "Being", "accusing", "mismanagement", "previous", "grants"],
+    answer: ["Having been", "accused of", "mismanaging the", "previously allocated", "grant"],
+    explanation: "The correct sentence is: 'Having been accused of mismanaging the previously allocated grant funding, the team had to close the laboratory.'",
+    koreanExplanation: "이전에 할당된 연구비 자금을 잘못 관리했다는 비난을 받은 후, 그 팀은 연구실을 폐쇄해야 했습니다. 주절보다 앞선 완료형 시점의 수동을 나타내는 완료수동분사구문('Having been accused of')과 전치사 'of' 뒤의 동명사('mismanaging'), 그리고 과거분사('allocated')의 수식 구조입니다.",
+    grammarPoints: "완료수동분사구문 (Having been accused of), 전치사의 목적어인 동명사, 과거분사의 명사 전치수식",
+    paraphrases: [
+      "Since they were charged with wasting the earlier budget award, the researchers had to shut down the facility.",
+      "Being blamed for handling the past research grant poorly, the investigators were forced to lock the lab."
+    ]
+  },
+  {
+    id: "L5-078",
+    level: 5,
+    context: "What did the professor say about the student who defended his thesis?",
+    sentenceTemplate: "The student, _____ _____ _____ _____ _____ committee rejected, decided to appeal.",
+    chunks: ["whose thesis", "proposed a", "theory that", "every member of", "the", "who thesis", "propose", "what", "every of", "member"],
+    answer: ["whose thesis", "proposed a", "theory that", "every member of", "the"],
+    explanation: "The correct sentence is: 'The student, whose thesis proposed a theory that every member of the committee rejected, decided to appeal.'",
+    koreanExplanation: "위원회 모든 위원이 거부한 이론을 그의 학위 논문에서 제시했던 그 학생은 항소하기로 결정했습니다. 소유격 관계대명사절('whose thesis...') 내의 명사 'theory'를 수식하는 목적격 관계대명사절('that every member of...')이 결합된 이중 관계사 구조입니다.",
+    grammarPoints: "소유격 관계대명사 (whose), 목적격 관계대명사 (that), 명사구 수식",
+    paraphrases: [
+      "The academic whose paper introduced a model that was turned down by all examiners chose to contest the decision.",
+      "Having written a dissertation containing a concept that was dismissed by the panel, the student appealed."
+    ]
+  },
+  {
+    id: "L5-079",
+    level: 5,
+    context: "What would have happened if the department chair had supported the candidate?",
+    sentenceTemplate: "_____ _____ _____ _____ _____ the board would have granted tenure.",
+    chunks: ["Had the department", "chair strongly", "recommended that", "the candidate", "be promoted,", "Did the department", "strongly of", "recommending", "candidate", "was promoted,"],
+    answer: ["Had the department", "chair strongly", "recommended that", "the candidate", "be promoted,"],
+    explanation: "The correct sentence is: 'Had the department chair strongly recommended that the candidate be promoted, the board would have granted tenure.'",
+    koreanExplanation: "학과장이 그 후보자를 승진시킬 것을 강력히 추천했었더라면, 이사회는 정년 보장을 승인했을 것입니다. 가정법 과거완료 도치('Had the department chair strongly recommended')와 추천 동사 'recommend'에 따른 대절 내 동사원형 수동태('be promoted')가 결합된 매우 수준 높은 문장입니다.",
+    grammarPoints: "가정법 과거완료 도치, 가정법 현재 수동태 (be promoted after recommended that)",
+    paraphrases: [
+      "If the head of department had given a strong endorsement for the nominee's promotion, the panel would have approved tenure.",
+      "The trustees would have offered permanent status had the supervisor urged that the applicant be advanced."
+    ]
+  },
+  {
+    id: "L5-080",
+    level: 5,
+    context: "Why is the grant board auditing the research group?",
+    sentenceTemplate: "The university grant board insists that the project leader _____ _____ _____ _____ _____ should be initiated.",
+    chunks: ["audit all financial", "records, lest a", "formal investigation", "into mismanagement", "claims", "audits all", "record, unless", "formally", "mismanaging", "claim"],
+    answer: ["audit all financial", "records, lest a", "formal investigation", "into mismanagement", "claims"],
+    explanation: "The correct sentence is: 'The university grant board insists that the project leader audit all financial records, lest a formal investigation into mismanagement claims should be initiated.'",
+    koreanExplanation: "대학 연구비 자금 위원회는 관리 부실 주장에 대한 공식 조사가 시작되지 않도록 프로젝트 팀장이 모든 재정 기록을 감사할 것을 주장합니다. 당위성 제안 동사 'insist'에 따른 동사원형 'audit'과 부정 목적(~하지 않도록)을 표현하는 'lest ... should' 구문의 조화입니다.",
+    grammarPoints: "가정법 현재 (audit), lest + 주어 + should, 전치사 into + 명사구",
+    paraphrases: [
+      "The committee demands that the lead investigator inspect the accounts to prevent an official inquiry into waste claims.",
+      "To avoid starting a formal audit over spending claims, the funding board requires the chief to review all budgets."
+    ]
   }
 ];

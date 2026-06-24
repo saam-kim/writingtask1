@@ -869,5 +869,305 @@ export const level3Questions: Question[] = [
       "They constructed a facility equipped with modern fitness gear.",
       "A new gym packed with state-of-the-art machines was opened."
     ]
+  },
+  {
+    id: "L3-061",
+    level: 3,
+    context: "Have you submitted the registration form to the registrar?",
+    sentenceTemplate: "Yes, I _____ _____ _____ _____ the required documents.",
+    chunks: ["have", "already", "turned", "in", "had", "turn", "already have"],
+    answer: ["have", "already", "turned", "in"],
+    explanation: "The correct sentence is: 'Yes, I have already turned in the required documents.'",
+    koreanExplanation: "네, 저는 이미 필요한 서류를 제출했습니다. 현재완료 시제(have already p.p.)와 구동사 turn in을 사용하여 완료된 동작을 나타냅니다.",
+    grammarPoints: "현재완료 시제, 구동사 turn in",
+    paraphrases: [
+      "Yes, the necessary paperwork has already been submitted to the office.",
+      "I have already handed in all the required forms to the registrar."
+    ]
+  },
+  {
+    id: "L3-062",
+    level: 3,
+    context: "Do I need to take advanced chemistry first?",
+    sentenceTemplate: "You must complete the prerequisite _____ _____ _____ _____ into the program.",
+    chunks: ["in", "order", "to be", "accepted", "for", "to", "accepting"],
+    answer: ["in", "order", "to be", "accepted"],
+    explanation: "The correct sentence is: 'You must complete the prerequisite in order to be accepted into the program.'",
+    koreanExplanation: "프로그램에 합격하기 위해서는 선이수 과목을 이수해야 합니다. 'in order to + 동사원형'에 수동태 부정사 'to be accepted'가 결합된 형태입니다.",
+    grammarPoints: "수동태 부정사 (to be accepted), 목적을 나타내는 in order to",
+    paraphrases: [
+      "Completing the prerequisite is necessary for admission into the program.",
+      "To get accepted into the program, you are required to finish the prerequisite course."
+    ]
+  },
+  {
+    id: "L3-063",
+    level: 3,
+    context: "How did you find so many peer-reviewed articles?",
+    sentenceTemplate: "_____ _____ _____ _____ database, I quickly gathered relevant sources.",
+    chunks: ["Having", "searched", "the", "library", "Search", "have", "libraries"],
+    answer: ["Having", "searched", "the", "library"],
+    explanation: "The correct sentence is: 'Having searched the library database, I quickly gathered relevant sources.'",
+    koreanExplanation: "도서관 데이터베이스를 검색한 후에, 나는 유용한 자료들을 빠르게 수집했습니다. 완료 분사구문(Having + p.p.)을 사용하여 주절의 시제(gathered)보다 먼저 일어난 동작을 나타냅니다.",
+    grammarPoints: "완료 분사구문 (Having p.p.)",
+    paraphrases: [
+      "After I searched the library catalog, I compiled the necessary references quickly.",
+      "By looking through the library database, I was able to gather relevant articles in no time."
+    ]
+  },
+  {
+    id: "L3-064",
+    level: 3,
+    context: "Are there any consequences for late registration?",
+    sentenceTemplate: "Late registration _____ _____ _____ _____ academic penalties but also financial fees.",
+    chunks: ["not", "only", "results", "in", "but", "only", "resulting"],
+    answer: ["not", "only", "results", "in"],
+    explanation: "The correct sentence is: 'Late registration not only results in academic penalties but also financial fees.'",
+    koreanExplanation: "늦은 수강신청은 학업적 불이익을 초래할 뿐만 아니라 재정적 수수료도 발생시킵니다. 상관접속사 'not only A but also B' 구조와 구동사 'result in'이 사용되었습니다.",
+    grammarPoints: "상관접속사 (not only... but also), result in",
+    paraphrases: [
+      "Registering late leads to both academic consequences and additional charges.",
+      "Not only do you face academic penalties for registering late, but you must also pay a fee."
+    ]
+  },
+  {
+    id: "L3-065",
+    level: 3,
+    context: "Did you find the book before the library closed?",
+    sentenceTemplate: "No, someone _____ _____ _____ _____ the last copy.",
+    chunks: ["had", "already", "checked", "out", "have", "checking", "out of"],
+    answer: ["had", "already", "checked", "out"],
+    explanation: "The correct sentence is: 'No, someone had already checked out the last copy.'",
+    koreanExplanation: "아니요, 누군가가 이미 마지막 권을 대출해 갔습니다. 과거 시점(closed)보다 이전에 완료된 동작을 나타내기 위해 과거완료 시제(had + p.p.)를 사용합니다.",
+    grammarPoints: "과거완료 시제, 구동사 check out",
+    paraphrases: [
+      "Unfortunately, the final copy had been borrowed by someone else before then.",
+      "By the time I arrived, the last remaining book had already been taken."
+    ]
+  },
+  {
+    id: "L3-066",
+    level: 3,
+    context: "Why must we submit our transcripts early?",
+    sentenceTemplate: "The documents need _____ _____ _____ _____ by the registrar's office.",
+    chunks: ["to", "be", "officially", "approved", "be", "official", "approving"],
+    answer: ["to", "be", "officially", "approved"],
+    explanation: "The correct sentence is: 'The documents need to be officially approved by the registrar's office.'",
+    koreanExplanation: "서류들은 등록처에 의해 공식적으로 승인되어야 합니다. 'need to be p.p.' 형태의 수동태 부정사를 사용하여 대상이 승인받아야 함을 나타냅니다.",
+    grammarPoints: "수동태 부정사 (to be p.p.), 부사-과거분사 수식",
+    paraphrases: [
+      "It is necessary for the registrar to formally authorize all submitted transcripts.",
+      "Our academic records must undergo official approval by the administration."
+    ]
+  },
+  {
+    id: "L3-067",
+    level: 3,
+    context: "Why was your registration request denied?",
+    sentenceTemplate: "_____ _____ _____ _____ the deadline, I could not enroll.",
+    chunks: ["Having", "missed", "the", "official", "Miss", "have", "officially"],
+    answer: ["Having", "missed", "the", "official"],
+    explanation: "The correct sentence is: 'Having missed the official deadline, I could not enroll.'",
+    koreanExplanation: "공식 마감 기한을 놓쳤기 때문에, 나는 등록할 수 없었습니다. 완료 분사구문(Having + p.p.)을 사용해 등록하지 못한 과거 시점보다 이전에 발생한 원인을 설명합니다.",
+    grammarPoints: "완료 분사구문 (Having p.p.)",
+    paraphrases: [
+      "Because I failed to meet the official enrollment date, I was unable to register.",
+      "Since I had missed the registrar's deadline, my class registration could not go through."
+    ]
+  },
+  {
+    id: "L3-068",
+    level: 3,
+    context: "Is the online database helpful for literature reviews?",
+    sentenceTemplate: "It _____ _____ _____ _____ scholarly articles but also primary sources.",
+    chunks: ["provides", "not", "only", "excellent", "provide", "but", "excel"],
+    answer: ["provides", "not", "only", "excellent"],
+    explanation: "The correct sentence is: 'It provides not only excellent scholarly articles but also primary sources.'",
+    koreanExplanation: "그것은 훌륭한 학술 논문뿐만 아니라 1차 사료도 제공합니다. 상관접속사 'not only A but also B' 구조로 두 개의 목적어 구를 연결합니다.",
+    grammarPoints: "상관접속사 (not only... but also), 3인칭 단수 일치",
+    paraphrases: [
+      "The digital search engine offers key primary documents as well as academic journals.",
+      "Besides publishing peer-reviewed papers, this database contains historical records."
+    ]
+  },
+  {
+    id: "L3-069",
+    level: 3,
+    context: "Has the advisor checked your prerequisite courses?",
+    sentenceTemplate: "Yes, she _____ _____ _____ _____ prerequisite courses.",
+    chunks: ["has", "already", "evaluated", "my", "have", "evaluate", "evaluating"],
+    answer: ["has", "already", "evaluated", "my"],
+    explanation: "The correct sentence is: 'Yes, she has already evaluated my prerequisite courses.'",
+    koreanExplanation: "네, 그녀는 제 선이수 과목들을 이미 평가하셨습니다. 현재완료 시제(has already p.p.)를 사용하여 과거에 행해져 현재 완료된 상태를 나타냅니다.",
+    grammarPoints: "현재완료 시제 (has + p.p.)",
+    paraphrases: [
+      "My advisor has already gone over the preparatory classes I took.",
+      "Indeed, she has completed the evaluation of my prerequisite coursework."
+    ]
+  },
+  {
+    id: "L3-070",
+    level: 3,
+    context: "What happens if we request a registration override?",
+    sentenceTemplate: "The form needs _____ _____ _____ _____ by the department chair.",
+    chunks: ["to", "be", "personally", "signed", "be", "personal", "signing"],
+    answer: ["to", "be", "personally", "signed"],
+    explanation: "The correct sentence is: 'The form needs to be personally signed by the department chair.'",
+    koreanExplanation: "그 양식은 학과장에게 직접 서명을 받아야 합니다. 'need to be p.p.' 구조로 수동의 대상을 나타내며 부사 'personally'가 과거분사를 수식합니다.",
+    grammarPoints: "수동태 부정사 (to be p.p.), 부사의 분사 수식",
+    paraphrases: [
+      "You must obtain the department head's physical signature on the override form.",
+      "The registrar requires the chairperson to sign the override request in person."
+    ]
+  },
+  {
+    id: "L3-071",
+    level: 3,
+    context: "How did you filter out irrelevant search results?",
+    sentenceTemplate: "_____ _____ _____ _____ search filters, I excluded non-academic sources.",
+    chunks: ["Using", "the", "advanced", "database", "Use", "used", "the database"],
+    answer: ["Using", "the", "advanced", "database"],
+    explanation: "The correct sentence is: 'Using the advanced database search filters, I excluded non-academic sources.'",
+    koreanExplanation: "고급 데이터베이스 검색 필터를 사용하여, 나는 비학술적 출처를 제외했습니다. 현재분사구문(Using...)을 사용하여 동시동작이나 수단을 나타냅니다.",
+    grammarPoints: "현재분사구문 (Using...)",
+    paraphrases: [
+      "By utilizing specialized search parameters, I filtered out non-scholarly articles.",
+      "I eliminated irrelevant papers through the use of advanced database options."
+    ]
+  },
+  {
+    id: "L3-072",
+    level: 3,
+    context: "Why is biology 101 so popular?",
+    sentenceTemplate: "It is _____ _____ _____ _____ but also extremely practical.",
+    chunks: ["not", "only", "academically", "interesting", "academic", "but", "also"],
+    answer: ["not", "only", "academically", "interesting"],
+    explanation: "The correct sentence is: 'It is not only academically interesting but also extremely practical.'",
+    koreanExplanation: "그것은 학문적으로 흥미로울 뿐만 아니라 대단히 실용적이기도 합니다. 상관접속사 'not only A but also B'가 두 개의 부사+형용사 구를 대등하게 연결합니다.",
+    grammarPoints: "상관접속사 (not only... but also), 부사-형용사 수식 병렬 구조",
+    paraphrases: [
+      "The course offers both intellectual stimulation and high real-world utility.",
+      "This introductory class is both fascinating from an academic standpoint and highly useful."
+    ]
+  },
+  {
+    id: "L3-073",
+    level: 3,
+    context: "Why did you have to pay a registration fine?",
+    sentenceTemplate: "Because the registrar _____ _____ _____ _____ my tuition payment.",
+    chunks: ["had", "not", "yet", "received", "have", "receiving", "yet received"],
+    answer: ["had", "not", "yet", "received"],
+    explanation: "The correct sentence is: 'Because the registrar had not yet received my tuition payment.'",
+    koreanExplanation: "등록처에서 제 등록금 수납을 아직 처리하지 못했기 때문입니다. 수강 신청금 미납으로 벌금을 낸 시점(과거)보다 이전에 돈이 아직 입금되지 않았던 상태이므로 과거완료 부정시제(had not yet p.p.)를 씁니다.",
+    grammarPoints: "과거완료 부정시제 (had not yet + p.p.)",
+    paraphrases: [
+      "I was fined since my university payment had not cleared by that date.",
+      "The office imposed a fee because they had not processed my transaction in time."
+    ]
+  },
+  {
+    id: "L3-074",
+    level: 3,
+    context: "Can we access restricted archives on the library site?",
+    sentenceTemplate: "Special permission needs _____ _____ _____ _____ by the head librarian.",
+    chunks: ["to", "be", "directly", "granted", "be", "direct", "granting"],
+    answer: ["to", "be", "directly", "granted"],
+    explanation: "The correct sentence is: 'Special permission needs to be directly granted by the head librarian.'",
+    koreanExplanation: "특별 허가는 수석 사서에 의해 직접 부여되어야 합니다. 'need to be p.p.' 수동태 부정사와 부사 'directly'가 과거분사를 수식합니다.",
+    grammarPoints: "수동태 부정사 (to be p.p.), 부사 수식",
+    paraphrases: [
+      "Only direct authorization from the chief librarian allows access to the archives.",
+      "The library requires the head administrator to grant permission before entering the restricted section."
+    ]
+  },
+  {
+    id: "L3-075",
+    level: 3,
+    context: "How did you know you were ready for advanced calculus?",
+    sentenceTemplate: "_____ _____ _____ _____ calculus, I felt confident about the advanced class.",
+    chunks: ["Having", "already", "passed", "introductory", "Have", "pass", "passed to"],
+    answer: ["Having", "already", "passed", "introductory"],
+    explanation: "The correct sentence is: 'Having already passed introductory calculus, I felt confident about the advanced class.'",
+    koreanExplanation: "기초 미적분학을 이미 통과했기 때문에, 나는 심화 수업에 대해 자신감을 느꼈습니다. 완료 분사구문(Having + p.p.)을 사용하여 주절의 과거 시점(felt) 이전의 완료된 사실을 설명합니다.",
+    grammarPoints: "완료 분사구문 (Having p.p.), 부사 위치",
+    paraphrases: [
+      "Since I had already finished the basic calculus class, I felt ready for the next level.",
+      "After passing the introductory course, I was self-assured about taking advanced math."
+    ]
+  },
+  {
+    id: "L3-076",
+    level: 3,
+    context: "Is the registrar's office open on weekends?",
+    sentenceTemplate: "No, they are _____ _____ _____ _____ Saturdays but also on Sundays.",
+    chunks: ["closed", "not", "only", "on", "close", "but", "only on"],
+    answer: ["closed", "not", "only", "on"],
+    explanation: "The correct sentence is: 'No, they are closed not only on Saturdays but also on Sundays.'",
+    koreanExplanation: "아니요, 그들은 토요일뿐만 아니라 일요일에도 문을 닫습니다. 상관접속사 'not only A but also B'가 부사구인 전치사구를 병렬로 연결합니다.",
+    grammarPoints: "상관접속사 (not only... but also) 병렬 구조, 전치사구 병렬",
+    paraphrases: [
+      "The registration department is shut during both Saturday and Sunday.",
+      "They remain closed on both weekend days, Saturday and Sunday alike."
+    ]
+  },
+  {
+    id: "L3-077",
+    level: 3,
+    context: "Have you found the research papers for your thesis?",
+    sentenceTemplate: "Yes, I _____ _____ _____ _____ several databases today.",
+    chunks: ["have", "already", "searched", "through", "has", "search", "already searched"],
+    answer: ["have", "already", "searched", "through"],
+    explanation: "The correct sentence is: 'Yes, I have already searched through several databases today.'",
+    koreanExplanation: "네, 저는 오늘 여러 데이터베이스를 이미 검색해 보았습니다. 현재완료 시제(have already p.p.)와 전치사구(search through)를 사용하여 동작의 완료를 나타냅니다.",
+    grammarPoints: "현재완료 시제, 구동사 search through",
+    paraphrases: [
+      "I have already finished looking through multiple digital catalogs today.",
+      "Today, I successfully completed my search across several databases."
+    ]
+  },
+  {
+    id: "L3-078",
+    level: 3,
+    context: "What is the requirement for the internship program?",
+    sentenceTemplate: "An application form needs _____ _____ _____ _____ to the coordinator.",
+    chunks: ["to", "be", "directly", "submitted", "be", "direct", "submitting"],
+    answer: ["to", "be", "directly", "submitted"],
+    explanation: "The correct sentence is: 'An application form needs to be directly submitted to the coordinator.'",
+    koreanExplanation: "신청서는 코디네이터에게 직접 제출되어야 합니다. 'need to be p.p.' 수동태 부정사와 동작을 강조하는 부사 'directly'가 함께 사용되었습니다.",
+    grammarPoints: "수동태 부정사 (to be p.p.), 부사 수식",
+    paraphrases: [
+      "You must hand in your application directly to the program coordinator.",
+      "The coordinator requires the direct submission of your application forms."
+    ]
+  },
+  {
+    id: "L3-079",
+    level: 3,
+    context: "How did you manage to get a seat in that popular seminar?",
+    sentenceTemplate: "_____ _____ _____ _____ registrar early, I secured my spot.",
+    chunks: ["Having", "spoken", "with", "the", "Have", "speak", "with the"],
+    answer: ["Having", "spoken", "with", "the"],
+    explanation: "The correct sentence is: 'Having spoken with the registrar early, I secured my spot.'",
+    koreanExplanation: "등록처 직원과 일찍 이야기를 나누었기 때문에, 나는 자리를 확보할 수 있었습니다. 완료 분사구문(Having + p.p.)을 사용해 주절의 시점(secured)보다 먼저 발생한 원인 행위를 명시합니다.",
+    grammarPoints: "완료 분사구문 (Having p.p.), 전치사 동반 동사구 (speak with)",
+    paraphrases: [
+      "Because I talked to the registration office early on, I guaranteed my seat.",
+      "By consulting the registrar ahead of time, I managed to secure my enrollment."
+    ]
+  },
+  {
+    id: "L3-080",
+    level: 3,
+    context: "Does the library search engine require a login?",
+    sentenceTemplate: "The database is available _____ _____ _____ _____ students but also to faculty.",
+    chunks: ["not", "only", "to", "registered", "no", "only to", "registering"],
+    answer: ["not", "only", "to", "registered"],
+    explanation: "The correct sentence is: 'The database is available not only to registered students but also to faculty.'",
+    koreanExplanation: "그 데이터베이스는 등록된 학생뿐만 아니라 교수진도 사용할 수 있습니다. 상관접속사 'not only A but also B'를 전치사 'to'와 결합하여 대상을 병렬로 나타냅니다.",
+    grammarPoints: "상관접속사 (not only... but also), 전치사구 병렬",
+    paraphrases: [
+      "Both enrolled students and faculty members can access the online database.",
+      "This digital system serves not only the student body but also the academic staff."
+    ]
   }
 ];

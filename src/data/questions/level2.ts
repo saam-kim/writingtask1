@@ -871,5 +871,305 @@ export const level2Questions: Question[] = [
       "We plan to consult her as soon as she arrives on campus.",
       "When she reaches her office, we will hold our meeting."
     ]
+  },
+  {
+    id: "L2-061",
+    level: 2,
+    context: "Student A: Do you know the student who is leading the study group?",
+    sentenceTemplate: "Student B: Yes, she is the one _____ _____ _____ _____ the chemistry sessions.",
+    chunks: ["who", "organizes", "all", "of", "whom", "organizing", "at"],
+    answer: ["who", "organizes", "all", "of"],
+    explanation: "The correct sentence is: 'Yes, she is the one who organizes all of the chemistry sessions.'",
+    koreanExplanation: "예, 그녀가 화학 세션을 모두 조직하는 사람입니다. 주격 관계대명사 'who'를 사용하여 선행사 'the one'을 수식합니다.",
+    grammarPoints: "주격 관계대명사 who",
+    paraphrases: [
+      "Yes, she is the person responsible for setting up all the chemistry study groups.",
+      "Indeed, she is the student who coordinates the chemistry review sessions."
+    ]
+  },
+  {
+    id: "L2-062",
+    level: 2,
+    context: "Student A: Are you interested in joining the photography club?",
+    sentenceTemplate: "Student B: Yes, I really enjoy _____ _____ _____ _____ campus events.",
+    chunks: ["taking", "pictures", "of", "various", "to take", "picture", "with"],
+    answer: ["taking", "pictures", "of", "various"],
+    explanation: "The correct sentence is: 'Yes, I really enjoy taking pictures of various campus events.'",
+    koreanExplanation: "네, 저는 다양한 캠퍼스 행사의 사진을 찍는 것을 정말 즐깁니다. 타동사 'enjoy' 뒤에는 목적어로 동명사 'taking'이 와야 합니다.",
+    grammarPoints: "동명사를 목적어로 취하는 동사 enjoy",
+    paraphrases: [
+      "Yes, taking photos of different school activities is something I truly like.",
+      "Indeed, I love photographing different events happening around campus."
+    ]
+  },
+  {
+    id: "L2-063",
+    level: 2,
+    context: "Student A: Where should we put our bags during the chemistry experiment?",
+    sentenceTemplate: "Student B: All personal bags _____ _____ _____ _____ the lockers outside.",
+    chunks: ["must", "be", "kept", "in", "keep", "been", "at"],
+    answer: ["must", "be", "kept", "in"],
+    explanation: "The correct sentence is: 'All personal bags must be kept in the lockers outside.'",
+    koreanExplanation: "모든 개인 가방은 외부 사물함에 보관되어야 합니다. 'must be + 과거분사(p.p.)' 형태의 조동사 수동태를 사용합니다.",
+    grammarPoints: "조동사 수동태 must be p.p.",
+    paraphrases: [
+      "You have to store all your personal belongings in the lockers outside.",
+      "Every bag needs to be placed in the outdoor lockers before starting."
+    ]
+  },
+  {
+    id: "L2-064",
+    level: 2,
+    context: "Student A: Did you join the calculus study group?",
+    sentenceTemplate: "Student B: I joined it _____ _____ _____ _____ have much free time.",
+    chunks: ["although", "I", "do", "not", "because", "did", "to"],
+    answer: ["although", "I", "do", "not"],
+    explanation: "The correct sentence is: 'I joined it although I do not have much free time.'",
+    koreanExplanation: "비록 여유 시간이 많지는 않지만 가입했습니다. 양보를 나타내는 부사절 접속사 'although' 뒤에 주어와 동사구를 연결합니다.",
+    grammarPoints: "양보 접속사 although",
+    paraphrases: [
+      "Even though my schedule is busy, I decided to join the calculus group.",
+      "I signed up for the study group despite not having a lot of spare time."
+    ]
+  },
+  {
+    id: "L2-065",
+    level: 2,
+    context: "Student A: Why are you going to the student union building?",
+    sentenceTemplate: "Student B: I need _____ _____ _____ _____ the hiking club.",
+    chunks: ["to", "sign", "up", "for", "signing", "down", "at"],
+    answer: ["to", "sign", "up", "for"],
+    explanation: "The correct sentence is: 'I need to sign up for the hiking club.'",
+    koreanExplanation: "저는 등산 동아리에 가입해야 합니다. 'need to + 동사원형' (~해야 한다)과 구동사 'sign up for' (~에 가입/등록하다)를 결합합니다.",
+    grammarPoints: "need to 부정사, 구동사 sign up for",
+    paraphrases: [
+      "I have to register my name for the hiking club today.",
+      "My goal is to enroll in the outdoor hiking group."
+    ]
+  },
+  {
+    id: "L2-066",
+    level: 2,
+    context: "Student A: When can we start the lab experiment?",
+    sentenceTemplate: "Student B: We can start _____ _____ _____ _____ wear safety goggles.",
+    chunks: ["only", "if", "we", "all", "unless", "they", "always"],
+    answer: ["only", "if", "we", "all"],
+    explanation: "The correct sentence is: 'We can start only if we all wear safety goggles.'",
+    koreanExplanation: "우리 모두가 보안경을 착용하는 경우에만 시작할 수 있습니다. 조건의 부사절을 이끄는 'only if' (~해야만)를 사용합니다.",
+    grammarPoints: "조건 접속사 only if",
+    paraphrases: [
+      "Wearing safety goggles is a strict requirement before we can begin.",
+      "We are not allowed to start the experiment unless everyone puts on safety goggles."
+    ]
+  },
+  {
+    id: "L2-067",
+    level: 2,
+    context: "Student A: Did you find the textbook for our study group?",
+    sentenceTemplate: "Student B: Yes, I bought the book _____ _____ _____ _____ yesterday.",
+    chunks: ["which", "our", "professor", "recommended", "who", "recommends", "retaining"],
+    answer: ["which", "our", "professor", "recommended"],
+    explanation: "The correct sentence is: 'Yes, I bought the book which our professor recommended yesterday.'",
+    koreanExplanation: "네, 교수님께서 어제 추천해주신 책을 샀습니다. 사물 선행사 'the book'을 수식하는 목적격 관계대명사 'which'를 사용합니다.",
+    grammarPoints: "목적격 관계대명사 which",
+    paraphrases: [
+      "I purchased the textbook recommended by our teacher yesterday.",
+      "Yes, the book that the professor suggested yesterday has been bought by me."
+    ]
+  },
+  {
+    id: "L2-068",
+    level: 2,
+    context: "Student A: Did you decide which club to join this semester?",
+    sentenceTemplate: "Student B: I finally decided _____ _____ _____ _____ coding club.",
+    chunks: ["to", "join", "the", "new", "joining", "for", "at"],
+    answer: ["to", "join", "the", "new"],
+    explanation: "The correct sentence is: 'I finally decided to join the new coding club.'",
+    koreanExplanation: "저는 마침내 새로운 코딩 동아리에 가입하기로 결정했습니다. 'decide' 동사는 미래지향적 의미의 to부정사를 목적어로 취합니다.",
+    grammarPoints: "decide + to 부정사",
+    paraphrases: [
+      "I have made up my mind to sign up for the newly established coding club.",
+      "My final decision is to become a member of the new coding group."
+    ]
+  },
+  {
+    id: "L2-069",
+    level: 2,
+    context: "Student A: Why can't we enter the physics lab right now?",
+    sentenceTemplate: "Student B: The room _____ _____ _____ _____ the safety officers.",
+    chunks: ["is", "being", "inspected", "by", "inspected", "been", "to"],
+    answer: ["is", "being", "inspected", "by"],
+    explanation: "The correct sentence is: 'The room is being inspected by the safety officers.'",
+    koreanExplanation: "그 방은 안전요원들에 의해 점검받는 중입니다. 현재 진행형 수동태 'is being + 과거분사'를 사용하여 동작이 진행 중임을 나타냅니다.",
+    grammarPoints: "현재진행 수동태 is being p.p.",
+    paraphrases: [
+      "Safety staff are currently checking the lab room.",
+      "The laboratory is undergoing an inspection by the safety team at the moment."
+    ]
+  },
+  {
+    id: "L2-070",
+    level: 2,
+    context: "Student A: Why do you want to study in the library?",
+    sentenceTemplate: "Student B: We should study there _____ _____ _____ _____ quiet rooms.",
+    chunks: ["because", "it", "has", "many", "because of", "having", "much"],
+    answer: ["because", "it", "has", "many"],
+    explanation: "The correct sentence is: 'We should study there because it has many quiet rooms.'",
+    koreanExplanation: "도서관에 조용한 방이 많기 때문에 우리는 거기서 공부해야 합니다. 이유를 나타내는 접속사 'because' 뒤에 완전한 절을 씁니다.",
+    grammarPoints: "원인 접속사 because",
+    paraphrases: [
+      "Since the library provides numerous quiet study areas, we ought to go there.",
+      "We had better study in the library as there are plenty of silent spaces."
+    ]
+  },
+  {
+    id: "L2-071",
+    level: 2,
+    context: "Student A: Who should I talk to about the drama club auditions?",
+    sentenceTemplate: "Student B: You should meet the student _____ _____ _____ _____ auditions.",
+    chunks: ["who", "is", "running", "the", "which", "run", "at"],
+    answer: ["who", "is", "running", "the"],
+    explanation: "The correct sentence is: 'You should meet the student who is running the auditions.'",
+    koreanExplanation: "오디션을 운영하고 있는 학생을 만나야 합니다. 사람 선행사 'the student'를 수식하는 주격 관계대명사 'who'와 진행 시제를 사용합니다.",
+    grammarPoints: "주격 관계대명사 who",
+    paraphrases: [
+      "You need to speak to the person in charge of organizing the auditions.",
+      "Please contact the student coordinator who manages the drama trials."
+    ]
+  },
+  {
+    id: "L2-072",
+    level: 2,
+    context: "Student A: Can we leave the chemistry lab after finishing the experiment?",
+    sentenceTemplate: "Student B: No, you must clean the desk _____ _____ _____ _____ the laboratory.",
+    chunks: ["before", "you", "actually", "leave", "after", "actual", "leaving"],
+    answer: ["before", "you", "actually", "leave"],
+    explanation: "The correct sentence is: 'No, you must clean the desk before you actually leave the laboratory.'",
+    koreanExplanation: "아니요, 실험실을 실제로 떠나기 전에 실험대를 청소해야 합니다. 시간 접속사 'before' 뒤에 주어와 동사구를 넣어 표현합니다.",
+    grammarPoints: "시간 접속사 before",
+    paraphrases: [
+      "Cleaning your workstation is mandatory prior to exiting the laboratory.",
+      "You must tidy up the desk area before you can leave the lab."
+    ]
+  },
+  {
+    id: "L2-073",
+    level: 2,
+    context: "Student A: Did your group members agree on the meeting time?",
+    sentenceTemplate: "Student B: Yes, they all agreed _____ _____ _____ _____ every Saturday.",
+    chunks: ["to", "meet", "at", "noon", "meeting", "for", "on"],
+    answer: ["to", "meet", "at", "noon"],
+    explanation: "The correct sentence is: 'Yes, they all agreed to meet at noon every Saturday.'",
+    koreanExplanation: "네, 그들은 모두 매주 토요일 정오에 만나기로 합의했습니다. 'agree' 동사는 to부정사를 목적어로 취하여 향후의 행동을 나타냅니다.",
+    grammarPoints: "agree + to 부정사",
+    paraphrases: [
+      "Indeed, everyone consented to hold our weekly sessions at 12 PM on Saturdays.",
+      "Yes, the members decided on meeting at midday each Saturday."
+    ]
+  },
+  {
+    id: "L2-074",
+    level: 2,
+    context: "Student A: Which club booth did you visit today?",
+    sentenceTemplate: "Student B: I visited the booth of the club _____ _____ _____ _____ join.",
+    chunks: ["which", "I", "wanted", "to", "who", "wanting", "for"],
+    answer: ["which", "I", "wanted", "to"],
+    explanation: "The correct sentence is: 'I visited the booth of the club which I wanted to join.'",
+    koreanExplanation: "제가 가입하고 싶었던 동아리의 부스를 방문했습니다. 사물 선행사 'the club'을 수식하는 목적격 관계대명사 'which'와 to부정사 구조를 결합합니다.",
+    grammarPoints: "목적격 관계대명사 which, want to 부정사",
+    paraphrases: [
+      "I went to the booth of the club that I was interested in joining.",
+      "The club exhibition I visited today was the one I hoped to sign up for."
+    ]
+  },
+  {
+    id: "L2-075",
+    level: 2,
+    context: "Student A: Can we touch the chemicals with our bare hands?",
+    sentenceTemplate: "Student B: No, protective gloves _____ _____ _____ _____ all times.",
+    chunks: ["must", "be", "worn", "at", "wear", "been", "on"],
+    answer: ["must", "be", "worn", "at"],
+    explanation: "The correct sentence is: 'No, protective gloves must be worn at all times.'",
+    koreanExplanation: "아니요, 보호 장갑은 항상 착용해야 합니다. 의무의 조동사 'must' 뒤에 수동태 'be worn'을 쓰고, 빈도를 나타내는 'at all times' (항상)를 연결합니다.",
+    grammarPoints: "조동사 수동태 must be worn, 부사구 at all times",
+    paraphrases: [
+      "Wearing safety gloves is mandatory throughout the experiment.",
+      "You are required to put on protective gloves at any time in the lab."
+    ]
+  },
+  {
+    id: "L2-076",
+    level: 2,
+    context: "Student A: Will the study room be available this afternoon?",
+    sentenceTemplate: "Student B: We can book the room _____ _____ _____ _____ it is empty.",
+    chunks: ["if", "we", "confirm", "that", "unless", "confirming", "because of"],
+    answer: ["if", "we", "confirm", "that"],
+    explanation: "The correct sentence is: 'We can book the room if we confirm that it is empty.'",
+    koreanExplanation: "방이 비어 있다는 것을 확인하면 우리는 예약할 수 있습니다. 조건의 접속사 'if'와 명사절을 이끄는 접속사 'that'을 함께 사용한 복문 구조입니다.",
+    grammarPoints: "조건 접속사 if, 명사절 접속사 that",
+    paraphrases: [
+      "Provided we verify the room is vacant, we are allowed to reserve it.",
+      "We are able to secure the study room if we make sure nobody is using it."
+    ]
+  },
+  {
+    id: "L2-077",
+    level: 2,
+    context: "Student A: How can we submit our application forms for the music club?",
+    sentenceTemplate: "Student B: You can register _____ _____ _____ _____ the form online.",
+    chunks: ["by", "simply", "emailing", "us", "to email", "email", "for"],
+    answer: ["by", "simply", "emailing", "us"],
+    explanation: "The correct sentence is: 'You can register by simply emailing us the form online.'",
+    koreanExplanation: "온라인으로 우리에게 신청서를 이메일로 간단히 보내 가입할 수 있습니다. 수단/방법을 뜻하는 'by + 동명사' 구문을 활용합니다.",
+    grammarPoints: "전치사 by + 동명사",
+    paraphrases: [
+      "To register, you just need to email the completed document to us.",
+      "Signing up is done by sending the form to our email address."
+    ]
+  },
+  {
+    id: "L2-078",
+    level: 2,
+    context: "Student A: Why do we have to report minor injuries in the lab?",
+    sentenceTemplate: "Student B: It is important _____ _____ _____ _____ safety in the laboratory.",
+    chunks: ["to", "ensure", "our", "personal", "ensuring", "for", "us"],
+    answer: ["to", "ensure", "our", "personal"],
+    explanation: "The correct sentence is: 'It is important to ensure our personal safety in the laboratory.'",
+    koreanExplanation: "실험실에서 우리의 개인적인 안전을 보장하는 것이 중요합니다. 가주어 'It'과 진주어 'to부정사' 구문을 사용합니다.",
+    grammarPoints: "가주어-진주어 It ~ to 부정사",
+    paraphrases: [
+      "Keeping ourselves safe while in the lab is highly crucial.",
+      "Ensuring our individual safety during lab work is of great importance."
+    ]
+  },
+  {
+    id: "L2-079",
+    level: 2,
+    context: "Student A: Are there any students who want to join our science study group?",
+    sentenceTemplate: "Student B: There are two classmates _____ _____ _____ _____ join our group.",
+    chunks: ["who", "would", "like", "to", "which", "likes", "for"],
+    answer: ["who", "would", "like", "to"],
+    explanation: "The correct sentence is: 'There are two classmates who would like to join our group.'",
+    koreanExplanation: "우리 그룹에 가입하고 싶어하는 두 명의 반 친구들이 있습니다. 주격 관계대명사 'who'와 소망을 나타내는 조동사구 'would like to'를 함께 사용합니다.",
+    grammarPoints: "주격 관계대명사 who, would like to 부정사",
+    paraphrases: [
+      "Two of our classmates have expressed their desire to become members of the study group.",
+      "We have two fellow students who want to participate in our study circle."
+    ]
+  },
+  {
+    id: "L2-080",
+    level: 2,
+    context: "Student A: Did you sign up for the debate club today?",
+    sentenceTemplate: "Student B: I submitted my application _____ _____ _____ _____ a bit nervous.",
+    chunks: ["although", "I", "was", "feeling", "because", "am", "felt"],
+    answer: ["although", "I", "was", "feeling"],
+    explanation: "The correct sentence is: 'I submitted my application although I was feeling a bit nervous.'",
+    koreanExplanation: "비록 약간 긴장이 되었지만 지원서를 제출했습니다. 양보를 나타내는 접속사 'although'와 과거진행형 시제를 결합합니다.",
+    grammarPoints: "양보 접속사 although, 과거진행형 시제",
+    paraphrases: [
+      "Even though I felt somewhat anxious, I still handed in my signup form.",
+      "Despite my nervousness, I went ahead and applied for the debate club."
+    ]
   }
 ];
